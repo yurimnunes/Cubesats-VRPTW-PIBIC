@@ -1,0 +1,887 @@
+{
+  "W1_2018": [
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2018,
+      "duration": 111,
+      "duration_min": 111,
+      "resources": [
+        [
+          "DSS-24"
+        ],
+        [
+          "DSS-36"
+        ],
+        [
+          "DSS-34"
+        ],
+        [
+          "DSS-54"
+        ],
+        [
+          "DSS-26"
+        ]
+      ],
+      "track_id": "db001077-1598-42bb-b6d1-d30d7aba5ee7",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 868,
+      "time_window_end": 929,
+      "resource_vp_dict": {
+        "DSS-24": [
+          {
+            "RISE": 868,
+            "SET": 932,
+            "TRX ON": 868,
+            "TRX OFF": 932
+          },
+          {
+            "RISE": 888,
+            "SET": 988,
+            "TRX ON": 888,
+            "TRX OFF": 988
+          },
+          {
+            "RISE": 908,
+            "SET": 994,
+            "TRX ON": 908,
+            "TRX OFF": 994
+          }
+        ],
+        "DSS-36": [
+          {
+            "RISE": 868,
+            "SET": 1010,
+            "TRX ON": 868,
+            "TRX OFF": 1010
+          },
+          {
+            "RISE": 888,
+            "SET": 978,
+            "TRX ON": 888,
+            "TRX OFF": 978
+          },
+          {
+            "RISE": 908,
+            "SET": 1083,
+            "TRX ON": 908,
+            "TRX OFF": 1083
+          }
+        ],
+        "DSS-34": [
+          {
+            "RISE": 868,
+            "SET": 1072,
+            "TRX ON": 868,
+            "TRX OFF": 1072
+          },
+          {
+            "RISE": 888,
+            "SET": 1047,
+            "TRX ON": 888,
+            "TRX OFF": 1047
+          },
+          {
+            "RISE": 908,
+            "SET": 981,
+            "TRX ON": 908,
+            "TRX OFF": 981
+          }
+        ],
+        "DSS-54": [
+          {
+            "RISE": 868,
+            "SET": 1044,
+            "TRX ON": 868,
+            "TRX OFF": 1044
+          },
+          {
+            "RISE": 888,
+            "SET": 1096,
+            "TRX ON": 888,
+            "TRX OFF": 1096
+          },
+          {
+            "RISE": 908,
+            "SET": 1047,
+            "TRX ON": 908,
+            "TRX OFF": 1047
+          }
+        ],
+        "DSS-26": [
+          {
+            "RISE": 868,
+            "SET": 1027,
+            "TRX ON": 868,
+            "TRX OFF": 1027
+          },
+          {
+            "RISE": 888,
+            "SET": 1114,
+            "TRX ON": 888,
+            "TRX OFF": 1114
+          },
+          {
+            "RISE": 908,
+            "SET": 1140,
+            "TRX ON": 908,
+            "TRX OFF": 1140
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2018,
+      "duration": 76,
+      "duration_min": 76,
+      "resources": [
+        [
+          "DSS-54"
+        ],
+        [
+          "DSS-26"
+        ],
+        [
+          "DSS-36"
+        ]
+      ],
+      "track_id": "710d9a07-1749-4a51-af29-e656603f07e5",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 7061,
+      "time_window_end": 7139,
+      "resource_vp_dict": {
+        "DSS-54": [
+          {
+            "RISE": 7061,
+            "SET": 7162,
+            "TRX ON": 7061,
+            "TRX OFF": 7162
+          },
+          {
+            "RISE": 7087,
+            "SET": 7271,
+            "TRX ON": 7087,
+            "TRX OFF": 7271
+          },
+          {
+            "RISE": 7113,
+            "SET": 7265,
+            "TRX ON": 7113,
+            "TRX OFF": 7265
+          }
+        ],
+        "DSS-26": [
+          {
+            "RISE": 7061,
+            "SET": 7122,
+            "TRX ON": 7061,
+            "TRX OFF": 7122
+          },
+          {
+            "RISE": 7087,
+            "SET": 7301,
+            "TRX ON": 7087,
+            "TRX OFF": 7301
+          },
+          {
+            "RISE": 7113,
+            "SET": 7253,
+            "TRX ON": 7113,
+            "TRX OFF": 7253
+          }
+        ],
+        "DSS-36": [
+          {
+            "RISE": 7061,
+            "SET": 7210,
+            "TRX ON": 7061,
+            "TRX OFF": 7210
+          },
+          {
+            "RISE": 7087,
+            "SET": 7157,
+            "TRX ON": 7087,
+            "TRX OFF": 7157
+          },
+          {
+            "RISE": 7113,
+            "SET": 7302,
+            "TRX ON": 7113,
+            "TRX OFF": 7302
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2018,
+      "duration": 88,
+      "duration_min": 88,
+      "resources": [
+        [
+          "DSS-34"
+        ]
+      ],
+      "track_id": "65c6adac-5d5e-4fb9-aca0-9d9b1f62611b",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 5971,
+      "time_window_end": 6039,
+      "resource_vp_dict": {
+        "DSS-34": [
+          {
+            "RISE": 5971,
+            "SET": 6175,
+            "TRX ON": 5971,
+            "TRX OFF": 6175
+          },
+          {
+            "RISE": 5993,
+            "SET": 6135,
+            "TRX ON": 5993,
+            "TRX OFF": 6135
+          },
+          {
+            "RISE": 6015,
+            "SET": 6083,
+            "TRX ON": 6015,
+            "TRX OFF": 6083
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2018,
+      "duration": 65,
+      "duration_min": 65,
+      "resources": [
+        [
+          "DSS-24"
+        ],
+        [
+          "DSS-36"
+        ]
+      ],
+      "track_id": "39a438de-6a1d-47f1-968a-adec1cd3b2da",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 6464,
+      "time_window_end": 6545,
+      "resource_vp_dict": {
+        "DSS-24": [
+          {
+            "RISE": 6464,
+            "SET": 6668,
+            "TRX ON": 6464,
+            "TRX OFF": 6668
+          },
+          {
+            "RISE": 6491,
+            "SET": 6678,
+            "TRX ON": 6491,
+            "TRX OFF": 6678
+          },
+          {
+            "RISE": 6518,
+            "SET": 6645,
+            "TRX ON": 6518,
+            "TRX OFF": 6645
+          }
+        ],
+        "DSS-36": [
+          {
+            "RISE": 6464,
+            "SET": 6545,
+            "TRX ON": 6464,
+            "TRX OFF": 6545
+          },
+          {
+            "RISE": 6491,
+            "SET": 6618,
+            "TRX ON": 6491,
+            "TRX OFF": 6618
+          },
+          {
+            "RISE": 6518,
+            "SET": 6698,
+            "TRX ON": 6518,
+            "TRX OFF": 6698
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2018,
+      "duration": 86,
+      "duration_min": 86,
+      "resources": [
+        [
+          "DSS-34"
+        ],
+        [
+          "DSS-26"
+        ]
+      ],
+      "track_id": "1514bf0e-6094-472f-a3fa-c7183da6dbea",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 3673,
+      "time_window_end": 3738,
+      "resource_vp_dict": {
+        "DSS-34": [
+          {
+            "RISE": 3673,
+            "SET": 3849,
+            "TRX ON": 3673,
+            "TRX OFF": 3849
+          },
+          {
+            "RISE": 3694,
+            "SET": 3759,
+            "TRX ON": 3694,
+            "TRX OFF": 3759
+          },
+          {
+            "RISE": 3715,
+            "SET": 3823,
+            "TRX ON": 3715,
+            "TRX OFF": 3823
+          }
+        ],
+        "DSS-26": [
+          {
+            "RISE": 3673,
+            "SET": 3820,
+            "TRX ON": 3673,
+            "TRX OFF": 3820
+          },
+          {
+            "RISE": 3694,
+            "SET": 3870,
+            "TRX ON": 3694,
+            "TRX OFF": 3870
+          },
+          {
+            "RISE": 3715,
+            "SET": 3937,
+            "TRX ON": 3715,
+            "TRX OFF": 3937
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2018,
+      "duration": 80,
+      "duration_min": 80,
+      "resources": [
+        [
+          "DSS-34"
+        ],
+        [
+          "DSS-54"
+        ],
+        [
+          "DSS-24"
+        ],
+        [
+          "DSS-26"
+        ]
+      ],
+      "track_id": "14a74e4a-3e05-4cab-be60-b74686e1724f",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 8148,
+      "time_window_end": 8220,
+      "resource_vp_dict": {
+        "DSS-34": [
+          {
+            "RISE": 8148,
+            "SET": 8307,
+            "TRX ON": 8148,
+            "TRX OFF": 8307
+          },
+          {
+            "RISE": 8172,
+            "SET": 8306,
+            "TRX ON": 8172,
+            "TRX OFF": 8306
+          },
+          {
+            "RISE": 8196,
+            "SET": 8307,
+            "TRX ON": 8196,
+            "TRX OFF": 8307
+          }
+        ],
+        "DSS-54": [
+          {
+            "RISE": 8148,
+            "SET": 8221,
+            "TRX ON": 8148,
+            "TRX OFF": 8221
+          },
+          {
+            "RISE": 8172,
+            "SET": 8271,
+            "TRX ON": 8172,
+            "TRX OFF": 8271
+          },
+          {
+            "RISE": 8196,
+            "SET": 8285,
+            "TRX ON": 8196,
+            "TRX OFF": 8285
+          }
+        ],
+        "DSS-24": [
+          {
+            "RISE": 8148,
+            "SET": 8281,
+            "TRX ON": 8148,
+            "TRX OFF": 8281
+          },
+          {
+            "RISE": 8172,
+            "SET": 8390,
+            "TRX ON": 8172,
+            "TRX OFF": 8390
+          },
+          {
+            "RISE": 8196,
+            "SET": 8425,
+            "TRX ON": 8196,
+            "TRX OFF": 8425
+          }
+        ],
+        "DSS-26": [
+          {
+            "RISE": 8148,
+            "SET": 8264,
+            "TRX ON": 8148,
+            "TRX OFF": 8264
+          },
+          {
+            "RISE": 8172,
+            "SET": 8240,
+            "TRX ON": 8172,
+            "TRX OFF": 8240
+          },
+          {
+            "RISE": 8196,
+            "SET": 8286,
+            "TRX ON": 8196,
+            "TRX OFF": 8286
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2018,
+      "duration": 90,
+      "duration_min": 90,
+      "resources": [
+        [
+          "DSS-26"
+        ],
+        [
+          "DSS-36"
+        ],
+        [
+          "DSS-34"
+        ],
+        [
+          "DSS-54"
+        ]
+      ],
+      "track_id": "8c169739-fe48-4065-8eac-caa77014c949",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 7288,
+      "time_window_end": 7372,
+      "resource_vp_dict": {
+        "DSS-26": [
+          {
+            "RISE": 7288,
+            "SET": 7372,
+            "TRX ON": 7288,
+            "TRX OFF": 7372
+          },
+          {
+            "RISE": 7316,
+            "SET": 7413,
+            "TRX ON": 7316,
+            "TRX OFF": 7413
+          },
+          {
+            "RISE": 7344,
+            "SET": 7517,
+            "TRX ON": 7344,
+            "TRX OFF": 7517
+          }
+        ],
+        "DSS-36": [
+          {
+            "RISE": 7288,
+            "SET": 7385,
+            "TRX ON": 7288,
+            "TRX OFF": 7385
+          },
+          {
+            "RISE": 7316,
+            "SET": 7503,
+            "TRX ON": 7316,
+            "TRX OFF": 7503
+          },
+          {
+            "RISE": 7344,
+            "SET": 7472,
+            "TRX ON": 7344,
+            "TRX OFF": 7472
+          }
+        ],
+        "DSS-34": [
+          {
+            "RISE": 7288,
+            "SET": 7524,
+            "TRX ON": 7288,
+            "TRX OFF": 7524
+          },
+          {
+            "RISE": 7316,
+            "SET": 7548,
+            "TRX ON": 7316,
+            "TRX OFF": 7548
+          },
+          {
+            "RISE": 7344,
+            "SET": 7425,
+            "TRX ON": 7344,
+            "TRX OFF": 7425
+          }
+        ],
+        "DSS-54": [
+          {
+            "RISE": 7288,
+            "SET": 7408,
+            "TRX ON": 7288,
+            "TRX OFF": 7408
+          },
+          {
+            "RISE": 7316,
+            "SET": 7387,
+            "TRX ON": 7316,
+            "TRX OFF": 7387
+          },
+          {
+            "RISE": 7344,
+            "SET": 7494,
+            "TRX ON": 7344,
+            "TRX OFF": 7494
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2018,
+      "duration": 103,
+      "duration_min": 103,
+      "resources": [
+        [
+          "DSS-26"
+        ],
+        [
+          "DSS-34"
+        ],
+        [
+          "DSS-24"
+        ],
+        [
+          "DSS-54"
+        ],
+        [
+          "DSS-36"
+        ]
+      ],
+      "track_id": "db0a08f7-04b7-488d-a35a-08c0fe5968fa",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 4236,
+      "time_window_end": 4311,
+      "resource_vp_dict": {
+        "DSS-26": [
+          {
+            "RISE": 4236,
+            "SET": 4451,
+            "TRX ON": 4236,
+            "TRX OFF": 4451
+          },
+          {
+            "RISE": 4261,
+            "SET": 4405,
+            "TRX ON": 4261,
+            "TRX OFF": 4405
+          },
+          {
+            "RISE": 4286,
+            "SET": 4447,
+            "TRX ON": 4286,
+            "TRX OFF": 4447
+          }
+        ],
+        "DSS-34": [
+          {
+            "RISE": 4236,
+            "SET": 4319,
+            "TRX ON": 4236,
+            "TRX OFF": 4319
+          },
+          {
+            "RISE": 4261,
+            "SET": 4420,
+            "TRX ON": 4261,
+            "TRX OFF": 4420
+          },
+          {
+            "RISE": 4286,
+            "SET": 4353,
+            "TRX ON": 4286,
+            "TRX OFF": 4353
+          }
+        ],
+        "DSS-24": [
+          {
+            "RISE": 4236,
+            "SET": 4422,
+            "TRX ON": 4236,
+            "TRX OFF": 4422
+          },
+          {
+            "RISE": 4261,
+            "SET": 4441,
+            "TRX ON": 4261,
+            "TRX OFF": 4441
+          },
+          {
+            "RISE": 4286,
+            "SET": 4505,
+            "TRX ON": 4286,
+            "TRX OFF": 4505
+          }
+        ],
+        "DSS-54": [
+          {
+            "RISE": 4236,
+            "SET": 4460,
+            "TRX ON": 4236,
+            "TRX OFF": 4460
+          },
+          {
+            "RISE": 4261,
+            "SET": 4379,
+            "TRX ON": 4261,
+            "TRX OFF": 4379
+          },
+          {
+            "RISE": 4286,
+            "SET": 4517,
+            "TRX ON": 4286,
+            "TRX OFF": 4517
+          }
+        ],
+        "DSS-36": [
+          {
+            "RISE": 4236,
+            "SET": 4302,
+            "TRX ON": 4236,
+            "TRX OFF": 4302
+          },
+          {
+            "RISE": 4261,
+            "SET": 4489,
+            "TRX ON": 4261,
+            "TRX OFF": 4489
+          },
+          {
+            "RISE": 4286,
+            "SET": 4362,
+            "TRX ON": 4286,
+            "TRX OFF": 4362
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2018,
+      "duration": 89,
+      "duration_min": 89,
+      "resources": [
+        [
+          "DSS-34"
+        ],
+        [
+          "DSS-36"
+        ],
+        [
+          "DSS-26"
+        ]
+      ],
+      "track_id": "bc1afd4c-4a5e-4e52-8d95-b2965f415edb",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 6598,
+      "time_window_end": 6681,
+      "resource_vp_dict": {
+        "DSS-34": [
+          {
+            "RISE": 6598,
+            "SET": 6726,
+            "TRX ON": 6598,
+            "TRX OFF": 6726
+          },
+          {
+            "RISE": 6625,
+            "SET": 6788,
+            "TRX ON": 6625,
+            "TRX OFF": 6788
+          },
+          {
+            "RISE": 6652,
+            "SET": 6756,
+            "TRX ON": 6652,
+            "TRX OFF": 6756
+          }
+        ],
+        "DSS-36": [
+          {
+            "RISE": 6598,
+            "SET": 6832,
+            "TRX ON": 6598,
+            "TRX OFF": 6832
+          },
+          {
+            "RISE": 6625,
+            "SET": 6784,
+            "TRX ON": 6625,
+            "TRX OFF": 6784
+          },
+          {
+            "RISE": 6652,
+            "SET": 6781,
+            "TRX ON": 6652,
+            "TRX OFF": 6781
+          }
+        ],
+        "DSS-26": [
+          {
+            "RISE": 6598,
+            "SET": 6795,
+            "TRX ON": 6598,
+            "TRX OFF": 6795
+          },
+          {
+            "RISE": 6625,
+            "SET": 6746,
+            "TRX ON": 6625,
+            "TRX OFF": 6746
+          },
+          {
+            "RISE": 6652,
+            "SET": 6777,
+            "TRX ON": 6652,
+            "TRX OFF": 6777
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2018,
+      "duration": 111,
+      "duration_min": 111,
+      "resources": [
+        [
+          "DSS-54"
+        ],
+        [
+          "DSS-26"
+        ]
+      ],
+      "track_id": "2bfe476f-bc3c-4fc6-8488-97542928a4b8",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 6006,
+      "time_window_end": 6094,
+      "resource_vp_dict": {
+        "DSS-54": [
+          {
+            "RISE": 6006,
+            "SET": 6097,
+            "TRX ON": 6006,
+            "TRX OFF": 6097
+          },
+          {
+            "RISE": 6035,
+            "SET": 6129,
+            "TRX ON": 6035,
+            "TRX OFF": 6129
+          },
+          {
+            "RISE": 6064,
+            "SET": 6257,
+            "TRX ON": 6064,
+            "TRX OFF": 6257
+          }
+        ],
+        "DSS-26": [
+          {
+            "RISE": 6006,
+            "SET": 6139,
+            "TRX ON": 6006,
+            "TRX OFF": 6139
+          },
+          {
+            "RISE": 6035,
+            "SET": 6143,
+            "TRX ON": 6035,
+            "TRX OFF": 6143
+          },
+          {
+            "RISE": 6064,
+            "SET": 6267,
+            "TRX ON": 6064,
+            "TRX OFF": 6267
+          }
+        ]
+      }
+    }
+  ]
+}

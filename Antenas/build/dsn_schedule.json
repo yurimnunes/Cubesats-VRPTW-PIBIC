@@ -1,0 +1,4006 @@
+{
+  "W1_2024": [
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 70,
+      "duration_min": 70,
+      "track_id": "7f90053b-7918-4352-8291-7f67bb52a1aa",
+      "setup_time": 11,
+      "teardown_time": 8,
+      "time_window_start": 28403131,
+      "time_window_end": 28403201,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": 28403064,
+            "SET": 28403257,
+            "TRX ON": 28403131,
+            "TRX OFF": 28403201
+          },
+          {
+            "RISE": 28403066,
+            "SET": 28403234,
+            "TRX ON": 28403131,
+            "TRX OFF": 28403201
+          },
+          {
+            "RISE": 28403085,
+            "SET": 28403261,
+            "TRX ON": 28403131,
+            "TRX OFF": 28403201
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 90,
+      "duration_min": 90,
+      "track_id": "7fca0dcd-5df1-4773-8b52-db9b5887c890",
+      "setup_time": 30,
+      "teardown_time": 15,
+      "time_window_start": 28403240,
+      "time_window_end": 28403330,
+      "resources": [
+        [
+          "DSS-07_DSS-01"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-07_DSS-01": [
+          {
+            "RISE": 28403178,
+            "SET": 28403380,
+            "TRX ON": 28403240,
+            "TRX OFF": 28403330
+          },
+          {
+            "RISE": 28403203,
+            "SET": 28403352,
+            "TRX ON": 28403240,
+            "TRX OFF": 28403330
+          },
+          {
+            "RISE": 28403164,
+            "SET": 28403349,
+            "TRX ON": 28403240,
+            "TRX OFF": 28403330
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 62,
+      "duration_min": 62,
+      "track_id": "ff0b27a8-4de5-4e29-b0f0-a0564187f0fc",
+      "setup_time": 28,
+      "teardown_time": 12,
+      "time_window_start": 28409328,
+      "time_window_end": 28409390,
+      "resources": [
+        [
+          "DSS-02"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-02": [
+          {
+            "RISE": 28409273,
+            "SET": 28409421,
+            "TRX ON": 28409328,
+            "TRX OFF": 28409390
+          },
+          {
+            "RISE": 28409294,
+            "SET": 28409448,
+            "TRX ON": 28409328,
+            "TRX OFF": 28409390
+          },
+          {
+            "RISE": 28409252,
+            "SET": 28409404,
+            "TRX ON": 28409328,
+            "TRX OFF": 28409390
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 98,
+      "duration_min": 98,
+      "track_id": "cbd61023-857d-46a5-a119-19c91f4f5d40",
+      "setup_time": 24,
+      "teardown_time": 15,
+      "time_window_start": 28401344,
+      "time_window_end": 28401442,
+      "resources": [
+        [
+          "DSS-07"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-07": [
+          {
+            "RISE": 28401310,
+            "SET": 28401492,
+            "TRX ON": 28401344,
+            "TRX OFF": 28401442
+          },
+          {
+            "RISE": 28401297,
+            "SET": 28401508,
+            "TRX ON": 28401344,
+            "TRX OFF": 28401442
+          },
+          {
+            "RISE": 28401289,
+            "SET": 28401495,
+            "TRX ON": 28401344,
+            "TRX OFF": 28401442
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 210,
+      "duration_min": 210,
+      "track_id": "ae7ea7dc-1bea-40bb-9008-708feacdc30c",
+      "setup_time": 24,
+      "teardown_time": 8,
+      "time_window_start": 28403365,
+      "time_window_end": 28403575,
+      "resources": [
+        [
+          "DSS-07"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-07": [
+          {
+            "RISE": 28403296,
+            "SET": 28403635,
+            "TRX ON": 28403365,
+            "TRX OFF": 28403575
+          },
+          {
+            "RISE": 28403284,
+            "SET": 28403605,
+            "TRX ON": 28403365,
+            "TRX OFF": 28403575
+          },
+          {
+            "RISE": 28403297,
+            "SET": 28403631,
+            "TRX ON": 28403365,
+            "TRX OFF": 28403575
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 205,
+      "duration_min": 205,
+      "track_id": "c4605717-9e0a-424b-9877-f0e193b1651c",
+      "setup_time": 13,
+      "teardown_time": 14,
+      "time_window_start": 28406140,
+      "time_window_end": 28406345,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": 28406115,
+            "SET": 28406412,
+            "TRX ON": 28406140,
+            "TRX OFF": 28406345
+          },
+          {
+            "RISE": 28406117,
+            "SET": 28406390,
+            "TRX ON": 28406140,
+            "TRX OFF": 28406345
+          },
+          {
+            "RISE": 28406116,
+            "SET": 28406373,
+            "TRX ON": 28406140,
+            "TRX OFF": 28406345
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 328,
+      "duration_min": 328,
+      "track_id": "2f5286ca-6eb3-474e-9475-10c7e28dea88",
+      "setup_time": 30,
+      "teardown_time": 12,
+      "time_window_start": 28407010,
+      "time_window_end": 28407338,
+      "resources": [
+        [
+          "DSS-08"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-08": [
+          {
+            "RISE": 28406920,
+            "SET": 28407377,
+            "TRX ON": 28407010,
+            "TRX OFF": 28407338
+          },
+          {
+            "RISE": 28406979,
+            "SET": 28407351,
+            "TRX ON": 28407010,
+            "TRX OFF": 28407338
+          },
+          {
+            "RISE": 28406955,
+            "SET": 28407354,
+            "TRX ON": 28407010,
+            "TRX OFF": 28407338
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 97,
+      "duration_min": 97,
+      "track_id": "b9e119a7-b96a-4a44-8d45-00bf66586c77",
+      "setup_time": 15,
+      "teardown_time": 11,
+      "time_window_start": 28401828,
+      "time_window_end": 28401925,
+      "resources": [
+        [
+          "DSS-08"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-08": [
+          {
+            "RISE": 28401797,
+            "SET": 28401979,
+            "TRX ON": 28401828,
+            "TRX OFF": 28401925
+          },
+          {
+            "RISE": 28401765,
+            "SET": 28401936,
+            "TRX ON": 28401828,
+            "TRX OFF": 28401925
+          },
+          {
+            "RISE": 28401787,
+            "SET": 28401939,
+            "TRX ON": 28401828,
+            "TRX OFF": 28401925
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 114,
+      "duration_min": 114,
+      "track_id": "3efeb585-8088-43b4-9762-995387d5d6af",
+      "setup_time": 15,
+      "teardown_time": 9,
+      "time_window_start": 28409374,
+      "time_window_end": 28409488,
+      "resources": [
+        [
+          "DSS-08"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-08": [
+          {
+            "RISE": 28409353,
+            "SET": 28409506,
+            "TRX ON": 28409374,
+            "TRX OFF": 28409488
+          },
+          {
+            "RISE": 28409345,
+            "SET": 28409497,
+            "TRX ON": 28409374,
+            "TRX OFF": 28409488
+          },
+          {
+            "RISE": 28409311,
+            "SET": 28409525,
+            "TRX ON": 28409374,
+            "TRX OFF": 28409488
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 70,
+      "duration_min": 70,
+      "track_id": "09d41593-74cc-4e0c-9704-273057dd599c",
+      "setup_time": 19,
+      "teardown_time": 5,
+      "time_window_start": 28408201,
+      "time_window_end": 28408271,
+      "resources": [
+        [
+          "DSS-02"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-02": [
+          {
+            "RISE": 28408128,
+            "SET": 28408282,
+            "TRX ON": 28408201,
+            "TRX OFF": 28408271
+          },
+          {
+            "RISE": 28408130,
+            "SET": 28408321,
+            "TRX ON": 28408201,
+            "TRX OFF": 28408271
+          },
+          {
+            "RISE": 28408175,
+            "SET": 28408278,
+            "TRX ON": 28408201,
+            "TRX OFF": 28408271
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 110,
+      "duration_min": 110,
+      "track_id": "84a851f2-952b-4679-87af-f39e316ecfb9",
+      "setup_time": 30,
+      "teardown_time": 10,
+      "time_window_start": 28406487,
+      "time_window_end": 28406597,
+      "resources": [
+        [
+          "DSS-09"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-09": [
+          {
+            "RISE": 28406453,
+            "SET": 28406655,
+            "TRX ON": 28406487,
+            "TRX OFF": 28406597
+          },
+          {
+            "RISE": 28406456,
+            "SET": 28406637,
+            "TRX ON": 28406487,
+            "TRX OFF": 28406597
+          },
+          {
+            "RISE": 28406415,
+            "SET": 28406658,
+            "TRX ON": 28406487,
+            "TRX OFF": 28406597
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 114,
+      "duration_min": 114,
+      "track_id": "326379f4-25f9-462d-8a2a-da997d65f0f1",
+      "setup_time": 27,
+      "teardown_time": 8,
+      "time_window_start": 28409643,
+      "time_window_end": 28409757,
+      "resources": [
+        [
+          "DSS-09"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-09": [
+          {
+            "RISE": 28409583,
+            "SET": 28409821,
+            "TRX ON": 28409643,
+            "TRX OFF": 28409757
+          },
+          {
+            "RISE": 28409575,
+            "SET": 28409776,
+            "TRX ON": 28409643,
+            "TRX OFF": 28409757
+          },
+          {
+            "RISE": 28409576,
+            "SET": 28409823,
+            "TRX ON": 28409643,
+            "TRX OFF": 28409757
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 84,
+      "duration_min": 84,
+      "track_id": "7261debe-4f51-4883-88c9-fe504669290f",
+      "setup_time": 19,
+      "teardown_time": 7,
+      "time_window_start": 28401908,
+      "time_window_end": 28401992,
+      "resources": [
+        [
+          "DSS-09"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-09": [
+          {
+            "RISE": 28401879,
+            "SET": 28402010,
+            "TRX ON": 28401908,
+            "TRX OFF": 28401992
+          },
+          {
+            "RISE": 28401887,
+            "SET": 28402000,
+            "TRX ON": 28401908,
+            "TRX OFF": 28401992
+          },
+          {
+            "RISE": 28401886,
+            "SET": 28402012,
+            "TRX ON": 28401908,
+            "TRX OFF": 28401992
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 116,
+      "duration_min": 116,
+      "track_id": "a2003044-c4c5-42c1-a7b4-4b468eae979d",
+      "setup_time": 17,
+      "teardown_time": 15,
+      "time_window_start": 28405062,
+      "time_window_end": 28405178,
+      "resources": [
+        [
+          "DSS-04"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-04": [
+          {
+            "RISE": 28404985,
+            "SET": 28405205,
+            "TRX ON": 28405062,
+            "TRX OFF": 28405178
+          },
+          {
+            "RISE": 28405020,
+            "SET": 28405228,
+            "TRX ON": 28405062,
+            "TRX OFF": 28405178
+          },
+          {
+            "RISE": 28405010,
+            "SET": 28405242,
+            "TRX ON": 28405062,
+            "TRX OFF": 28405178
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 93,
+      "duration_min": 93,
+      "track_id": "e6357188-21d6-44c6-af74-ea235def8320",
+      "setup_time": 12,
+      "teardown_time": 15,
+      "time_window_start": 28403517,
+      "time_window_end": 28403610,
+      "resources": [
+        [
+          "DSS-07"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-07": [
+          {
+            "RISE": 28403480,
+            "SET": 28403683,
+            "TRX ON": 28403517,
+            "TRX OFF": 28403610
+          },
+          {
+            "RISE": 28403477,
+            "SET": 28403675,
+            "TRX ON": 28403517,
+            "TRX OFF": 28403610
+          },
+          {
+            "RISE": 28403476,
+            "SET": 28403681,
+            "TRX ON": 28403517,
+            "TRX OFF": 28403610
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 121,
+      "duration_min": 121,
+      "track_id": "e6879f11-b582-48c1-a6f0-c74445153360",
+      "setup_time": 12,
+      "teardown_time": 10,
+      "time_window_start": 28403636,
+      "time_window_end": 28403757,
+      "resources": [
+        [
+          "DSS-05"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-05": [
+          {
+            "RISE": 28403595,
+            "SET": 28403807,
+            "TRX ON": 28403636,
+            "TRX OFF": 28403757
+          },
+          {
+            "RISE": 28403586,
+            "SET": 28403813,
+            "TRX ON": 28403636,
+            "TRX OFF": 28403757
+          },
+          {
+            "RISE": 28403580,
+            "SET": 28403793,
+            "TRX ON": 28403636,
+            "TRX OFF": 28403757
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 68,
+      "duration_min": 68,
+      "track_id": "7ec413ef-2577-44c3-bf84-6f2955e96ab8",
+      "setup_time": 21,
+      "teardown_time": 5,
+      "time_window_start": 28403892,
+      "time_window_end": 28403960,
+      "resources": [
+        [
+          "DSS-08"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-08": [
+          {
+            "RISE": 28403857,
+            "SET": 28404008,
+            "TRX ON": 28403892,
+            "TRX OFF": 28403960
+          },
+          {
+            "RISE": 28403855,
+            "SET": 28404021,
+            "TRX ON": 28403892,
+            "TRX OFF": 28403960
+          },
+          {
+            "RISE": 28403851,
+            "SET": 28403999,
+            "TRX ON": 28403892,
+            "TRX OFF": 28403960
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 101,
+      "duration_min": 101,
+      "track_id": "4a9ffcb6-037f-435a-abbf-3e765f4e1c8f",
+      "setup_time": 28,
+      "teardown_time": 14,
+      "time_window_start": 28403241,
+      "time_window_end": 28403342,
+      "resources": [
+        [
+          "DSS-05"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-05": [
+          {
+            "RISE": 28403180,
+            "SET": 28403384,
+            "TRX ON": 28403241,
+            "TRX OFF": 28403342
+          },
+          {
+            "RISE": 28403164,
+            "SET": 28403379,
+            "TRX ON": 28403241,
+            "TRX OFF": 28403342
+          },
+          {
+            "RISE": 28403160,
+            "SET": 28403404,
+            "TRX ON": 28403241,
+            "TRX OFF": 28403342
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 87,
+      "duration_min": 87,
+      "track_id": "ce10a02d-afd9-4b58-9fd8-1cf34554e3f9",
+      "setup_time": 14,
+      "teardown_time": 6,
+      "time_window_start": 28408005,
+      "time_window_end": 28408092,
+      "resources": [
+        [
+          "DSS-08"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-08": [
+          {
+            "RISE": 28407989,
+            "SET": 28408151,
+            "TRX ON": 28408005,
+            "TRX OFF": 28408092
+          },
+          {
+            "RISE": 28407944,
+            "SET": 28408138,
+            "TRX ON": 28408005,
+            "TRX OFF": 28408092
+          },
+          {
+            "RISE": 28407931,
+            "SET": 28408149,
+            "TRX ON": 28408005,
+            "TRX OFF": 28408092
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 323,
+      "duration_min": 323,
+      "track_id": "fecb905e-65f7-41ef-bf31-42cd13fc28da",
+      "setup_time": 13,
+      "teardown_time": 5,
+      "time_window_start": 28405077,
+      "time_window_end": 28405400,
+      "resources": [
+        [
+          "DSS-05"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-05": [
+          {
+            "RISE": 28405061,
+            "SET": 28405427,
+            "TRX ON": 28405077,
+            "TRX OFF": 28405400
+          },
+          {
+            "RISE": 28405004,
+            "SET": 28405456,
+            "TRX ON": 28405077,
+            "TRX OFF": 28405400
+          },
+          {
+            "RISE": 28405056,
+            "SET": 28405460,
+            "TRX ON": 28405077,
+            "TRX OFF": 28405400
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 68,
+      "duration_min": 68,
+      "track_id": "3088e7f7-a5ba-44da-93dd-e62319aa2b1f",
+      "setup_time": 15,
+      "teardown_time": 14,
+      "time_window_start": 28409071,
+      "time_window_end": 28409139,
+      "resources": [
+        [
+          "DSS-02"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-02": [
+          {
+            "RISE": 28409033,
+            "SET": 28409199,
+            "TRX ON": 28409071,
+            "TRX OFF": 28409139
+          },
+          {
+            "RISE": 28409018,
+            "SET": 28409158,
+            "TRX ON": 28409071,
+            "TRX OFF": 28409139
+          },
+          {
+            "RISE": 28409023,
+            "SET": 28409200,
+            "TRX ON": 28409071,
+            "TRX OFF": 28409139
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 88,
+      "duration_min": 88,
+      "track_id": "07f2bc67-3e15-41c1-a6e6-5b18a96c8949",
+      "setup_time": 22,
+      "teardown_time": 11,
+      "time_window_start": 28405398,
+      "time_window_end": 28405486,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": 28405352,
+            "SET": 28405502,
+            "TRX ON": 28405398,
+            "TRX OFF": 28405486
+          },
+          {
+            "RISE": 28405373,
+            "SET": 28405510,
+            "TRX ON": 28405398,
+            "TRX OFF": 28405486
+          },
+          {
+            "RISE": 28405341,
+            "SET": 28405539,
+            "TRX ON": 28405398,
+            "TRX OFF": 28405486
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 68,
+      "duration_min": 68,
+      "track_id": "b6ba75ea-ebb6-4fbf-befa-aa74c0e78c1d",
+      "setup_time": 18,
+      "teardown_time": 6,
+      "time_window_start": 28409295,
+      "time_window_end": 28409363,
+      "resources": [
+        [
+          "DSS-02"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-02": [
+          {
+            "RISE": 28409218,
+            "SET": 28409399,
+            "TRX ON": 28409295,
+            "TRX OFF": 28409363
+          },
+          {
+            "RISE": 28409220,
+            "SET": 28409420,
+            "TRX ON": 28409295,
+            "TRX OFF": 28409363
+          },
+          {
+            "RISE": 28409233,
+            "SET": 28409417,
+            "TRX ON": 28409295,
+            "TRX OFF": 28409363
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 91,
+      "duration_min": 91,
+      "track_id": "a0ec1af0-6f15-4444-8d8e-a26171a4bdc2",
+      "setup_time": 15,
+      "teardown_time": 7,
+      "time_window_start": 28409232,
+      "time_window_end": 28409323,
+      "resources": [
+        [
+          "DSS-05"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-05": [
+          {
+            "RISE": 28409187,
+            "SET": 28409390,
+            "TRX ON": 28409232,
+            "TRX OFF": 28409323
+          },
+          {
+            "RISE": 28409166,
+            "SET": 28409351,
+            "TRX ON": 28409232,
+            "TRX OFF": 28409323
+          },
+          {
+            "RISE": 28409207,
+            "SET": 28409352,
+            "TRX ON": 28409232,
+            "TRX OFF": 28409323
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 69,
+      "duration_min": 69,
+      "track_id": "7b222c30-6425-4c87-bfdd-26cff480da52",
+      "setup_time": 13,
+      "teardown_time": 12,
+      "time_window_start": 28409474,
+      "time_window_end": 28409543,
+      "resources": [
+        [
+          "DSS-08"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-08": [
+          {
+            "RISE": 28409457,
+            "SET": 28409583,
+            "TRX ON": 28409474,
+            "TRX OFF": 28409543
+          },
+          {
+            "RISE": 28409404,
+            "SET": 28409575,
+            "TRX ON": 28409474,
+            "TRX OFF": 28409543
+          },
+          {
+            "RISE": 28409446,
+            "SET": 28409612,
+            "TRX ON": 28409474,
+            "TRX OFF": 28409543
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 217,
+      "duration_min": 217,
+      "track_id": "bd1d0da2-a8aa-4791-abc7-bd3cda69d75a",
+      "setup_time": 25,
+      "teardown_time": 6,
+      "time_window_start": 28403998,
+      "time_window_end": 28404215,
+      "resources": [
+        [
+          "DSS-02"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-02": [
+          {
+            "RISE": 28403972,
+            "SET": 28404232,
+            "TRX ON": 28403998,
+            "TRX OFF": 28404215
+          },
+          {
+            "RISE": 28403967,
+            "SET": 28404233,
+            "TRX ON": 28403998,
+            "TRX OFF": 28404215
+          },
+          {
+            "RISE": 28403951,
+            "SET": 28404281,
+            "TRX ON": 28403998,
+            "TRX OFF": 28404215
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 195,
+      "duration_min": 195,
+      "track_id": "e2b82161-3090-46ef-9068-27f4872ae39a",
+      "setup_time": 12,
+      "teardown_time": 6,
+      "time_window_start": 28403642,
+      "time_window_end": 28403837,
+      "resources": [
+        [
+          "DSS-06"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-06": [
+          {
+            "RISE": 28403589,
+            "SET": 28403898,
+            "TRX ON": 28403642,
+            "TRX OFF": 28403837
+          },
+          {
+            "RISE": 28403572,
+            "SET": 28403861,
+            "TRX ON": 28403642,
+            "TRX OFF": 28403837
+          },
+          {
+            "RISE": 28403613,
+            "SET": 28403871,
+            "TRX ON": 28403642,
+            "TRX OFF": 28403837
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 95,
+      "duration_min": 95,
+      "track_id": "e9073e48-c9dc-493e-8afa-964ee52bb347",
+      "setup_time": 25,
+      "teardown_time": 10,
+      "time_window_start": 28402769,
+      "time_window_end": 28402864,
+      "resources": [
+        [
+          "DSS-01"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-01": [
+          {
+            "RISE": 28402718,
+            "SET": 28402922,
+            "TRX ON": 28402769,
+            "TRX OFF": 28402864
+          },
+          {
+            "RISE": 28402690,
+            "SET": 28402914,
+            "TRX ON": 28402769,
+            "TRX OFF": 28402864
+          },
+          {
+            "RISE": 28402697,
+            "SET": 28402898,
+            "TRX ON": 28402769,
+            "TRX OFF": 28402864
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 90,
+      "duration_min": 90,
+      "track_id": "6e4fd78c-ef12-41d8-b929-367c07ca6182",
+      "setup_time": 17,
+      "teardown_time": 14,
+      "time_window_start": 28410559,
+      "time_window_end": 28410649,
+      "resources": [
+        [
+          "DSS-02"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-02": [
+          {
+            "RISE": 28410533,
+            "SET": 28410663,
+            "TRX ON": 28410559,
+            "TRX OFF": 28410649
+          },
+          {
+            "RISE": 28410485,
+            "SET": 28410682,
+            "TRX ON": 28410559,
+            "TRX OFF": 28410649
+          },
+          {
+            "RISE": 28410532,
+            "SET": 28410690,
+            "TRX ON": 28410559,
+            "TRX OFF": 28410649
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 97,
+      "duration_min": 97,
+      "track_id": "d4cebc5e-dfc8-496b-8728-70772de1ff1a",
+      "setup_time": 22,
+      "teardown_time": 7,
+      "time_window_start": 28408112,
+      "time_window_end": 28408209,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": 28408034,
+            "SET": 28408219,
+            "TRX ON": 28408112,
+            "TRX OFF": 28408209
+          },
+          {
+            "RISE": 28408085,
+            "SET": 28408218,
+            "TRX ON": 28408112,
+            "TRX OFF": 28408209
+          },
+          {
+            "RISE": 28408082,
+            "SET": 28408243,
+            "TRX ON": 28408112,
+            "TRX OFF": 28408209
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 183,
+      "duration_min": 183,
+      "track_id": "b3cd2025-473f-408e-b7a3-bf923d0cdcaf",
+      "setup_time": 12,
+      "teardown_time": 5,
+      "time_window_start": 28403074,
+      "time_window_end": 28403257,
+      "resources": [
+        [
+          "DSS-01"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-01": [
+          {
+            "RISE": 28403045,
+            "SET": 28403268,
+            "TRX ON": 28403074,
+            "TRX OFF": 28403257
+          },
+          {
+            "RISE": 28403062,
+            "SET": 28403284,
+            "TRX ON": 28403074,
+            "TRX OFF": 28403257
+          },
+          {
+            "RISE": 28403033,
+            "SET": 28403303,
+            "TRX ON": 28403074,
+            "TRX OFF": 28403257
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 77,
+      "duration_min": 77,
+      "track_id": "1873b5b1-1e8e-4fc2-9e83-5413bf94fd70",
+      "setup_time": 10,
+      "teardown_time": 7,
+      "time_window_start": 28403632,
+      "time_window_end": 28403709,
+      "resources": [
+        [
+          "DSS-04"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-04": [
+          {
+            "RISE": 28403604,
+            "SET": 28403773,
+            "TRX ON": 28403632,
+            "TRX OFF": 28403709
+          },
+          {
+            "RISE": 28403567,
+            "SET": 28403723,
+            "TRX ON": 28403632,
+            "TRX OFF": 28403709
+          },
+          {
+            "RISE": 28403595,
+            "SET": 28403748,
+            "TRX ON": 28403632,
+            "TRX OFF": 28403709
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 60,
+      "duration_min": 60,
+      "track_id": "7ce60836-af28-4c78-94eb-8ba6e7fea149",
+      "setup_time": 23,
+      "teardown_time": 13,
+      "time_window_start": 28410838,
+      "time_window_end": 28410898,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": 28410812,
+            "SET": 28410921,
+            "TRX ON": 28410838,
+            "TRX OFF": 28410898
+          },
+          {
+            "RISE": 28410772,
+            "SET": 28410936,
+            "TRX ON": 28410838,
+            "TRX OFF": 28410898
+          },
+          {
+            "RISE": 28410797,
+            "SET": 28410970,
+            "TRX ON": 28410838,
+            "TRX OFF": 28410898
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 96,
+      "duration_min": 96,
+      "track_id": "1d39fc37-59a7-4b17-95a9-8f6e8d9f9ccf",
+      "setup_time": 30,
+      "teardown_time": 12,
+      "time_window_start": 28401903,
+      "time_window_end": 28401999,
+      "resources": [
+        [
+          "DSS-08"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-08": [
+          {
+            "RISE": 28401871,
+            "SET": 28402019,
+            "TRX ON": 28401903,
+            "TRX OFF": 28401999
+          },
+          {
+            "RISE": 28401840,
+            "SET": 28402044,
+            "TRX ON": 28401903,
+            "TRX OFF": 28401999
+          },
+          {
+            "RISE": 28401842,
+            "SET": 28402054,
+            "TRX ON": 28401903,
+            "TRX OFF": 28401999
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 68,
+      "duration_min": 68,
+      "track_id": "55a201f8-2ba0-4814-beb6-071761c5ce51",
+      "setup_time": 13,
+      "teardown_time": 13,
+      "time_window_start": 28410747,
+      "time_window_end": 28410815,
+      "resources": [
+        [
+          "DSS-06"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-06": [
+          {
+            "RISE": 28410716,
+            "SET": 28410876,
+            "TRX ON": 28410747,
+            "TRX OFF": 28410815
+          },
+          {
+            "RISE": 28410708,
+            "SET": 28410866,
+            "TRX ON": 28410747,
+            "TRX OFF": 28410815
+          },
+          {
+            "RISE": 28410714,
+            "SET": 28410835,
+            "TRX ON": 28410747,
+            "TRX OFF": 28410815
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 104,
+      "duration_min": 104,
+      "track_id": "41837231-8e2f-4154-a16b-57ae732044fb",
+      "setup_time": 10,
+      "teardown_time": 6,
+      "time_window_start": 28410723,
+      "time_window_end": 28410827,
+      "resources": [
+        [
+          "DSS-08"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-08": [
+          {
+            "RISE": 28410666,
+            "SET": 28410866,
+            "TRX ON": 28410723,
+            "TRX OFF": 28410827
+          },
+          {
+            "RISE": 28410690,
+            "SET": 28410858,
+            "TRX ON": 28410723,
+            "TRX OFF": 28410827
+          },
+          {
+            "RISE": 28410707,
+            "SET": 28410844,
+            "TRX ON": 28410723,
+            "TRX OFF": 28410827
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 93,
+      "duration_min": 93,
+      "track_id": "e46b4818-1478-4d7b-ab53-f01a78bc942d",
+      "setup_time": 24,
+      "teardown_time": 7,
+      "time_window_start": 28404666,
+      "time_window_end": 28404759,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": 28404609,
+            "SET": 28404798,
+            "TRX ON": 28404666,
+            "TRX OFF": 28404759
+          },
+          {
+            "RISE": 28404635,
+            "SET": 28404777,
+            "TRX ON": 28404666,
+            "TRX OFF": 28404759
+          },
+          {
+            "RISE": 28404592,
+            "SET": 28404789,
+            "TRX ON": 28404666,
+            "TRX OFF": 28404759
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 99,
+      "duration_min": 99,
+      "track_id": "feb50dfd-fa48-43a3-b459-c9a945356639",
+      "setup_time": 16,
+      "teardown_time": 5,
+      "time_window_start": 28405350,
+      "time_window_end": 28405449,
+      "resources": [
+        [
+          "DSS-06"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-06": [
+          {
+            "RISE": 28405292,
+            "SET": 28405498,
+            "TRX ON": 28405350,
+            "TRX OFF": 28405449
+          },
+          {
+            "RISE": 28405306,
+            "SET": 28405506,
+            "TRX ON": 28405350,
+            "TRX OFF": 28405449
+          },
+          {
+            "RISE": 28405309,
+            "SET": 28405481,
+            "TRX ON": 28405350,
+            "TRX OFF": 28405449
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 64,
+      "duration_min": 64,
+      "track_id": "826f9e96-fe9e-4c34-b347-9475b0a8fd09",
+      "setup_time": 26,
+      "teardown_time": 9,
+      "time_window_start": 28402288,
+      "time_window_end": 28402352,
+      "resources": [
+        [
+          "DSS-01"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-01": [
+          {
+            "RISE": 28402204,
+            "SET": 28402366,
+            "TRX ON": 28402288,
+            "TRX OFF": 28402352
+          },
+          {
+            "RISE": 28402255,
+            "SET": 28402366,
+            "TRX ON": 28402288,
+            "TRX OFF": 28402352
+          },
+          {
+            "RISE": 28402225,
+            "SET": 28402419,
+            "TRX ON": 28402288,
+            "TRX OFF": 28402352
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 95,
+      "duration_min": 95,
+      "track_id": "c98c904d-60ff-4857-ac94-d78d96585959",
+      "setup_time": 20,
+      "teardown_time": 13,
+      "time_window_start": 28408332,
+      "time_window_end": 28408427,
+      "resources": [
+        [
+          "DSS-01"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-01": [
+          {
+            "RISE": 28408270,
+            "SET": 28408457,
+            "TRX ON": 28408332,
+            "TRX OFF": 28408427
+          },
+          {
+            "RISE": 28408259,
+            "SET": 28408446,
+            "TRX ON": 28408332,
+            "TRX OFF": 28408427
+          },
+          {
+            "RISE": 28408290,
+            "SET": 28408457,
+            "TRX ON": 28408332,
+            "TRX OFF": 28408427
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 235,
+      "duration_min": 235,
+      "track_id": "6ac849b4-2c7c-42cd-9100-e70346d08228",
+      "setup_time": 16,
+      "teardown_time": 11,
+      "time_window_start": 28401908,
+      "time_window_end": 28402143,
+      "resources": [
+        [
+          "DSS-07"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-07": [
+          {
+            "RISE": 28401884,
+            "SET": 28402177,
+            "TRX ON": 28401908,
+            "TRX OFF": 28402143
+          },
+          {
+            "RISE": 28401858,
+            "SET": 28402173,
+            "TRX ON": 28401908,
+            "TRX OFF": 28402143
+          },
+          {
+            "RISE": 28401862,
+            "SET": 28402176,
+            "TRX ON": 28401908,
+            "TRX OFF": 28402143
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 116,
+      "duration_min": 116,
+      "track_id": "c2c69260-dc84-4e5c-bb46-a68cd8711db4",
+      "setup_time": 13,
+      "teardown_time": 14,
+      "time_window_start": 28408966,
+      "time_window_end": 28409082,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": 28408920,
+            "SET": 28409110,
+            "TRX ON": 28408966,
+            "TRX OFF": 28409082
+          },
+          {
+            "RISE": 28408893,
+            "SET": 28409120,
+            "TRX ON": 28408966,
+            "TRX OFF": 28409082
+          },
+          {
+            "RISE": 28408919,
+            "SET": 28409106,
+            "TRX ON": 28408966,
+            "TRX OFF": 28409082
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 159,
+      "duration_min": 159,
+      "track_id": "b0a1a7c2-22b4-4577-aba2-ac1297eea7d6",
+      "setup_time": 13,
+      "teardown_time": 14,
+      "time_window_start": 28410566,
+      "time_window_end": 28410725,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": 28410505,
+            "SET": 28410768,
+            "TRX ON": 28410566,
+            "TRX OFF": 28410725
+          },
+          {
+            "RISE": 28410548,
+            "SET": 28410763,
+            "TRX ON": 28410566,
+            "TRX OFF": 28410725
+          },
+          {
+            "RISE": 28410544,
+            "SET": 28410741,
+            "TRX ON": 28410566,
+            "TRX OFF": 28410725
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 86,
+      "duration_min": 86,
+      "track_id": "69f5bb6d-9817-4341-83b3-4ca9bf959b1f",
+      "setup_time": 21,
+      "teardown_time": 11,
+      "time_window_start": 28401797,
+      "time_window_end": 28401883,
+      "resources": [
+        [
+          "DSS-07"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-07": [
+          {
+            "RISE": 28401768,
+            "SET": 28401931,
+            "TRX ON": 28401797,
+            "TRX OFF": 28401883
+          },
+          {
+            "RISE": 28401760,
+            "SET": 28401943,
+            "TRX ON": 28401797,
+            "TRX OFF": 28401883
+          },
+          {
+            "RISE": 28401725,
+            "SET": 28401894,
+            "TRX ON": 28401797,
+            "TRX OFF": 28401883
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 219,
+      "duration_min": 219,
+      "track_id": "cc071826-aee0-4d9a-a4e0-f3550bcd29ae",
+      "setup_time": 20,
+      "teardown_time": 5,
+      "time_window_start": 28403551,
+      "time_window_end": 28403770,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": 28403521,
+            "SET": 28403778,
+            "TRX ON": 28403551,
+            "TRX OFF": 28403770
+          },
+          {
+            "RISE": 28403525,
+            "SET": 28403784,
+            "TRX ON": 28403551,
+            "TRX OFF": 28403770
+          },
+          {
+            "RISE": 28403495,
+            "SET": 28403792,
+            "TRX ON": 28403551,
+            "TRX OFF": 28403770
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 87,
+      "duration_min": 87,
+      "track_id": "e88bc167-e5dd-453c-a552-b10eea592c9e",
+      "setup_time": 21,
+      "teardown_time": 15,
+      "time_window_start": 28407769,
+      "time_window_end": 28407856,
+      "resources": [
+        [
+          "DSS-01"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-01": [
+          {
+            "RISE": 28407720,
+            "SET": 28407893,
+            "TRX ON": 28407769,
+            "TRX OFF": 28407856
+          },
+          {
+            "RISE": 28407746,
+            "SET": 28407924,
+            "TRX ON": 28407769,
+            "TRX OFF": 28407856
+          },
+          {
+            "RISE": 28407711,
+            "SET": 28407923,
+            "TRX ON": 28407769,
+            "TRX OFF": 28407856
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 98,
+      "duration_min": 98,
+      "track_id": "4f58dd1a-baf7-4380-8afb-ebb43278274e",
+      "setup_time": 10,
+      "teardown_time": 5,
+      "time_window_start": 28403575,
+      "time_window_end": 28403673,
+      "resources": [
+        [
+          "DSS-04"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-04": [
+          {
+            "RISE": 28403520,
+            "SET": 28403732,
+            "TRX ON": 28403575,
+            "TRX OFF": 28403673
+          },
+          {
+            "RISE": 28403537,
+            "SET": 28403728,
+            "TRX ON": 28403575,
+            "TRX OFF": 28403673
+          },
+          {
+            "RISE": 28403526,
+            "SET": 28403728,
+            "TRX ON": 28403575,
+            "TRX OFF": 28403673
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 79,
+      "duration_min": 79,
+      "track_id": "11a42bd0-e67e-4b77-a761-0881b352e8f6",
+      "setup_time": 17,
+      "teardown_time": 12,
+      "time_window_start": 28406758,
+      "time_window_end": 28406837,
+      "resources": [
+        [
+          "DSS-04"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-04": [
+          {
+            "RISE": 28406702,
+            "SET": 28406863,
+            "TRX ON": 28406758,
+            "TRX OFF": 28406837
+          },
+          {
+            "RISE": 28406685,
+            "SET": 28406894,
+            "TRX ON": 28406758,
+            "TRX OFF": 28406837
+          },
+          {
+            "RISE": 28406697,
+            "SET": 28406885,
+            "TRX ON": 28406758,
+            "TRX OFF": 28406837
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 224,
+      "duration_min": 224,
+      "track_id": "0f14349f-49c3-439e-87bf-567000603a73",
+      "setup_time": 23,
+      "teardown_time": 8,
+      "time_window_start": 28407792,
+      "time_window_end": 28408016,
+      "resources": [
+        [
+          "DSS-09"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-09": [
+          {
+            "RISE": 28407761,
+            "SET": 28408040,
+            "TRX ON": 28407792,
+            "TRX OFF": 28408016
+          },
+          {
+            "RISE": 28407764,
+            "SET": 28408049,
+            "TRX ON": 28407792,
+            "TRX OFF": 28408016
+          },
+          {
+            "RISE": 28407725,
+            "SET": 28408073,
+            "TRX ON": 28407792,
+            "TRX OFF": 28408016
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 69,
+      "duration_min": 69,
+      "track_id": "1b0ca5d9-1931-4072-a5b9-1c1537409d3d",
+      "setup_time": 20,
+      "teardown_time": 9,
+      "time_window_start": 28410563,
+      "time_window_end": 28410632,
+      "resources": [
+        [
+          "DSS-08"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-08": [
+          {
+            "RISE": 28410510,
+            "SET": 28410648,
+            "TRX ON": 28410563,
+            "TRX OFF": 28410632
+          },
+          {
+            "RISE": 28410539,
+            "SET": 28410694,
+            "TRX ON": 28410563,
+            "TRX OFF": 28410632
+          },
+          {
+            "RISE": 28410489,
+            "SET": 28410651,
+            "TRX ON": 28410563,
+            "TRX OFF": 28410632
+          }
+        ]
+      }
+    }
+  ],
+  "W2_2024": [
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 2,
+      "year": 2024,
+      "duration": 94,
+      "duration_min": 94,
+      "track_id": "e751d09c-322a-4bc2-b3ee-66231da75d9b",
+      "setup_time": 21,
+      "teardown_time": 7,
+      "time_window_start": 28411473,
+      "time_window_end": 28411567,
+      "resources": [
+        [
+          "DSS-01"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-01": [
+          {
+            "RISE": 28411433,
+            "SET": 28411613,
+            "TRX ON": 28411473,
+            "TRX OFF": 28411567
+          },
+          {
+            "RISE": 28411399,
+            "SET": 28411576,
+            "TRX ON": 28411473,
+            "TRX OFF": 28411567
+          },
+          {
+            "RISE": 28411425,
+            "SET": 28411622,
+            "TRX ON": 28411473,
+            "TRX OFF": 28411567
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 2,
+      "year": 2024,
+      "duration": 111,
+      "duration_min": 111,
+      "track_id": "a43d8628-3ac6-4b9c-bd3c-ca1f17fd551e",
+      "setup_time": 11,
+      "teardown_time": 8,
+      "time_window_start": 28412484,
+      "time_window_end": 28412595,
+      "resources": [
+        [
+          "DSS-01"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-01": [
+          {
+            "RISE": 28412467,
+            "SET": 28412615,
+            "TRX ON": 28412484,
+            "TRX OFF": 28412595
+          },
+          {
+            "RISE": 28412455,
+            "SET": 28412621,
+            "TRX ON": 28412484,
+            "TRX OFF": 28412595
+          },
+          {
+            "RISE": 28412448,
+            "SET": 28412605,
+            "TRX ON": 28412484,
+            "TRX OFF": 28412595
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 2,
+      "year": 2024,
+      "duration": 70,
+      "duration_min": 70,
+      "track_id": "3fab6aa6-a581-4df1-a4e9-2894d8cfeb4b",
+      "setup_time": 19,
+      "teardown_time": 9,
+      "time_window_start": 28413391,
+      "time_window_end": 28413461,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": 28413355,
+            "SET": 28413474,
+            "TRX ON": 28413391,
+            "TRX OFF": 28413461
+          },
+          {
+            "RISE": 28413333,
+            "SET": 28413489,
+            "TRX ON": 28413391,
+            "TRX OFF": 28413461
+          },
+          {
+            "RISE": 28413367,
+            "SET": 28413508,
+            "TRX ON": 28413391,
+            "TRX OFF": 28413461
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 2,
+      "year": 2024,
+      "duration": 109,
+      "duration_min": 109,
+      "track_id": "20cafafc-060c-422c-9b58-c1c36c357d09",
+      "setup_time": 22,
+      "teardown_time": 12,
+      "time_window_start": 28415336,
+      "time_window_end": 28415445,
+      "resources": [
+        [
+          "DSS-09"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-09": [
+          {
+            "RISE": 28415307,
+            "SET": 28415504,
+            "TRX ON": 28415336,
+            "TRX OFF": 28415445
+          },
+          {
+            "RISE": 28415260,
+            "SET": 28415491,
+            "TRX ON": 28415336,
+            "TRX OFF": 28415445
+          },
+          {
+            "RISE": 28415308,
+            "SET": 28415515,
+            "TRX ON": 28415336,
+            "TRX OFF": 28415445
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 2,
+      "year": 2024,
+      "duration": 83,
+      "duration_min": 83,
+      "track_id": "b3d1f6e0-96ef-4dc0-ad08-cd0050b744b1",
+      "setup_time": 23,
+      "teardown_time": 8,
+      "time_window_start": 28415317,
+      "time_window_end": 28415400,
+      "resources": [
+        [
+          "DSS-09"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-09": [
+          {
+            "RISE": 28415274,
+            "SET": 28415436,
+            "TRX ON": 28415317,
+            "TRX OFF": 28415400
+          },
+          {
+            "RISE": 28415253,
+            "SET": 28415446,
+            "TRX ON": 28415317,
+            "TRX OFF": 28415400
+          },
+          {
+            "RISE": 28415269,
+            "SET": 28415416,
+            "TRX ON": 28415317,
+            "TRX OFF": 28415400
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 2,
+      "year": 2024,
+      "duration": 129,
+      "duration_min": 129,
+      "track_id": "c7c9bdc4-f41d-48c6-b9d2-422e6538f441",
+      "setup_time": 27,
+      "teardown_time": 9,
+      "time_window_start": 28417675,
+      "time_window_end": 28417804,
+      "resources": [
+        [
+          "DSS-08"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-08": [
+          {
+            "RISE": 28417616,
+            "SET": 28417821,
+            "TRX ON": 28417675,
+            "TRX OFF": 28417804
+          },
+          {
+            "RISE": 28417606,
+            "SET": 28417873,
+            "TRX ON": 28417675,
+            "TRX OFF": 28417804
+          },
+          {
+            "RISE": 28417610,
+            "SET": 28417850,
+            "TRX ON": 28417675,
+            "TRX OFF": 28417804
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 2,
+      "year": 2024,
+      "duration": 107,
+      "duration_min": 107,
+      "track_id": "eb8a6c1e-9d8a-4ee1-8c29-dedbb52b1495",
+      "setup_time": 17,
+      "teardown_time": 15,
+      "time_window_start": 28418388,
+      "time_window_end": 28418495,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": 28418339,
+            "SET": 28418565,
+            "TRX ON": 28418388,
+            "TRX OFF": 28418495
+          },
+          {
+            "RISE": 28418327,
+            "SET": 28418561,
+            "TRX ON": 28418388,
+            "TRX OFF": 28418495
+          },
+          {
+            "RISE": 28418355,
+            "SET": 28418538,
+            "TRX ON": 28418388,
+            "TRX OFF": 28418495
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 2,
+      "year": 2024,
+      "duration": 462,
+      "duration_min": 462,
+      "track_id": "3a488fad-42b3-4415-8cae-e1cefc6f65ad",
+      "setup_time": 14,
+      "teardown_time": 7,
+      "time_window_start": 28420962,
+      "time_window_end": 28421424,
+      "resources": [
+        [
+          "DSS-08"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-08": [
+          {
+            "RISE": 28420916,
+            "SET": 28421454,
+            "TRX ON": 28420962,
+            "TRX OFF": 28421424
+          },
+          {
+            "RISE": 28420919,
+            "SET": 28421468,
+            "TRX ON": 28420962,
+            "TRX OFF": 28421424
+          },
+          {
+            "RISE": 28420931,
+            "SET": 28421455,
+            "TRX ON": 28420962,
+            "TRX OFF": 28421424
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 2,
+      "year": 2024,
+      "duration": 96,
+      "duration_min": 96,
+      "track_id": "77cdb1fc-9e3f-47ea-a3de-a71833933b4e",
+      "setup_time": 28,
+      "teardown_time": 5,
+      "time_window_start": 28415338,
+      "time_window_end": 28415434,
+      "resources": [
+        [
+          "DSS-04"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-04": [
+          {
+            "RISE": 28415288,
+            "SET": 28415446,
+            "TRX ON": 28415338,
+            "TRX OFF": 28415434
+          },
+          {
+            "RISE": 28415266,
+            "SET": 28415494,
+            "TRX ON": 28415338,
+            "TRX OFF": 28415434
+          },
+          {
+            "RISE": 28415297,
+            "SET": 28415497,
+            "TRX ON": 28415338,
+            "TRX OFF": 28415434
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 2,
+      "year": 2024,
+      "duration": 67,
+      "duration_min": 67,
+      "track_id": "ab9c2a84-6c83-4c37-8fda-d960a28a8535",
+      "setup_time": 14,
+      "teardown_time": 5,
+      "time_window_start": 28421236,
+      "time_window_end": 28421303,
+      "resources": [
+        [
+          "DSS-08"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-08": [
+          {
+            "RISE": 28421175,
+            "SET": 28421309,
+            "TRX ON": 28421236,
+            "TRX OFF": 28421303
+          },
+          {
+            "RISE": 28421201,
+            "SET": 28421352,
+            "TRX ON": 28421236,
+            "TRX OFF": 28421303
+          },
+          {
+            "RISE": 28421197,
+            "SET": 28421309,
+            "TRX ON": 28421236,
+            "TRX OFF": 28421303
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 2,
+      "year": 2024,
+      "duration": 347,
+      "duration_min": 347,
+      "track_id": "362008a7-12a0-4b91-8664-bf7f01e0480f",
+      "setup_time": 12,
+      "teardown_time": 14,
+      "time_window_start": 28414079,
+      "time_window_end": 28414426,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": 28414043,
+            "SET": 28414476,
+            "TRX ON": 28414079,
+            "TRX OFF": 28414426
+          },
+          {
+            "RISE": 28414058,
+            "SET": 28414488,
+            "TRX ON": 28414079,
+            "TRX OFF": 28414426
+          },
+          {
+            "RISE": 28414050,
+            "SET": 28414447,
+            "TRX ON": 28414079,
+            "TRX OFF": 28414426
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 2,
+      "year": 2024,
+      "duration": 67,
+      "duration_min": 67,
+      "track_id": "cf3b2900-6b4b-44e7-a5e2-fddec4af6cd7",
+      "setup_time": 27,
+      "teardown_time": 8,
+      "time_window_start": 28415097,
+      "time_window_end": 28415164,
+      "resources": [
+        [
+          "DSS-02"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-02": [
+          {
+            "RISE": 28415014,
+            "SET": 28415207,
+            "TRX ON": 28415097,
+            "TRX OFF": 28415164
+          },
+          {
+            "RISE": 28415068,
+            "SET": 28415193,
+            "TRX ON": 28415097,
+            "TRX OFF": 28415164
+          },
+          {
+            "RISE": 28415045,
+            "SET": 28415225,
+            "TRX ON": 28415097,
+            "TRX OFF": 28415164
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 2,
+      "year": 2024,
+      "duration": 83,
+      "duration_min": 83,
+      "track_id": "cc0b1158-5c01-4d19-b4c1-4a4002160d5a",
+      "setup_time": 25,
+      "teardown_time": 14,
+      "time_window_start": 28416581,
+      "time_window_end": 28416664,
+      "resources": [
+        [
+          "DSS-02"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-02": [
+          {
+            "RISE": 28416548,
+            "SET": 28416700,
+            "TRX ON": 28416581,
+            "TRX OFF": 28416664
+          },
+          {
+            "RISE": 28416524,
+            "SET": 28416725,
+            "TRX ON": 28416581,
+            "TRX OFF": 28416664
+          },
+          {
+            "RISE": 28416548,
+            "SET": 28416692,
+            "TRX ON": 28416581,
+            "TRX OFF": 28416664
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 2,
+      "year": 2024,
+      "duration": 64,
+      "duration_min": 64,
+      "track_id": "0c9a19c3-e3a1-4fc8-b6a1-1d49996f6850",
+      "setup_time": 28,
+      "teardown_time": 8,
+      "time_window_start": 28415315,
+      "time_window_end": 28415379,
+      "resources": [
+        [
+          "DSS-07"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-07": [
+          {
+            "RISE": 28415243,
+            "SET": 28415437,
+            "TRX ON": 28415315,
+            "TRX OFF": 28415379
+          },
+          {
+            "RISE": 28415242,
+            "SET": 28415423,
+            "TRX ON": 28415315,
+            "TRX OFF": 28415379
+          },
+          {
+            "RISE": 28415248,
+            "SET": 28415425,
+            "TRX ON": 28415315,
+            "TRX OFF": 28415379
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 2,
+      "year": 2024,
+      "duration": 107,
+      "duration_min": 107,
+      "track_id": "799d9395-4edd-4698-8a0a-4eecdd09b494",
+      "setup_time": 21,
+      "teardown_time": 10,
+      "time_window_start": 28411403,
+      "time_window_end": 28411510,
+      "resources": [
+        [
+          "DSS-05"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-05": [
+          {
+            "RISE": 28411378,
+            "SET": 28411571,
+            "TRX ON": 28411403,
+            "TRX OFF": 28411510
+          },
+          {
+            "RISE": 28411324,
+            "SET": 28411568,
+            "TRX ON": 28411403,
+            "TRX OFF": 28411510
+          },
+          {
+            "RISE": 28411349,
+            "SET": 28411576,
+            "TRX ON": 28411403,
+            "TRX OFF": 28411510
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 2,
+      "year": 2024,
+      "duration": 102,
+      "duration_min": 102,
+      "track_id": "650fee5c-1a74-43a1-b2dd-59624279be05",
+      "setup_time": 12,
+      "teardown_time": 11,
+      "time_window_start": 28419804,
+      "time_window_end": 28419906,
+      "resources": [
+        [
+          "DSS-08"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-08": [
+          {
+            "RISE": 28419733,
+            "SET": 28419976,
+            "TRX ON": 28419804,
+            "TRX OFF": 28419906
+          },
+          {
+            "RISE": 28419764,
+            "SET": 28419958,
+            "TRX ON": 28419804,
+            "TRX OFF": 28419906
+          },
+          {
+            "RISE": 28419781,
+            "SET": 28419969,
+            "TRX ON": 28419804,
+            "TRX OFF": 28419906
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 2,
+      "year": 2024,
+      "duration": 64,
+      "duration_min": 64,
+      "track_id": "3bfa3ae9-6c83-413e-bb8a-424eea38dc0c",
+      "setup_time": 12,
+      "teardown_time": 7,
+      "time_window_start": 28420502,
+      "time_window_end": 28420566,
+      "resources": [
+        [
+          "DSS-09"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-09": [
+          {
+            "RISE": 28420438,
+            "SET": 28420588,
+            "TRX ON": 28420502,
+            "TRX OFF": 28420566
+          },
+          {
+            "RISE": 28420439,
+            "SET": 28420613,
+            "TRX ON": 28420502,
+            "TRX OFF": 28420566
+          },
+          {
+            "RISE": 28420467,
+            "SET": 28420628,
+            "TRX ON": 28420502,
+            "TRX OFF": 28420566
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 2,
+      "year": 2024,
+      "duration": 152,
+      "duration_min": 152,
+      "track_id": "8b17a8da-531f-487e-a3e2-23f66c613dea",
+      "setup_time": 23,
+      "teardown_time": 7,
+      "time_window_start": 28418348,
+      "time_window_end": 28418500,
+      "resources": [
+        [
+          "DSS-06"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-06": [
+          {
+            "RISE": 28418309,
+            "SET": 28418556,
+            "TRX ON": 28418348,
+            "TRX OFF": 28418500
+          },
+          {
+            "RISE": 28418272,
+            "SET": 28418543,
+            "TRX ON": 28418348,
+            "TRX OFF": 28418500
+          },
+          {
+            "RISE": 28418313,
+            "SET": 28418535,
+            "TRX ON": 28418348,
+            "TRX OFF": 28418500
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 2,
+      "year": 2024,
+      "duration": 108,
+      "duration_min": 108,
+      "track_id": "0909d14b-2674-4e56-af6e-3da909d024f8",
+      "setup_time": 28,
+      "teardown_time": 14,
+      "time_window_start": 28413963,
+      "time_window_end": 28414071,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": 28413911,
+            "SET": 28414144,
+            "TRX ON": 28413963,
+            "TRX OFF": 28414071
+          },
+          {
+            "RISE": 28413895,
+            "SET": 28414092,
+            "TRX ON": 28413963,
+            "TRX OFF": 28414071
+          },
+          {
+            "RISE": 28413894,
+            "SET": 28414086,
+            "TRX ON": 28413963,
+            "TRX OFF": 28414071
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 2,
+      "year": 2024,
+      "duration": 86,
+      "duration_min": 86,
+      "track_id": "4a04340a-a162-4a48-8436-293e4c7cb956",
+      "setup_time": 17,
+      "teardown_time": 14,
+      "time_window_start": 28418171,
+      "time_window_end": 28418257,
+      "resources": [
+        [
+          "DSS-02"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-02": [
+          {
+            "RISE": 28418102,
+            "SET": 28418271,
+            "TRX ON": 28418171,
+            "TRX OFF": 28418257
+          },
+          {
+            "RISE": 28418148,
+            "SET": 28418283,
+            "TRX ON": 28418171,
+            "TRX OFF": 28418257
+          },
+          {
+            "RISE": 28418103,
+            "SET": 28418282,
+            "TRX ON": 28418171,
+            "TRX OFF": 28418257
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 2,
+      "year": 2024,
+      "duration": 108,
+      "duration_min": 108,
+      "track_id": "1e9bffa1-7125-4b87-b386-e522fb4e95b6",
+      "setup_time": 14,
+      "teardown_time": 5,
+      "time_window_start": 28419540,
+      "time_window_end": 28419648,
+      "resources": [
+        [
+          "DSS-07"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-07": [
+          {
+            "RISE": 28419492,
+            "SET": 28419686,
+            "TRX ON": 28419540,
+            "TRX OFF": 28419648
+          },
+          {
+            "RISE": 28419522,
+            "SET": 28419697,
+            "TRX ON": 28419540,
+            "TRX OFF": 28419648
+          },
+          {
+            "RISE": 28419508,
+            "SET": 28419703,
+            "TRX ON": 28419540,
+            "TRX OFF": 28419648
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 2,
+      "year": 2024,
+      "duration": 60,
+      "duration_min": 60,
+      "track_id": "a407a00b-4281-4560-b8bb-a5c02b593a0a",
+      "setup_time": 12,
+      "teardown_time": 14,
+      "time_window_start": 28416580,
+      "time_window_end": 28416640,
+      "resources": [
+        [
+          "DSS-08"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-08": [
+          {
+            "RISE": 28416529,
+            "SET": 28416680,
+            "TRX ON": 28416580,
+            "TRX OFF": 28416640
+          },
+          {
+            "RISE": 28416536,
+            "SET": 28416697,
+            "TRX ON": 28416580,
+            "TRX OFF": 28416640
+          },
+          {
+            "RISE": 28416524,
+            "SET": 28416705,
+            "TRX ON": 28416580,
+            "TRX OFF": 28416640
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 2,
+      "year": 2024,
+      "duration": 85,
+      "duration_min": 85,
+      "track_id": "66bf5d82-2bab-4f39-b6a5-9af8821053f2",
+      "setup_time": 22,
+      "teardown_time": 13,
+      "time_window_start": 28412532,
+      "time_window_end": 28412617,
+      "resources": [
+        [
+          "DSS-01"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-01": [
+          {
+            "RISE": 28412487,
+            "SET": 28412649,
+            "TRX ON": 28412532,
+            "TRX OFF": 28412617
+          },
+          {
+            "RISE": 28412483,
+            "SET": 28412637,
+            "TRX ON": 28412532,
+            "TRX OFF": 28412617
+          },
+          {
+            "RISE": 28412464,
+            "SET": 28412642,
+            "TRX ON": 28412532,
+            "TRX OFF": 28412617
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 2,
+      "year": 2024,
+      "duration": 67,
+      "duration_min": 67,
+      "track_id": "4ea5f684-4203-4872-817f-2ce76efca935",
+      "setup_time": 11,
+      "teardown_time": 8,
+      "time_window_start": 28416315,
+      "time_window_end": 28416382,
+      "resources": [
+        [
+          "DSS-02"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-02": [
+          {
+            "RISE": 28416268,
+            "SET": 28416419,
+            "TRX ON": 28416315,
+            "TRX OFF": 28416382
+          },
+          {
+            "RISE": 28416258,
+            "SET": 28416402,
+            "TRX ON": 28416315,
+            "TRX OFF": 28416382
+          },
+          {
+            "RISE": 28416296,
+            "SET": 28416397,
+            "TRX ON": 28416315,
+            "TRX OFF": 28416382
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 2,
+      "year": 2024,
+      "duration": 99,
+      "duration_min": 99,
+      "track_id": "fda4b2fc-74a5-4923-aed3-9959ddd74aba",
+      "setup_time": 26,
+      "teardown_time": 14,
+      "time_window_start": 28411963,
+      "time_window_end": 28412062,
+      "resources": [
+        [
+          "DSS-02"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-02": [
+          {
+            "RISE": 28411887,
+            "SET": 28412112,
+            "TRX ON": 28411963,
+            "TRX OFF": 28412062
+          },
+          {
+            "RISE": 28411914,
+            "SET": 28412107,
+            "TRX ON": 28411963,
+            "TRX OFF": 28412062
+          },
+          {
+            "RISE": 28411885,
+            "SET": 28412132,
+            "TRX ON": 28411963,
+            "TRX OFF": 28412062
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 2,
+      "year": 2024,
+      "duration": 83,
+      "duration_min": 83,
+      "track_id": "f9685bee-c599-421d-bc57-e2c22cdebf62",
+      "setup_time": 30,
+      "teardown_time": 12,
+      "time_window_start": 28412273,
+      "time_window_end": 28412356,
+      "resources": [
+        [
+          "DSS-09"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-09": [
+          {
+            "RISE": 28412192,
+            "SET": 28412391,
+            "TRX ON": 28412273,
+            "TRX OFF": 28412356
+          },
+          {
+            "RISE": 28412222,
+            "SET": 28412391,
+            "TRX ON": 28412273,
+            "TRX OFF": 28412356
+          },
+          {
+            "RISE": 28412222,
+            "SET": 28412381,
+            "TRX ON": 28412273,
+            "TRX OFF": 28412356
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 2,
+      "year": 2024,
+      "duration": 219,
+      "duration_min": 219,
+      "track_id": "135c2c4c-a97a-4725-b66c-585d7ec48794",
+      "setup_time": 28,
+      "teardown_time": 15,
+      "time_window_start": 28416677,
+      "time_window_end": 28416896,
+      "resources": [
+        [
+          "DSS-08"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-08": [
+          {
+            "RISE": 28416600,
+            "SET": 28416916,
+            "TRX ON": 28416677,
+            "TRX OFF": 28416896
+          },
+          {
+            "RISE": 28416636,
+            "SET": 28416946,
+            "TRX ON": 28416677,
+            "TRX OFF": 28416896
+          },
+          {
+            "RISE": 28416624,
+            "SET": 28416939,
+            "TRX ON": 28416677,
+            "TRX OFF": 28416896
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 2,
+      "year": 2024,
+      "duration": 114,
+      "duration_min": 114,
+      "track_id": "ac494c6c-a1e7-4528-86d3-09851f98c58a",
+      "setup_time": 18,
+      "teardown_time": 15,
+      "time_window_start": 28420732,
+      "time_window_end": 28420846,
+      "resources": [
+        [
+          "DSS-04"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-04": [
+          {
+            "RISE": 28420670,
+            "SET": 28420906,
+            "TRX ON": 28420732,
+            "TRX OFF": 28420846
+          },
+          {
+            "RISE": 28420700,
+            "SET": 28420869,
+            "TRX ON": 28420732,
+            "TRX OFF": 28420846
+          },
+          {
+            "RISE": 28420705,
+            "SET": 28420868,
+            "TRX ON": 28420732,
+            "TRX OFF": 28420846
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 2,
+      "year": 2024,
+      "duration": 79,
+      "duration_min": 79,
+      "track_id": "1fa2453c-5955-4f9c-847b-24d37fd9cd96",
+      "setup_time": 21,
+      "teardown_time": 7,
+      "time_window_start": 28412088,
+      "time_window_end": 28412167,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": 28412044,
+            "SET": 28412181,
+            "TRX ON": 28412088,
+            "TRX OFF": 28412167
+          },
+          {
+            "RISE": 28412012,
+            "SET": 28412213,
+            "TRX ON": 28412088,
+            "TRX OFF": 28412167
+          },
+          {
+            "RISE": 28412007,
+            "SET": 28412184,
+            "TRX ON": 28412088,
+            "TRX OFF": 28412167
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 2,
+      "year": 2024,
+      "duration": 86,
+      "duration_min": 86,
+      "track_id": "cf7307bc-c1a9-47b5-88e7-67eaf379ecf4",
+      "setup_time": 16,
+      "teardown_time": 5,
+      "time_window_start": 28417872,
+      "time_window_end": 28417958,
+      "resources": [
+        [
+          "DSS-07"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-07": [
+          {
+            "RISE": 28417810,
+            "SET": 28418012,
+            "TRX ON": 28417872,
+            "TRX OFF": 28417958
+          },
+          {
+            "RISE": 28417854,
+            "SET": 28417979,
+            "TRX ON": 28417872,
+            "TRX OFF": 28417958
+          },
+          {
+            "RISE": 28417819,
+            "SET": 28417986,
+            "TRX ON": 28417872,
+            "TRX OFF": 28417958
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 2,
+      "year": 2024,
+      "duration": 64,
+      "duration_min": 64,
+      "track_id": "d5615531-ded7-4fa5-a025-7bc9f5fb383b",
+      "setup_time": 18,
+      "teardown_time": 7,
+      "time_window_start": 28416742,
+      "time_window_end": 28416806,
+      "resources": [
+        [
+          "DSS-07"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-07": [
+          {
+            "RISE": 28416686,
+            "SET": 28416854,
+            "TRX ON": 28416742,
+            "TRX OFF": 28416806
+          },
+          {
+            "RISE": 28416692,
+            "SET": 28416834,
+            "TRX ON": 28416742,
+            "TRX OFF": 28416806
+          },
+          {
+            "RISE": 28416704,
+            "SET": 28416870,
+            "TRX ON": 28416742,
+            "TRX OFF": 28416806
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 2,
+      "year": 2024,
+      "duration": 94,
+      "duration_min": 94,
+      "track_id": "d765099b-60fd-49b8-8d2b-7142af7da57a",
+      "setup_time": 28,
+      "teardown_time": 14,
+      "time_window_start": 28412409,
+      "time_window_end": 28412503,
+      "resources": [
+        [
+          "DSS-01"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-01": [
+          {
+            "RISE": 28412324,
+            "SET": 28412524,
+            "TRX ON": 28412409,
+            "TRX OFF": 28412503
+          },
+          {
+            "RISE": 28412377,
+            "SET": 28412526,
+            "TRX ON": 28412409,
+            "TRX OFF": 28412503
+          },
+          {
+            "RISE": 28412336,
+            "SET": 28412523,
+            "TRX ON": 28412409,
+            "TRX OFF": 28412503
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 2,
+      "year": 2024,
+      "duration": 103,
+      "duration_min": 103,
+      "track_id": "c4db9664-fe84-47ec-b08c-e05a224aac42",
+      "setup_time": 26,
+      "teardown_time": 11,
+      "time_window_start": 28416882,
+      "time_window_end": 28416985,
+      "resources": [
+        [
+          "DSS-09"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-09": [
+          {
+            "RISE": 28416807,
+            "SET": 28417017,
+            "TRX ON": 28416882,
+            "TRX OFF": 28416985
+          },
+          {
+            "RISE": 28416856,
+            "SET": 28417024,
+            "TRX ON": 28416882,
+            "TRX OFF": 28416985
+          },
+          {
+            "RISE": 28416832,
+            "SET": 28417055,
+            "TRX ON": 28416882,
+            "TRX OFF": 28416985
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 2,
+      "year": 2024,
+      "duration": 98,
+      "duration_min": 98,
+      "track_id": "e4412d24-5154-4b2e-8637-ef8a0327ac7f",
+      "setup_time": 24,
+      "teardown_time": 14,
+      "time_window_start": 28420238,
+      "time_window_end": 28420336,
+      "resources": [
+        [
+          "DSS-08"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-08": [
+          {
+            "RISE": 28420180,
+            "SET": 28420376,
+            "TRX ON": 28420238,
+            "TRX OFF": 28420336
+          },
+          {
+            "RISE": 28420212,
+            "SET": 28420380,
+            "TRX ON": 28420238,
+            "TRX OFF": 28420336
+          },
+          {
+            "RISE": 28420193,
+            "SET": 28420361,
+            "TRX ON": 28420238,
+            "TRX OFF": 28420336
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 2,
+      "year": 2024,
+      "duration": 111,
+      "duration_min": 111,
+      "track_id": "c78b4c1d-cd3a-4b33-98a9-b8c915d3cbc9",
+      "setup_time": 16,
+      "teardown_time": 9,
+      "time_window_start": 28411665,
+      "time_window_end": 28411776,
+      "resources": [
+        [
+          "DSS-08"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-08": [
+          {
+            "RISE": 28411589,
+            "SET": 28411785,
+            "TRX ON": 28411665,
+            "TRX OFF": 28411776
+          },
+          {
+            "RISE": 28411637,
+            "SET": 28411819,
+            "TRX ON": 28411665,
+            "TRX OFF": 28411776
+          },
+          {
+            "RISE": 28411592,
+            "SET": 28411844,
+            "TRX ON": 28411665,
+            "TRX OFF": 28411776
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 2,
+      "year": 2024,
+      "duration": 285,
+      "duration_min": 285,
+      "track_id": "c5c27f0d-4798-4c49-8545-0b867a148018",
+      "setup_time": 26,
+      "teardown_time": 10,
+      "time_window_start": 28411862,
+      "time_window_end": 28412147,
+      "resources": [
+        [
+          "DSS-07"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-07": [
+          {
+            "RISE": 28411813,
+            "SET": 28412208,
+            "TRX ON": 28411862,
+            "TRX OFF": 28412147
+          },
+          {
+            "RISE": 28411791,
+            "SET": 28412166,
+            "TRX ON": 28411862,
+            "TRX OFF": 28412147
+          },
+          {
+            "RISE": 28411797,
+            "SET": 28412187,
+            "TRX ON": 28411862,
+            "TRX OFF": 28412147
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 2,
+      "year": 2024,
+      "duration": 97,
+      "duration_min": 97,
+      "track_id": "f1dd349b-1f16-4e41-bbd9-1d9df6a07094",
+      "setup_time": 20,
+      "teardown_time": 5,
+      "time_window_start": 28418815,
+      "time_window_end": 28418912,
+      "resources": [
+        [
+          "DSS-09"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-09": [
+          {
+            "RISE": 28418752,
+            "SET": 28418973,
+            "TRX ON": 28418815,
+            "TRX OFF": 28418912
+          },
+          {
+            "RISE": 28418736,
+            "SET": 28418940,
+            "TRX ON": 28418815,
+            "TRX OFF": 28418912
+          },
+          {
+            "RISE": 28418793,
+            "SET": 28418924,
+            "TRX ON": 28418815,
+            "TRX OFF": 28418912
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 2,
+      "year": 2024,
+      "duration": 146,
+      "duration_min": 146,
+      "track_id": "2453d41e-c11c-4967-85ad-b2043311d07e",
+      "setup_time": 20,
+      "teardown_time": 6,
+      "time_window_start": 28417017,
+      "time_window_end": 28417163,
+      "resources": [
+        [
+          "DSS-01"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-01": [
+          {
+            "RISE": 28416997,
+            "SET": 28417189,
+            "TRX ON": 28417017,
+            "TRX OFF": 28417163
+          },
+          {
+            "RISE": 28416956,
+            "SET": 28417208,
+            "TRX ON": 28417017,
+            "TRX OFF": 28417163
+          },
+          {
+            "RISE": 28416939,
+            "SET": 28417196,
+            "TRX ON": 28417017,
+            "TRX OFF": 28417163
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 2,
+      "year": 2024,
+      "duration": 108,
+      "duration_min": 108,
+      "track_id": "d1cd9f24-244b-46e9-b1f8-61c517e70013",
+      "setup_time": 24,
+      "teardown_time": 15,
+      "time_window_start": 28414963,
+      "time_window_end": 28415071,
+      "resources": [
+        [
+          "DSS-02"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-02": [
+          {
+            "RISE": 28414879,
+            "SET": 28415103,
+            "TRX ON": 28414963,
+            "TRX OFF": 28415071
+          },
+          {
+            "RISE": 28414906,
+            "SET": 28415101,
+            "TRX ON": 28414963,
+            "TRX OFF": 28415071
+          },
+          {
+            "RISE": 28414917,
+            "SET": 28415092,
+            "TRX ON": 28414963,
+            "TRX OFF": 28415071
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 2,
+      "year": 2024,
+      "duration": 73,
+      "duration_min": 73,
+      "track_id": "43009ee1-3137-454a-af48-ff436d1d7da6",
+      "setup_time": 14,
+      "teardown_time": 14,
+      "time_window_start": 28420176,
+      "time_window_end": 28420249,
+      "resources": [
+        [
+          "DSS-06"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-06": [
+          {
+            "RISE": 28420145,
+            "SET": 28420265,
+            "TRX ON": 28420176,
+            "TRX OFF": 28420249
+          },
+          {
+            "RISE": 28420144,
+            "SET": 28420279,
+            "TRX ON": 28420176,
+            "TRX OFF": 28420249
+          },
+          {
+            "RISE": 28420110,
+            "SET": 28420282,
+            "TRX ON": 28420176,
+            "TRX OFF": 28420249
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 2,
+      "year": 2024,
+      "duration": 67,
+      "duration_min": 67,
+      "track_id": "470bb74c-dc0b-4a81-8abd-9eccfabb75f3",
+      "setup_time": 30,
+      "teardown_time": 7,
+      "time_window_start": 28416853,
+      "time_window_end": 28416920,
+      "resources": [
+        [
+          "DSS-07"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-07": [
+          {
+            "RISE": 28416770,
+            "SET": 28416976,
+            "TRX ON": 28416853,
+            "TRX OFF": 28416920
+          },
+          {
+            "RISE": 28416815,
+            "SET": 28416960,
+            "TRX ON": 28416853,
+            "TRX OFF": 28416920
+          },
+          {
+            "RISE": 28416789,
+            "SET": 28416963,
+            "TRX ON": 28416853,
+            "TRX OFF": 28416920
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 2,
+      "year": 2024,
+      "duration": 153,
+      "duration_min": 153,
+      "track_id": "cf837c53-b3f7-4234-babd-51162b785bf2",
+      "setup_time": 17,
+      "teardown_time": 13,
+      "time_window_start": 28414857,
+      "time_window_end": 28415010,
+      "resources": [
+        [
+          "DSS-07"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-07": [
+          {
+            "RISE": 28414833,
+            "SET": 28415058,
+            "TRX ON": 28414857,
+            "TRX OFF": 28415010
+          },
+          {
+            "RISE": 28414836,
+            "SET": 28415033,
+            "TRX ON": 28414857,
+            "TRX OFF": 28415010
+          },
+          {
+            "RISE": 28414780,
+            "SET": 28415058,
+            "TRX ON": 28414857,
+            "TRX OFF": 28415010
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 2,
+      "year": 2024,
+      "duration": 254,
+      "duration_min": 254,
+      "track_id": "ff664d29-1aa2-406f-a261-e51b8503b600",
+      "setup_time": 14,
+      "teardown_time": 5,
+      "time_window_start": 28412635,
+      "time_window_end": 28412889,
+      "resources": [
+        [
+          "DSS-01"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-01": [
+          {
+            "RISE": 28412582,
+            "SET": 28412914,
+            "TRX ON": 28412635,
+            "TRX OFF": 28412889
+          },
+          {
+            "RISE": 28412578,
+            "SET": 28412904,
+            "TRX ON": 28412635,
+            "TRX OFF": 28412889
+          },
+          {
+            "RISE": 28412581,
+            "SET": 28412946,
+            "TRX ON": 28412635,
+            "TRX OFF": 28412889
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 2,
+      "year": 2024,
+      "duration": 81,
+      "duration_min": 81,
+      "track_id": "ffa1514d-ea26-440b-b92f-79ecab7a45d6",
+      "setup_time": 16,
+      "teardown_time": 14,
+      "time_window_start": 28415576,
+      "time_window_end": 28415657,
+      "resources": [
+        [
+          "DSS-04"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-04": [
+          {
+            "RISE": 28415557,
+            "SET": 28415693,
+            "TRX ON": 28415576,
+            "TRX OFF": 28415657
+          },
+          {
+            "RISE": 28415526,
+            "SET": 28415673,
+            "TRX ON": 28415576,
+            "TRX OFF": 28415657
+          },
+          {
+            "RISE": 28415546,
+            "SET": 28415699,
+            "TRX ON": 28415576,
+            "TRX OFF": 28415657
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 2,
+      "year": 2024,
+      "duration": 79,
+      "duration_min": 79,
+      "track_id": "db3c14da-16ca-4380-8755-9758b7317657",
+      "setup_time": 21,
+      "teardown_time": 12,
+      "time_window_start": 28416882,
+      "time_window_end": 28416961,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": 28416809,
+            "SET": 28417008,
+            "TRX ON": 28416882,
+            "TRX OFF": 28416961
+          },
+          {
+            "RISE": 28416817,
+            "SET": 28416998,
+            "TRX ON": 28416882,
+            "TRX OFF": 28416961
+          },
+          {
+            "RISE": 28416803,
+            "SET": 28417020,
+            "TRX ON": 28416882,
+            "TRX OFF": 28416961
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 2,
+      "year": 2024,
+      "duration": 87,
+      "duration_min": 87,
+      "track_id": "b40ad94b-bb1f-4911-9a23-8b294ddff795",
+      "setup_time": 30,
+      "teardown_time": 7,
+      "time_window_start": 28416420,
+      "time_window_end": 28416507,
+      "resources": [
+        [
+          "DSS-06"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-06": [
+          {
+            "RISE": 28416356,
+            "SET": 28416566,
+            "TRX ON": 28416420,
+            "TRX OFF": 28416507
+          },
+          {
+            "RISE": 28416345,
+            "SET": 28416530,
+            "TRX ON": 28416420,
+            "TRX OFF": 28416507
+          },
+          {
+            "RISE": 28416362,
+            "SET": 28416517,
+            "TRX ON": 28416420,
+            "TRX OFF": 28416507
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 2,
+      "year": 2024,
+      "duration": 91,
+      "duration_min": 91,
+      "track_id": "03507bc6-c4fb-4410-b0fb-62b5738069e4",
+      "setup_time": 11,
+      "teardown_time": 8,
+      "time_window_start": 28415362,
+      "time_window_end": 28415453,
+      "resources": [
+        [
+          "DSS-06"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-06": [
+          {
+            "RISE": 28415348,
+            "SET": 28415462,
+            "TRX ON": 28415362,
+            "TRX OFF": 28415453
+          },
+          {
+            "RISE": 28415305,
+            "SET": 28415497,
+            "TRX ON": 28415362,
+            "TRX OFF": 28415453
+          },
+          {
+            "RISE": 28415344,
+            "SET": 28415491,
+            "TRX ON": 28415362,
+            "TRX OFF": 28415453
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 2,
+      "year": 2024,
+      "duration": 355,
+      "duration_min": 355,
+      "track_id": "7a8be1eb-e21a-4fd0-8c38-aadf863e08ab",
+      "setup_time": 25,
+      "teardown_time": 5,
+      "time_window_start": 28419413,
+      "time_window_end": 28419768,
+      "resources": [
+        [
+          "DSS-07"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-07": [
+          {
+            "RISE": 28419342,
+            "SET": 28419827,
+            "TRX ON": 28419413,
+            "TRX OFF": 28419768
+          },
+          {
+            "RISE": 28419334,
+            "SET": 28419826,
+            "TRX ON": 28419413,
+            "TRX OFF": 28419768
+          },
+          {
+            "RISE": 28419384,
+            "SET": 28419830,
+            "TRX ON": 28419413,
+            "TRX OFF": 28419768
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 2,
+      "year": 2024,
+      "duration": 63,
+      "duration_min": 63,
+      "track_id": "fea72a70-68b5-4f07-bd54-25ed14ffb91e",
+      "setup_time": 28,
+      "teardown_time": 8,
+      "time_window_start": 28420716,
+      "time_window_end": 28420779,
+      "resources": [
+        [
+          "DSS-09"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-09": [
+          {
+            "RISE": 28420679,
+            "SET": 28420815,
+            "TRX ON": 28420716,
+            "TRX OFF": 28420779
+          },
+          {
+            "RISE": 28420688,
+            "SET": 28420799,
+            "TRX ON": 28420716,
+            "TRX OFF": 28420779
+          },
+          {
+            "RISE": 28420634,
+            "SET": 28420813,
+            "TRX ON": 28420716,
+            "TRX OFF": 28420779
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 2,
+      "year": 2024,
+      "duration": 92,
+      "duration_min": 92,
+      "track_id": "7d7e7fee-d312-40f7-be4b-39712c14809c",
+      "setup_time": 17,
+      "teardown_time": 15,
+      "time_window_start": 28420791,
+      "time_window_end": 28420883,
+      "resources": [
+        [
+          "DSS-01"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-01": [
+          {
+            "RISE": 28420722,
+            "SET": 28420918,
+            "TRX ON": 28420791,
+            "TRX OFF": 28420883
+          },
+          {
+            "RISE": 28420774,
+            "SET": 28420949,
+            "TRX ON": 28420791,
+            "TRX OFF": 28420883
+          },
+          {
+            "RISE": 28420763,
+            "SET": 28420923,
+            "TRX ON": 28420791,
+            "TRX OFF": 28420883
+          }
+        ]
+      }
+    }
+  ]
+}
