@@ -1,133 +1,41 @@
 {
-  "W1_2018": [
+  "W10_2018": [
     {
       "subject": 521,
       "user": "521_0",
-      "week": 1,
+      "week": 10,
       "year": 2018,
-      "duration": 111,
-      "duration_min": 111,
+      "duration": 98,
+      "duration_min": 98,
       "resources": [
         [
-          "DSS-24"
-        ],
-        [
-          "DSS-36"
-        ],
-        [
-          "DSS-34"
-        ],
-        [
-          "DSS-54"
-        ],
-        [
-          "DSS-26"
+          "DSS-24_DSS-54"
         ]
       ],
-      "track_id": "db001077-1598-42bb-b6d1-d30d7aba5ee7",
+      "track_id": "8db78723-68bc-47ff-9a5c-b1dd3835c3bf",
       "setup_time": 60,
       "teardown_time": 15,
-      "time_window_start": 868,
-      "time_window_end": 929,
+      "time_window_start": 234,
+      "time_window_end": 302,
       "resource_vp_dict": {
-        "DSS-24": [
+        "DSS-24_DSS-54": [
           {
-            "RISE": 868,
-            "SET": 932,
-            "TRX ON": 868,
-            "TRX OFF": 932
+            "RISE": 234,
+            "SET": 400,
+            "TRX ON": 234,
+            "TRX OFF": 400
           },
           {
-            "RISE": 888,
-            "SET": 988,
-            "TRX ON": 888,
-            "TRX OFF": 988
+            "RISE": 256,
+            "SET": 321,
+            "TRX ON": 256,
+            "TRX OFF": 321
           },
           {
-            "RISE": 908,
-            "SET": 994,
-            "TRX ON": 908,
-            "TRX OFF": 994
-          }
-        ],
-        "DSS-36": [
-          {
-            "RISE": 868,
-            "SET": 1010,
-            "TRX ON": 868,
-            "TRX OFF": 1010
-          },
-          {
-            "RISE": 888,
-            "SET": 978,
-            "TRX ON": 888,
-            "TRX OFF": 978
-          },
-          {
-            "RISE": 908,
-            "SET": 1083,
-            "TRX ON": 908,
-            "TRX OFF": 1083
-          }
-        ],
-        "DSS-34": [
-          {
-            "RISE": 868,
-            "SET": 1072,
-            "TRX ON": 868,
-            "TRX OFF": 1072
-          },
-          {
-            "RISE": 888,
-            "SET": 1047,
-            "TRX ON": 888,
-            "TRX OFF": 1047
-          },
-          {
-            "RISE": 908,
-            "SET": 981,
-            "TRX ON": 908,
-            "TRX OFF": 981
-          }
-        ],
-        "DSS-54": [
-          {
-            "RISE": 868,
-            "SET": 1044,
-            "TRX ON": 868,
-            "TRX OFF": 1044
-          },
-          {
-            "RISE": 888,
-            "SET": 1096,
-            "TRX ON": 888,
-            "TRX OFF": 1096
-          },
-          {
-            "RISE": 908,
-            "SET": 1047,
-            "TRX ON": 908,
-            "TRX OFF": 1047
-          }
-        ],
-        "DSS-26": [
-          {
-            "RISE": 868,
-            "SET": 1027,
-            "TRX ON": 868,
-            "TRX OFF": 1027
-          },
-          {
-            "RISE": 888,
-            "SET": 1114,
-            "TRX ON": 888,
-            "TRX OFF": 1114
-          },
-          {
-            "RISE": 908,
-            "SET": 1140,
-            "TRX ON": 908,
-            "TRX OFF": 1140
+            "RISE": 278,
+            "SET": 354,
+            "TRX ON": 278,
+            "TRX OFF": 354
           }
         ]
       }
@@ -135,85 +43,39 @@
     {
       "subject": 521,
       "user": "521_0",
-      "week": 1,
+      "week": 10,
       "year": 2018,
-      "duration": 76,
-      "duration_min": 76,
+      "duration": 73,
+      "duration_min": 73,
       "resources": [
         [
-          "DSS-54"
-        ],
-        [
-          "DSS-26"
-        ],
-        [
-          "DSS-36"
+          "DSS-54_DSS-36"
         ]
       ],
-      "track_id": "710d9a07-1749-4a51-af29-e656603f07e5",
+      "track_id": "f7db0092-795b-425d-9d99-c888b3981fcd",
       "setup_time": 60,
       "teardown_time": 15,
-      "time_window_start": 7061,
-      "time_window_end": 7139,
+      "time_window_start": 5634,
+      "time_window_end": 5710,
       "resource_vp_dict": {
-        "DSS-54": [
+        "DSS-54_DSS-36": [
           {
-            "RISE": 7061,
-            "SET": 7162,
-            "TRX ON": 7061,
-            "TRX OFF": 7162
+            "RISE": 5634,
+            "SET": 5733,
+            "TRX ON": 5634,
+            "TRX OFF": 5733
           },
           {
-            "RISE": 7087,
-            "SET": 7271,
-            "TRX ON": 7087,
-            "TRX OFF": 7271
+            "RISE": 5659,
+            "SET": 5825,
+            "TRX ON": 5659,
+            "TRX OFF": 5825
           },
           {
-            "RISE": 7113,
-            "SET": 7265,
-            "TRX ON": 7113,
-            "TRX OFF": 7265
-          }
-        ],
-        "DSS-26": [
-          {
-            "RISE": 7061,
-            "SET": 7122,
-            "TRX ON": 7061,
-            "TRX OFF": 7122
-          },
-          {
-            "RISE": 7087,
-            "SET": 7301,
-            "TRX ON": 7087,
-            "TRX OFF": 7301
-          },
-          {
-            "RISE": 7113,
-            "SET": 7253,
-            "TRX ON": 7113,
-            "TRX OFF": 7253
-          }
-        ],
-        "DSS-36": [
-          {
-            "RISE": 7061,
-            "SET": 7210,
-            "TRX ON": 7061,
-            "TRX OFF": 7210
-          },
-          {
-            "RISE": 7087,
-            "SET": 7157,
-            "TRX ON": 7087,
-            "TRX OFF": 7157
-          },
-          {
-            "RISE": 7113,
-            "SET": 7302,
-            "TRX ON": 7113,
-            "TRX OFF": 7302
+            "RISE": 5684,
+            "SET": 5889,
+            "TRX ON": 5684,
+            "TRX OFF": 5889
           }
         ]
       }
@@ -221,39 +83,39 @@
     {
       "subject": 521,
       "user": "521_0",
-      "week": 1,
+      "week": 10,
       "year": 2018,
-      "duration": 88,
-      "duration_min": 88,
+      "duration": 60,
+      "duration_min": 60,
       "resources": [
         [
-          "DSS-34"
+          "DSS-26_DSS-54"
         ]
       ],
-      "track_id": "65c6adac-5d5e-4fb9-aca0-9d9b1f62611b",
+      "track_id": "3745495f-8295-4dae-9e2c-44f26e938ecd",
       "setup_time": 60,
       "teardown_time": 15,
-      "time_window_start": 5971,
-      "time_window_end": 6039,
+      "time_window_start": 7542,
+      "time_window_end": 7622,
       "resource_vp_dict": {
-        "DSS-34": [
+        "DSS-26_DSS-54": [
           {
-            "RISE": 5971,
-            "SET": 6175,
-            "TRX ON": 5971,
-            "TRX OFF": 6175
+            "RISE": 7542,
+            "SET": 7774,
+            "TRX ON": 7542,
+            "TRX OFF": 7774
           },
           {
-            "RISE": 5993,
-            "SET": 6135,
-            "TRX ON": 5993,
-            "TRX OFF": 6135
+            "RISE": 7568,
+            "SET": 7688,
+            "TRX ON": 7568,
+            "TRX OFF": 7688
           },
           {
-            "RISE": 6015,
-            "SET": 6083,
-            "TRX ON": 6015,
-            "TRX OFF": 6083
+            "RISE": 7594,
+            "SET": 7670,
+            "TRX ON": 7594,
+            "TRX OFF": 7670
           }
         ]
       }
@@ -261,25 +123,1903 @@
     {
       "subject": 521,
       "user": "521_0",
-      "week": 1,
+      "week": 10,
       "year": 2018,
       "duration": 65,
       "duration_min": 65,
       "resources": [
         [
-          "DSS-24"
-        ],
+          "DSS-36_DSS-24"
+        ]
+      ],
+      "track_id": "ff746a46-e1e3-44e5-b6c0-c397237696f1",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 7932,
+      "time_window_end": 8010,
+      "resource_vp_dict": {
+        "DSS-36_DSS-24": [
+          {
+            "RISE": 7932,
+            "SET": 8167,
+            "TRX ON": 7932,
+            "TRX OFF": 8167
+          },
+          {
+            "RISE": 7958,
+            "SET": 8086,
+            "TRX ON": 7958,
+            "TRX OFF": 8086
+          },
+          {
+            "RISE": 7984,
+            "SET": 8143,
+            "TRX ON": 7984,
+            "TRX OFF": 8143
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 10,
+      "year": 2018,
+      "duration": 109,
+      "duration_min": 109,
+      "resources": [
+        [
+          "DSS-24_DSS-54"
+        ]
+      ],
+      "track_id": "3065ba0f-d17f-49bb-b04c-ecdb243da77f",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 5789,
+      "time_window_end": 5874,
+      "resource_vp_dict": {
+        "DSS-24_DSS-54": [
+          {
+            "RISE": 5789,
+            "SET": 5968,
+            "TRX ON": 5789,
+            "TRX OFF": 5968
+          },
+          {
+            "RISE": 5817,
+            "SET": 6016,
+            "TRX ON": 5817,
+            "TRX OFF": 6016
+          },
+          {
+            "RISE": 5845,
+            "SET": 6082,
+            "TRX ON": 5845,
+            "TRX OFF": 6082
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 10,
+      "year": 2018,
+      "duration": 111,
+      "duration_min": 111,
+      "resources": [
+        [
+          "DSS-34_DSS-26"
+        ]
+      ],
+      "track_id": "c15c6604-2fb7-4711-9305-edad0c4dd691",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 8110,
+      "time_window_end": 8181,
+      "resource_vp_dict": {
+        "DSS-34_DSS-26": [
+          {
+            "RISE": 8110,
+            "SET": 8236,
+            "TRX ON": 8110,
+            "TRX OFF": 8236
+          },
+          {
+            "RISE": 8133,
+            "SET": 8230,
+            "TRX ON": 8133,
+            "TRX OFF": 8230
+          },
+          {
+            "RISE": 8156,
+            "SET": 8264,
+            "TRX ON": 8156,
+            "TRX OFF": 8264
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 10,
+      "year": 2018,
+      "duration": 116,
+      "duration_min": 116,
+      "resources": [
+        [
+          "DSS-26_DSS-54"
+        ]
+      ],
+      "track_id": "5a3f48da-6fb1-4d07-b30a-9085f856336f",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 6065,
+      "time_window_end": 6143,
+      "resource_vp_dict": {
+        "DSS-26_DSS-54": [
+          {
+            "RISE": 6065,
+            "SET": 6208,
+            "TRX ON": 6065,
+            "TRX OFF": 6208
+          },
+          {
+            "RISE": 6091,
+            "SET": 6199,
+            "TRX ON": 6091,
+            "TRX OFF": 6199
+          },
+          {
+            "RISE": 6117,
+            "SET": 6343,
+            "TRX ON": 6117,
+            "TRX OFF": 6343
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 10,
+      "year": 2018,
+      "duration": 101,
+      "duration_min": 101,
+      "resources": [
+        [
+          "DSS-24_DSS-26"
+        ]
+      ],
+      "track_id": "c90dd231-0fc6-4cb0-83ba-50790fc81903",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 2055,
+      "time_window_end": 2124,
+      "resource_vp_dict": {
+        "DSS-24_DSS-26": [
+          {
+            "RISE": 2055,
+            "SET": 2262,
+            "TRX ON": 2055,
+            "TRX OFF": 2262
+          },
+          {
+            "RISE": 2078,
+            "SET": 2282,
+            "TRX ON": 2078,
+            "TRX OFF": 2282
+          },
+          {
+            "RISE": 2101,
+            "SET": 2233,
+            "TRX ON": 2101,
+            "TRX OFF": 2233
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 10,
+      "year": 2018,
+      "duration": 63,
+      "duration_min": 63,
+      "resources": [
+        [
+          "DSS-26_DSS-36"
+        ]
+      ],
+      "track_id": "90d92a0e-36b9-49e8-9266-a62dea3ad0e4",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 8546,
+      "time_window_end": 8623,
+      "resource_vp_dict": {
+        "DSS-26_DSS-36": [
+          {
+            "RISE": 8546,
+            "SET": 8677,
+            "TRX ON": 8546,
+            "TRX OFF": 8677
+          },
+          {
+            "RISE": 8571,
+            "SET": 8795,
+            "TRX ON": 8571,
+            "TRX OFF": 8795
+          },
+          {
+            "RISE": 8596,
+            "SET": 8738,
+            "TRX ON": 8596,
+            "TRX OFF": 8738
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 10,
+      "year": 2018,
+      "duration": 75,
+      "duration_min": 75,
+      "resources": [
+        [
+          "DSS-54_DSS-36"
+        ]
+      ],
+      "track_id": "0a65b2ac-c4b3-47ce-aabd-f3869646dd14",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 2308,
+      "time_window_end": 2384,
+      "resource_vp_dict": {
+        "DSS-54_DSS-36": [
+          {
+            "RISE": 2308,
+            "SET": 2529,
+            "TRX ON": 2308,
+            "TRX OFF": 2529
+          },
+          {
+            "RISE": 2333,
+            "SET": 2464,
+            "TRX ON": 2333,
+            "TRX OFF": 2464
+          },
+          {
+            "RISE": 2358,
+            "SET": 2457,
+            "TRX ON": 2358,
+            "TRX OFF": 2457
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 10,
+      "year": 2018,
+      "duration": 119,
+      "duration_min": 119,
+      "resources": [
+        [
+          "DSS-24_DSS-26"
+        ]
+      ],
+      "track_id": "54b555d2-9627-4d55-9e25-e9ab3928b99b",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 4769,
+      "time_window_end": 4831,
+      "resource_vp_dict": {
+        "DSS-24_DSS-26": [
+          {
+            "RISE": 4769,
+            "SET": 4941,
+            "TRX ON": 4769,
+            "TRX OFF": 4941
+          },
+          {
+            "RISE": 4789,
+            "SET": 4991,
+            "TRX ON": 4789,
+            "TRX OFF": 4991
+          },
+          {
+            "RISE": 4809,
+            "SET": 4944,
+            "TRX ON": 4809,
+            "TRX OFF": 4944
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 10,
+      "year": 2018,
+      "duration": 63,
+      "duration_min": 63,
+      "resources": [
+        [
+          "DSS-54_DSS-24"
+        ]
+      ],
+      "track_id": "a7bff58f-5808-4a30-b425-2e0e18e81a29",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 3571,
+      "time_window_end": 3660,
+      "resource_vp_dict": {
+        "DSS-54_DSS-24": [
+          {
+            "RISE": 3571,
+            "SET": 3753,
+            "TRX ON": 3571,
+            "TRX OFF": 3753
+          },
+          {
+            "RISE": 3600,
+            "SET": 3680,
+            "TRX ON": 3600,
+            "TRX OFF": 3680
+          },
+          {
+            "RISE": 3629,
+            "SET": 3848,
+            "TRX ON": 3629,
+            "TRX OFF": 3848
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 10,
+      "year": 2018,
+      "duration": 105,
+      "duration_min": 105,
+      "resources": [
+        [
+          "DSS-26_DSS-36"
+        ]
+      ],
+      "track_id": "77fdcab1-2711-4b8e-af1c-77885ebd184d",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 7194,
+      "time_window_end": 7264,
+      "resource_vp_dict": {
+        "DSS-26_DSS-36": [
+          {
+            "RISE": 7194,
+            "SET": 7254,
+            "TRX ON": 7194,
+            "TRX OFF": 7254
+          },
+          {
+            "RISE": 7217,
+            "SET": 7406,
+            "TRX ON": 7217,
+            "TRX OFF": 7406
+          },
+          {
+            "RISE": 7240,
+            "SET": 7429,
+            "TRX ON": 7240,
+            "TRX OFF": 7429
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 10,
+      "year": 2018,
+      "duration": 118,
+      "duration_min": 118,
+      "resources": [
+        [
+          "DSS-34_DSS-26"
+        ]
+      ],
+      "track_id": "bfdc7af3-3960-4afa-b45e-6aac06bbf51c",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 7131,
+      "time_window_end": 7206,
+      "resource_vp_dict": {
+        "DSS-34_DSS-26": [
+          {
+            "RISE": 7131,
+            "SET": 7218,
+            "TRX ON": 7131,
+            "TRX OFF": 7218
+          },
+          {
+            "RISE": 7156,
+            "SET": 7353,
+            "TRX ON": 7156,
+            "TRX OFF": 7353
+          },
+          {
+            "RISE": 7181,
+            "SET": 7338,
+            "TRX ON": 7181,
+            "TRX OFF": 7338
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 10,
+      "year": 2018,
+      "duration": 106,
+      "duration_min": 106,
+      "resources": [
+        [
+          "DSS-24_DSS-54"
+        ]
+      ],
+      "track_id": "e15b3d97-394e-4adf-87bf-b24151e58bda",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 4964,
+      "time_window_end": 5024,
+      "resource_vp_dict": {
+        "DSS-24_DSS-54": [
+          {
+            "RISE": 4964,
+            "SET": 5191,
+            "TRX ON": 4964,
+            "TRX OFF": 5191
+          },
+          {
+            "RISE": 4984,
+            "SET": 5202,
+            "TRX ON": 4984,
+            "TRX OFF": 5202
+          },
+          {
+            "RISE": 5004,
+            "SET": 5213,
+            "TRX ON": 5004,
+            "TRX OFF": 5213
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 10,
+      "year": 2018,
+      "duration": 78,
+      "duration_min": 78,
+      "resources": [
         [
           "DSS-36"
         ]
       ],
-      "track_id": "39a438de-6a1d-47f1-968a-adec1cd3b2da",
+      "track_id": "8fb0cebf-03bd-4c63-bc1d-416930effc49",
       "setup_time": 60,
       "teardown_time": 15,
-      "time_window_start": 6464,
-      "time_window_end": 6545,
+      "time_window_start": 542,
+      "time_window_end": 628,
+      "resource_vp_dict": {
+        "DSS-36": [
+          {
+            "RISE": 542,
+            "SET": 748,
+            "TRX ON": 542,
+            "TRX OFF": 748
+          },
+          {
+            "RISE": 570,
+            "SET": 806,
+            "TRX ON": 570,
+            "TRX OFF": 806
+          },
+          {
+            "RISE": 598,
+            "SET": 753,
+            "TRX ON": 598,
+            "TRX OFF": 753
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 10,
+      "year": 2018,
+      "duration": 67,
+      "duration_min": 67,
+      "resources": [
+        [
+          "DSS-54_DSS-36"
+        ]
+      ],
+      "track_id": "2597b3e7-e075-4f12-b0eb-3dd74f2267f4",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 6175,
+      "time_window_end": 6263,
+      "resource_vp_dict": {
+        "DSS-54_DSS-36": [
+          {
+            "RISE": 6175,
+            "SET": 6408,
+            "TRX ON": 6175,
+            "TRX OFF": 6408
+          },
+          {
+            "RISE": 6204,
+            "SET": 6431,
+            "TRX ON": 6204,
+            "TRX OFF": 6431
+          },
+          {
+            "RISE": 6233,
+            "SET": 6428,
+            "TRX ON": 6233,
+            "TRX OFF": 6428
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 10,
+      "year": 2018,
+      "duration": 101,
+      "duration_min": 101,
+      "resources": [
+        [
+          "DSS-34_DSS-36"
+        ]
+      ],
+      "track_id": "fa59d74f-60dd-41d3-b9e7-f5b17f151241",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 6673,
+      "time_window_end": 6744,
+      "resource_vp_dict": {
+        "DSS-34_DSS-36": [
+          {
+            "RISE": 6673,
+            "SET": 6894,
+            "TRX ON": 6673,
+            "TRX OFF": 6894
+          },
+          {
+            "RISE": 6696,
+            "SET": 6837,
+            "TRX ON": 6696,
+            "TRX OFF": 6837
+          },
+          {
+            "RISE": 6719,
+            "SET": 6823,
+            "TRX ON": 6719,
+            "TRX OFF": 6823
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 10,
+      "year": 2018,
+      "duration": 63,
+      "duration_min": 63,
+      "resources": [
+        [
+          "DSS-24_DSS-54"
+        ]
+      ],
+      "track_id": "4321738e-d8a3-4638-8852-6d406df92f39",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 196,
+      "time_window_end": 272,
+      "resource_vp_dict": {
+        "DSS-24_DSS-54": [
+          {
+            "RISE": 196,
+            "SET": 383,
+            "TRX ON": 196,
+            "TRX OFF": 383
+          },
+          {
+            "RISE": 221,
+            "SET": 291,
+            "TRX ON": 221,
+            "TRX OFF": 291
+          },
+          {
+            "RISE": 246,
+            "SET": 318,
+            "TRX ON": 246,
+            "TRX OFF": 318
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 10,
+      "year": 2018,
+      "duration": 61,
+      "duration_min": 61,
+      "resources": [
+        [
+          "DSS-36_DSS-26"
+        ]
+      ],
+      "track_id": "9ac526e0-e4e6-4f16-bbae-7810590cca50",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 3092,
+      "time_window_end": 3167,
+      "resource_vp_dict": {
+        "DSS-36_DSS-26": [
+          {
+            "RISE": 3092,
+            "SET": 3249,
+            "TRX ON": 3092,
+            "TRX OFF": 3249
+          },
+          {
+            "RISE": 3117,
+            "SET": 3307,
+            "TRX ON": 3117,
+            "TRX OFF": 3307
+          },
+          {
+            "RISE": 3142,
+            "SET": 3360,
+            "TRX ON": 3142,
+            "TRX OFF": 3360
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 10,
+      "year": 2018,
+      "duration": 94,
+      "duration_min": 94,
+      "resources": [
+        [
+          "DSS-24_DSS-54"
+        ]
+      ],
+      "track_id": "bc4880d4-5bd1-4537-933a-ef518159c74f",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 2274,
+      "time_window_end": 2348,
+      "resource_vp_dict": {
+        "DSS-24_DSS-54": [
+          {
+            "RISE": 2274,
+            "SET": 2452,
+            "TRX ON": 2274,
+            "TRX OFF": 2452
+          },
+          {
+            "RISE": 2298,
+            "SET": 2421,
+            "TRX ON": 2298,
+            "TRX OFF": 2421
+          },
+          {
+            "RISE": 2322,
+            "SET": 2455,
+            "TRX ON": 2322,
+            "TRX OFF": 2455
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 10,
+      "year": 2018,
+      "duration": 111,
+      "duration_min": 111,
+      "resources": [
+        [
+          "DSS-24_DSS-36"
+        ]
+      ],
+      "track_id": "2c7fa261-a207-4aa2-a91b-6133398b3da4",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 507,
+      "time_window_end": 586,
+      "resource_vp_dict": {
+        "DSS-24_DSS-36": [
+          {
+            "RISE": 507,
+            "SET": 698,
+            "TRX ON": 507,
+            "TRX OFF": 698
+          },
+          {
+            "RISE": 533,
+            "SET": 737,
+            "TRX ON": 533,
+            "TRX OFF": 737
+          },
+          {
+            "RISE": 559,
+            "SET": 638,
+            "TRX ON": 559,
+            "TRX OFF": 638
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 10,
+      "year": 2018,
+      "duration": 71,
+      "duration_min": 71,
+      "resources": [
+        [
+          "DSS-36_DSS-26"
+        ]
+      ],
+      "track_id": "c626190d-1c13-4c21-ae86-4c67881d9a1f",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 5019,
+      "time_window_end": 5083,
+      "resource_vp_dict": {
+        "DSS-36_DSS-26": [
+          {
+            "RISE": 5019,
+            "SET": 5236,
+            "TRX ON": 5019,
+            "TRX OFF": 5236
+          },
+          {
+            "RISE": 5040,
+            "SET": 5113,
+            "TRX ON": 5040,
+            "TRX OFF": 5113
+          },
+          {
+            "RISE": 5061,
+            "SET": 5266,
+            "TRX ON": 5061,
+            "TRX OFF": 5266
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 10,
+      "year": 2018,
+      "duration": 111,
+      "duration_min": 111,
+      "resources": [
+        [
+          "DSS-24_DSS-54"
+        ]
+      ],
+      "track_id": "24fd879d-3f36-433f-b6b2-9e60e897bbe4",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 916,
+      "time_window_end": 995,
+      "resource_vp_dict": {
+        "DSS-24_DSS-54": [
+          {
+            "RISE": 916,
+            "SET": 1142,
+            "TRX ON": 916,
+            "TRX OFF": 1142
+          },
+          {
+            "RISE": 942,
+            "SET": 1154,
+            "TRX ON": 942,
+            "TRX OFF": 1154
+          },
+          {
+            "RISE": 968,
+            "SET": 1057,
+            "TRX ON": 968,
+            "TRX OFF": 1057
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 10,
+      "year": 2018,
+      "duration": 89,
+      "duration_min": 89,
+      "resources": [
+        [
+          "DSS-36_DSS-24"
+        ]
+      ],
+      "track_id": "c77acf2f-5179-425b-a89e-0e40befe9b93",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 2000,
+      "time_window_end": 2072,
+      "resource_vp_dict": {
+        "DSS-36_DSS-24": [
+          {
+            "RISE": 2000,
+            "SET": 2237,
+            "TRX ON": 2000,
+            "TRX OFF": 2237
+          },
+          {
+            "RISE": 2024,
+            "SET": 2131,
+            "TRX ON": 2024,
+            "TRX OFF": 2131
+          },
+          {
+            "RISE": 2048,
+            "SET": 2249,
+            "TRX ON": 2048,
+            "TRX OFF": 2249
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 10,
+      "year": 2018,
+      "duration": 87,
+      "duration_min": 87,
+      "resources": [
+        [
+          "DSS-36"
+        ],
+        [
+          "DSS-26"
+        ],
+        [
+          "DSS-24"
+        ],
+        [
+          "DSS-54"
+        ],
+        [
+          "DSS-34"
+        ]
+      ],
+      "track_id": "a0ffff1e-fbb7-424c-b851-f2a8d22296e2",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 3959,
+      "time_window_end": 4047,
+      "resource_vp_dict": {
+        "DSS-36": [
+          {
+            "RISE": 3959,
+            "SET": 4193,
+            "TRX ON": 3959,
+            "TRX OFF": 4193
+          },
+          {
+            "RISE": 3988,
+            "SET": 4152,
+            "TRX ON": 3988,
+            "TRX OFF": 4152
+          },
+          {
+            "RISE": 4017,
+            "SET": 4174,
+            "TRX ON": 4017,
+            "TRX OFF": 4174
+          }
+        ],
+        "DSS-26": [
+          {
+            "RISE": 3959,
+            "SET": 4153,
+            "TRX ON": 3959,
+            "TRX OFF": 4153
+          },
+          {
+            "RISE": 3988,
+            "SET": 4058,
+            "TRX ON": 3988,
+            "TRX OFF": 4058
+          },
+          {
+            "RISE": 4017,
+            "SET": 4182,
+            "TRX ON": 4017,
+            "TRX OFF": 4182
+          }
+        ],
+        "DSS-24": [
+          {
+            "RISE": 3959,
+            "SET": 4109,
+            "TRX ON": 3959,
+            "TRX OFF": 4109
+          },
+          {
+            "RISE": 3988,
+            "SET": 4201,
+            "TRX ON": 3988,
+            "TRX OFF": 4201
+          },
+          {
+            "RISE": 4017,
+            "SET": 4105,
+            "TRX ON": 4017,
+            "TRX OFF": 4105
+          }
+        ],
+        "DSS-54": [
+          {
+            "RISE": 3959,
+            "SET": 4191,
+            "TRX ON": 3959,
+            "TRX OFF": 4191
+          },
+          {
+            "RISE": 3988,
+            "SET": 4062,
+            "TRX ON": 3988,
+            "TRX OFF": 4062
+          },
+          {
+            "RISE": 4017,
+            "SET": 4110,
+            "TRX ON": 4017,
+            "TRX OFF": 4110
+          }
+        ],
+        "DSS-34": [
+          {
+            "RISE": 3959,
+            "SET": 4126,
+            "TRX ON": 3959,
+            "TRX OFF": 4126
+          },
+          {
+            "RISE": 3988,
+            "SET": 4169,
+            "TRX ON": 3988,
+            "TRX OFF": 4169
+          },
+          {
+            "RISE": 4017,
+            "SET": 4119,
+            "TRX ON": 4017,
+            "TRX OFF": 4119
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 10,
+      "year": 2018,
+      "duration": 67,
+      "duration_min": 67,
+      "resources": [
+        [
+          "DSS-54_DSS-24"
+        ]
+      ],
+      "track_id": "5a90e40c-853d-4dcc-afde-16e0ce8ce365",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 8333,
+      "time_window_end": 8400,
+      "resource_vp_dict": {
+        "DSS-54_DSS-24": [
+          {
+            "RISE": 8333,
+            "SET": 8468,
+            "TRX ON": 8333,
+            "TRX OFF": 8468
+          },
+          {
+            "RISE": 8355,
+            "SET": 8520,
+            "TRX ON": 8355,
+            "TRX OFF": 8520
+          },
+          {
+            "RISE": 8377,
+            "SET": 8531,
+            "TRX ON": 8377,
+            "TRX OFF": 8531
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 10,
+      "year": 2018,
+      "duration": 116,
+      "duration_min": 116,
+      "resources": [
+        [
+          "DSS-36_DSS-26"
+        ]
+      ],
+      "track_id": "8732d82c-8d3c-4889-8593-72111e4dda49",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 1911,
+      "time_window_end": 1992,
+      "resource_vp_dict": {
+        "DSS-36_DSS-26": [
+          {
+            "RISE": 1911,
+            "SET": 2091,
+            "TRX ON": 1911,
+            "TRX OFF": 2091
+          },
+          {
+            "RISE": 1938,
+            "SET": 2051,
+            "TRX ON": 1938,
+            "TRX OFF": 2051
+          },
+          {
+            "RISE": 1965,
+            "SET": 2081,
+            "TRX ON": 1965,
+            "TRX OFF": 2081
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 10,
+      "year": 2018,
+      "duration": 105,
+      "duration_min": 105,
+      "resources": [
+        [
+          "DSS-24"
+        ]
+      ],
+      "track_id": "420a66ef-dd60-4a05-838b-520196f2c0ef",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 679,
+      "time_window_end": 752,
       "resource_vp_dict": {
         "DSS-24": [
+          {
+            "RISE": 679,
+            "SET": 835,
+            "TRX ON": 679,
+            "TRX OFF": 835
+          },
+          {
+            "RISE": 703,
+            "SET": 854,
+            "TRX ON": 703,
+            "TRX OFF": 854
+          },
+          {
+            "RISE": 727,
+            "SET": 810,
+            "TRX ON": 727,
+            "TRX OFF": 810
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 10,
+      "year": 2018,
+      "duration": 80,
+      "duration_min": 80,
+      "resources": [
+        [
+          "DSS-36_DSS-34"
+        ]
+      ],
+      "track_id": "97ac881f-d11d-4fec-809c-dae2fc068bb5",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 643,
+      "time_window_end": 710,
+      "resource_vp_dict": {
+        "DSS-36_DSS-34": [
+          {
+            "RISE": 643,
+            "SET": 813,
+            "TRX ON": 643,
+            "TRX OFF": 813
+          },
+          {
+            "RISE": 665,
+            "SET": 902,
+            "TRX ON": 665,
+            "TRX OFF": 902
+          },
+          {
+            "RISE": 687,
+            "SET": 864,
+            "TRX ON": 687,
+            "TRX OFF": 864
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 10,
+      "year": 2018,
+      "duration": 60,
+      "duration_min": 60,
+      "resources": [
+        [
+          "DSS-26_DSS-34"
+        ]
+      ],
+      "track_id": "fcb68721-86dc-46af-962f-3cfa0e267045",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 7648,
+      "time_window_end": 7716,
+      "resource_vp_dict": {
+        "DSS-26_DSS-34": [
+          {
+            "RISE": 7648,
+            "SET": 7728,
+            "TRX ON": 7648,
+            "TRX OFF": 7728
+          },
+          {
+            "RISE": 7670,
+            "SET": 7749,
+            "TRX ON": 7670,
+            "TRX OFF": 7749
+          },
+          {
+            "RISE": 7692,
+            "SET": 7851,
+            "TRX ON": 7692,
+            "TRX OFF": 7851
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 10,
+      "year": 2018,
+      "duration": 76,
+      "duration_min": 76,
+      "resources": [
+        [
+          "DSS-34_DSS-36"
+        ]
+      ],
+      "track_id": "fde87b05-15dd-456b-96c1-c07ad759b91c",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 5661,
+      "time_window_end": 5742,
+      "resource_vp_dict": {
+        "DSS-34_DSS-36": [
+          {
+            "RISE": 5661,
+            "SET": 5766,
+            "TRX ON": 5661,
+            "TRX OFF": 5766
+          },
+          {
+            "RISE": 5688,
+            "SET": 5911,
+            "TRX ON": 5688,
+            "TRX OFF": 5911
+          },
+          {
+            "RISE": 5715,
+            "SET": 5784,
+            "TRX ON": 5715,
+            "TRX OFF": 5784
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 10,
+      "year": 2018,
+      "duration": 98,
+      "duration_min": 98,
+      "resources": [
+        [
+          "DSS-26_DSS-34"
+        ]
+      ],
+      "track_id": "118c7fb3-82a9-4d5f-a990-4e72faa1c7b7",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 7762,
+      "time_window_end": 7823,
+      "resource_vp_dict": {
+        "DSS-26_DSS-34": [
+          {
+            "RISE": 7762,
+            "SET": 7851,
+            "TRX ON": 7762,
+            "TRX OFF": 7851
+          },
+          {
+            "RISE": 7782,
+            "SET": 7921,
+            "TRX ON": 7782,
+            "TRX OFF": 7921
+          },
+          {
+            "RISE": 7802,
+            "SET": 7989,
+            "TRX ON": 7802,
+            "TRX OFF": 7989
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 10,
+      "year": 2018,
+      "duration": 93,
+      "duration_min": 93,
+      "resources": [
+        [
+          "DSS-26_DSS-24"
+        ]
+      ],
+      "track_id": "f8d11e1e-6bab-4a18-bbf6-099f1714974a",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 1047,
+      "time_window_end": 1135,
+      "resource_vp_dict": {
+        "DSS-26_DSS-24": [
+          {
+            "RISE": 1047,
+            "SET": 1257,
+            "TRX ON": 1047,
+            "TRX OFF": 1257
+          },
+          {
+            "RISE": 1076,
+            "SET": 1240,
+            "TRX ON": 1076,
+            "TRX OFF": 1240
+          },
+          {
+            "RISE": 1105,
+            "SET": 1191,
+            "TRX ON": 1105,
+            "TRX OFF": 1191
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 10,
+      "year": 2018,
+      "duration": 67,
+      "duration_min": 67,
+      "resources": [
+        [
+          "DSS-24_DSS-34"
+        ]
+      ],
+      "track_id": "b2709c91-abe0-4823-ab96-29632a234e1e",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 2885,
+      "time_window_end": 2971,
+      "resource_vp_dict": {
+        "DSS-24_DSS-34": [
+          {
+            "RISE": 2885,
+            "SET": 2982,
+            "TRX ON": 2885,
+            "TRX OFF": 2982
+          },
+          {
+            "RISE": 2913,
+            "SET": 3017,
+            "TRX ON": 2913,
+            "TRX OFF": 3017
+          },
+          {
+            "RISE": 2941,
+            "SET": 3019,
+            "TRX ON": 2941,
+            "TRX OFF": 3019
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 10,
+      "year": 2018,
+      "duration": 106,
+      "duration_min": 106,
+      "resources": [
+        [
+          "DSS-26_DSS-54"
+        ]
+      ],
+      "track_id": "e4502e30-c521-4f6d-99c1-27c13855d594",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 8275,
+      "time_window_end": 8347,
+      "resource_vp_dict": {
+        "DSS-26_DSS-54": [
+          {
+            "RISE": 8275,
+            "SET": 8490,
+            "TRX ON": 8275,
+            "TRX OFF": 8490
+          },
+          {
+            "RISE": 8299,
+            "SET": 8534,
+            "TRX ON": 8299,
+            "TRX OFF": 8534
+          },
+          {
+            "RISE": 8323,
+            "SET": 8528,
+            "TRX ON": 8323,
+            "TRX OFF": 8528
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 10,
+      "year": 2018,
+      "duration": 112,
+      "duration_min": 112,
+      "resources": [
+        [
+          "DSS-36_DSS-26"
+        ]
+      ],
+      "track_id": "c4b26308-3206-4b8c-9846-9e495bd96c46",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 232,
+      "time_window_end": 314,
+      "resource_vp_dict": {
+        "DSS-36_DSS-26": [
+          {
+            "RISE": 232,
+            "SET": 340,
+            "TRX ON": 232,
+            "TRX OFF": 340
+          },
+          {
+            "RISE": 259,
+            "SET": 460,
+            "TRX ON": 259,
+            "TRX OFF": 460
+          },
+          {
+            "RISE": 286,
+            "SET": 365,
+            "TRX ON": 286,
+            "TRX OFF": 365
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 10,
+      "year": 2018,
+      "duration": 112,
+      "duration_min": 112,
+      "resources": [
+        [
+          "DSS-36_DSS-34"
+        ]
+      ],
+      "track_id": "effd0ed4-3be0-445f-bced-8ad9cc666e89",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 8036,
+      "time_window_end": 8102,
+      "resource_vp_dict": {
+        "DSS-36_DSS-34": [
+          {
+            "RISE": 8036,
+            "SET": 8150,
+            "TRX ON": 8036,
+            "TRX OFF": 8150
+          },
+          {
+            "RISE": 8058,
+            "SET": 8261,
+            "TRX ON": 8058,
+            "TRX OFF": 8261
+          },
+          {
+            "RISE": 8080,
+            "SET": 8180,
+            "TRX ON": 8080,
+            "TRX OFF": 8180
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 10,
+      "year": 2018,
+      "duration": 61,
+      "duration_min": 61,
+      "resources": [
+        [
+          "DSS-34_DSS-54"
+        ]
+      ],
+      "track_id": "82553bb6-3abe-4163-a677-eaf62a0c24cd",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 1807,
+      "time_window_end": 1876,
+      "resource_vp_dict": {
+        "DSS-34_DSS-54": [
+          {
+            "RISE": 1807,
+            "SET": 1982,
+            "TRX ON": 1807,
+            "TRX OFF": 1982
+          },
+          {
+            "RISE": 1830,
+            "SET": 1961,
+            "TRX ON": 1830,
+            "TRX OFF": 1961
+          },
+          {
+            "RISE": 1853,
+            "SET": 2089,
+            "TRX ON": 1853,
+            "TRX OFF": 2089
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 10,
+      "year": 2018,
+      "duration": 92,
+      "duration_min": 92,
+      "resources": [
+        [
+          "DSS-54"
+        ],
+        [
+          "DSS-34"
+        ]
+      ],
+      "track_id": "381294a7-39f1-42a4-b348-4396b8512f62",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 8791,
+      "time_window_end": 8854,
+      "resource_vp_dict": {
+        "DSS-54": [
+          {
+            "RISE": 8791,
+            "SET": 8857,
+            "TRX ON": 8791,
+            "TRX OFF": 8857
+          },
+          {
+            "RISE": 8812,
+            "SET": 8979,
+            "TRX ON": 8812,
+            "TRX OFF": 8979
+          },
+          {
+            "RISE": 8833,
+            "SET": 8955,
+            "TRX ON": 8833,
+            "TRX OFF": 8955
+          }
+        ],
+        "DSS-34": [
+          {
+            "RISE": 8791,
+            "SET": 8992,
+            "TRX ON": 8791,
+            "TRX OFF": 8992
+          },
+          {
+            "RISE": 8812,
+            "SET": 8950,
+            "TRX ON": 8812,
+            "TRX OFF": 8950
+          },
+          {
+            "RISE": 8833,
+            "SET": 9070,
+            "TRX ON": 8833,
+            "TRX OFF": 9070
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 10,
+      "year": 2018,
+      "duration": 66,
+      "duration_min": 66,
+      "resources": [
+        [
+          "DSS-36_DSS-24"
+        ]
+      ],
+      "track_id": "ff40ce1d-8c9f-4dbe-b8e2-1c9750817b29",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 8419,
+      "time_window_end": 8484,
+      "resource_vp_dict": {
+        "DSS-36_DSS-24": [
+          {
+            "RISE": 8419,
+            "SET": 8572,
+            "TRX ON": 8419,
+            "TRX OFF": 8572
+          },
+          {
+            "RISE": 8440,
+            "SET": 8645,
+            "TRX ON": 8440,
+            "TRX OFF": 8645
+          },
+          {
+            "RISE": 8461,
+            "SET": 8644,
+            "TRX ON": 8461,
+            "TRX OFF": 8644
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 10,
+      "year": 2018,
+      "duration": 116,
+      "duration_min": 116,
+      "resources": [
+        [
+          "DSS-34_DSS-54"
+        ]
+      ],
+      "track_id": "b3dba5f6-9e35-4e0e-90b9-b3a41f9ecad4",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 6898,
+      "time_window_end": 6963,
+      "resource_vp_dict": {
+        "DSS-34_DSS-54": [
+          {
+            "RISE": 6898,
+            "SET": 7077,
+            "TRX ON": 6898,
+            "TRX OFF": 7077
+          },
+          {
+            "RISE": 6919,
+            "SET": 7001,
+            "TRX ON": 6919,
+            "TRX OFF": 7001
+          },
+          {
+            "RISE": 6940,
+            "SET": 7162,
+            "TRX ON": 6940,
+            "TRX OFF": 7162
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 10,
+      "year": 2018,
+      "duration": 90,
+      "duration_min": 90,
+      "resources": [
+        [
+          "DSS-54_DSS-26"
+        ]
+      ],
+      "track_id": "dfdade28-a744-45e2-94eb-da452e13f70f",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 6242,
+      "time_window_end": 6311,
+      "resource_vp_dict": {
+        "DSS-54_DSS-26": [
+          {
+            "RISE": 6242,
+            "SET": 6336,
+            "TRX ON": 6242,
+            "TRX OFF": 6336
+          },
+          {
+            "RISE": 6265,
+            "SET": 6444,
+            "TRX ON": 6265,
+            "TRX OFF": 6444
+          },
+          {
+            "RISE": 6288,
+            "SET": 6416,
+            "TRX ON": 6288,
+            "TRX OFF": 6416
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 10,
+      "year": 2018,
+      "duration": 104,
+      "duration_min": 104,
+      "resources": [
+        [
+          "DSS-24_DSS-34"
+        ]
+      ],
+      "track_id": "9aa809b4-ce97-4f69-a08e-f0174359c6e1",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 1628,
+      "time_window_end": 1705,
+      "resource_vp_dict": {
+        "DSS-24_DSS-34": [
+          {
+            "RISE": 1628,
+            "SET": 1739,
+            "TRX ON": 1628,
+            "TRX OFF": 1739
+          },
+          {
+            "RISE": 1653,
+            "SET": 1790,
+            "TRX ON": 1653,
+            "TRX OFF": 1790
+          },
+          {
+            "RISE": 1678,
+            "SET": 1842,
+            "TRX ON": 1678,
+            "TRX OFF": 1842
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 10,
+      "year": 2018,
+      "duration": 99,
+      "duration_min": 99,
+      "resources": [
+        [
+          "DSS-36_DSS-26"
+        ]
+      ],
+      "track_id": "53fb10d6-4966-4c82-a387-7e9c822d6326",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 4352,
+      "time_window_end": 4425,
+      "resource_vp_dict": {
+        "DSS-36_DSS-26": [
+          {
+            "RISE": 4352,
+            "SET": 4530,
+            "TRX ON": 4352,
+            "TRX OFF": 4530
+          },
+          {
+            "RISE": 4376,
+            "SET": 4487,
+            "TRX ON": 4376,
+            "TRX OFF": 4487
+          },
+          {
+            "RISE": 4400,
+            "SET": 4579,
+            "TRX ON": 4400,
+            "TRX OFF": 4579
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 10,
+      "year": 2018,
+      "duration": 97,
+      "duration_min": 97,
+      "resources": [
+        [
+          "DSS-34_DSS-26"
+        ]
+      ],
+      "track_id": "ab2336ee-7c35-4532-ae89-b1877f2022f5",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 874,
+      "time_window_end": 962,
+      "resource_vp_dict": {
+        "DSS-34_DSS-26": [
+          {
+            "RISE": 874,
+            "SET": 1079,
+            "TRX ON": 874,
+            "TRX OFF": 1079
+          },
+          {
+            "RISE": 903,
+            "SET": 989,
+            "TRX ON": 903,
+            "TRX OFF": 989
+          },
+          {
+            "RISE": 932,
+            "SET": 1000,
+            "TRX ON": 932,
+            "TRX OFF": 1000
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 10,
+      "year": 2018,
+      "duration": 119,
+      "duration_min": 119,
+      "resources": [
+        [
+          "DSS-54_DSS-26"
+        ]
+      ],
+      "track_id": "967f42f5-3534-4468-92da-eb1b871ddc47",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 5721,
+      "time_window_end": 5804,
+      "resource_vp_dict": {
+        "DSS-54_DSS-26": [
+          {
+            "RISE": 5721,
+            "SET": 5910,
+            "TRX ON": 5721,
+            "TRX OFF": 5910
+          },
+          {
+            "RISE": 5748,
+            "SET": 5877,
+            "TRX ON": 5748,
+            "TRX OFF": 5877
+          },
+          {
+            "RISE": 5775,
+            "SET": 5906,
+            "TRX ON": 5775,
+            "TRX OFF": 5906
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 10,
+      "year": 2018,
+      "duration": 68,
+      "duration_min": 68,
+      "resources": [
+        [
+          "DSS-24_DSS-36"
+        ]
+      ],
+      "track_id": "d823824a-aa9a-4bef-bbdf-b4ebfd52ec37",
+      "setup_time": 60,
+      "teardown_time": 15,
+      "time_window_start": 6436,
+      "time_window_end": 6522,
+      "resource_vp_dict": {
+        "DSS-24_DSS-36": [
+          {
+            "RISE": 6436,
+            "SET": 6535,
+            "TRX ON": 6436,
+            "TRX OFF": 6535
+          },
           {
             "RISE": 6464,
             "SET": 6668,
@@ -287,36 +2027,10 @@
             "TRX OFF": 6668
           },
           {
-            "RISE": 6491,
-            "SET": 6678,
-            "TRX ON": 6491,
-            "TRX OFF": 6678
-          },
-          {
-            "RISE": 6518,
-            "SET": 6645,
-            "TRX ON": 6518,
-            "TRX OFF": 6645
-          }
-        ],
-        "DSS-36": [
-          {
-            "RISE": 6464,
-            "SET": 6545,
-            "TRX ON": 6464,
-            "TRX OFF": 6545
-          },
-          {
-            "RISE": 6491,
-            "SET": 6618,
-            "TRX ON": 6491,
-            "TRX OFF": 6618
-          },
-          {
-            "RISE": 6518,
-            "SET": 6698,
-            "TRX ON": 6518,
-            "TRX OFF": 6698
+            "RISE": 6492,
+            "SET": 6677,
+            "TRX ON": 6492,
+            "TRX OFF": 6677
           }
         ]
       }
@@ -324,62 +2038,39 @@
     {
       "subject": 521,
       "user": "521_0",
-      "week": 1,
+      "week": 10,
       "year": 2018,
-      "duration": 86,
-      "duration_min": 86,
+      "duration": 87,
+      "duration_min": 87,
       "resources": [
         [
-          "DSS-34"
-        ],
-        [
-          "DSS-26"
+          "DSS-26_DSS-36"
         ]
       ],
-      "track_id": "1514bf0e-6094-472f-a3fa-c7183da6dbea",
+      "track_id": "ac85aa79-91f1-4e51-9023-7e78d10adb91",
       "setup_time": 60,
       "teardown_time": 15,
-      "time_window_start": 3673,
-      "time_window_end": 3738,
+      "time_window_start": 5217,
+      "time_window_end": 5304,
       "resource_vp_dict": {
-        "DSS-34": [
+        "DSS-26_DSS-36": [
           {
-            "RISE": 3673,
-            "SET": 3849,
-            "TRX ON": 3673,
-            "TRX OFF": 3849
+            "RISE": 5217,
+            "SET": 5397,
+            "TRX ON": 5217,
+            "TRX OFF": 5397
           },
           {
-            "RISE": 3694,
-            "SET": 3759,
-            "TRX ON": 3694,
-            "TRX OFF": 3759
+            "RISE": 5246,
+            "SET": 5483,
+            "TRX ON": 5246,
+            "TRX OFF": 5483
           },
           {
-            "RISE": 3715,
-            "SET": 3823,
-            "TRX ON": 3715,
-            "TRX OFF": 3823
-          }
-        ],
-        "DSS-26": [
-          {
-            "RISE": 3673,
-            "SET": 3820,
-            "TRX ON": 3673,
-            "TRX OFF": 3820
-          },
-          {
-            "RISE": 3694,
-            "SET": 3870,
-            "TRX ON": 3694,
-            "TRX OFF": 3870
-          },
-          {
-            "RISE": 3715,
-            "SET": 3937,
-            "TRX ON": 3715,
-            "TRX OFF": 3937
+            "RISE": 5275,
+            "SET": 5442,
+            "TRX ON": 5275,
+            "TRX OFF": 5442
           }
         ]
       }
@@ -387,498 +2078,39 @@
     {
       "subject": 521,
       "user": "521_0",
-      "week": 1,
+      "week": 10,
       "year": 2018,
-      "duration": 80,
-      "duration_min": 80,
+      "duration": 117,
+      "duration_min": 117,
       "resources": [
         [
-          "DSS-34"
-        ],
-        [
-          "DSS-54"
-        ],
-        [
-          "DSS-24"
-        ],
-        [
-          "DSS-26"
+          "DSS-54_DSS-36"
         ]
       ],
-      "track_id": "14a74e4a-3e05-4cab-be60-b74686e1724f",
+      "track_id": "ccdb2b72-08b3-4999-831e-be4adb3febc4",
       "setup_time": 60,
       "teardown_time": 15,
-      "time_window_start": 8148,
-      "time_window_end": 8220,
+      "time_window_start": 8343,
+      "time_window_end": 8421,
       "resource_vp_dict": {
-        "DSS-34": [
+        "DSS-54_DSS-36": [
           {
-            "RISE": 8148,
-            "SET": 8307,
-            "TRX ON": 8148,
-            "TRX OFF": 8307
+            "RISE": 8343,
+            "SET": 8552,
+            "TRX ON": 8343,
+            "TRX OFF": 8552
           },
           {
-            "RISE": 8172,
-            "SET": 8306,
-            "TRX ON": 8172,
-            "TRX OFF": 8306
+            "RISE": 8369,
+            "SET": 8527,
+            "TRX ON": 8369,
+            "TRX OFF": 8527
           },
           {
-            "RISE": 8196,
-            "SET": 8307,
-            "TRX ON": 8196,
-            "TRX OFF": 8307
-          }
-        ],
-        "DSS-54": [
-          {
-            "RISE": 8148,
-            "SET": 8221,
-            "TRX ON": 8148,
-            "TRX OFF": 8221
-          },
-          {
-            "RISE": 8172,
-            "SET": 8271,
-            "TRX ON": 8172,
-            "TRX OFF": 8271
-          },
-          {
-            "RISE": 8196,
-            "SET": 8285,
-            "TRX ON": 8196,
-            "TRX OFF": 8285
-          }
-        ],
-        "DSS-24": [
-          {
-            "RISE": 8148,
-            "SET": 8281,
-            "TRX ON": 8148,
-            "TRX OFF": 8281
-          },
-          {
-            "RISE": 8172,
-            "SET": 8390,
-            "TRX ON": 8172,
-            "TRX OFF": 8390
-          },
-          {
-            "RISE": 8196,
-            "SET": 8425,
-            "TRX ON": 8196,
-            "TRX OFF": 8425
-          }
-        ],
-        "DSS-26": [
-          {
-            "RISE": 8148,
-            "SET": 8264,
-            "TRX ON": 8148,
-            "TRX OFF": 8264
-          },
-          {
-            "RISE": 8172,
-            "SET": 8240,
-            "TRX ON": 8172,
-            "TRX OFF": 8240
-          },
-          {
-            "RISE": 8196,
-            "SET": 8286,
-            "TRX ON": 8196,
-            "TRX OFF": 8286
-          }
-        ]
-      }
-    },
-    {
-      "subject": 521,
-      "user": "521_0",
-      "week": 1,
-      "year": 2018,
-      "duration": 90,
-      "duration_min": 90,
-      "resources": [
-        [
-          "DSS-26"
-        ],
-        [
-          "DSS-36"
-        ],
-        [
-          "DSS-34"
-        ],
-        [
-          "DSS-54"
-        ]
-      ],
-      "track_id": "8c169739-fe48-4065-8eac-caa77014c949",
-      "setup_time": 60,
-      "teardown_time": 15,
-      "time_window_start": 7288,
-      "time_window_end": 7372,
-      "resource_vp_dict": {
-        "DSS-26": [
-          {
-            "RISE": 7288,
-            "SET": 7372,
-            "TRX ON": 7288,
-            "TRX OFF": 7372
-          },
-          {
-            "RISE": 7316,
-            "SET": 7413,
-            "TRX ON": 7316,
-            "TRX OFF": 7413
-          },
-          {
-            "RISE": 7344,
-            "SET": 7517,
-            "TRX ON": 7344,
-            "TRX OFF": 7517
-          }
-        ],
-        "DSS-36": [
-          {
-            "RISE": 7288,
-            "SET": 7385,
-            "TRX ON": 7288,
-            "TRX OFF": 7385
-          },
-          {
-            "RISE": 7316,
-            "SET": 7503,
-            "TRX ON": 7316,
-            "TRX OFF": 7503
-          },
-          {
-            "RISE": 7344,
-            "SET": 7472,
-            "TRX ON": 7344,
-            "TRX OFF": 7472
-          }
-        ],
-        "DSS-34": [
-          {
-            "RISE": 7288,
-            "SET": 7524,
-            "TRX ON": 7288,
-            "TRX OFF": 7524
-          },
-          {
-            "RISE": 7316,
-            "SET": 7548,
-            "TRX ON": 7316,
-            "TRX OFF": 7548
-          },
-          {
-            "RISE": 7344,
-            "SET": 7425,
-            "TRX ON": 7344,
-            "TRX OFF": 7425
-          }
-        ],
-        "DSS-54": [
-          {
-            "RISE": 7288,
-            "SET": 7408,
-            "TRX ON": 7288,
-            "TRX OFF": 7408
-          },
-          {
-            "RISE": 7316,
-            "SET": 7387,
-            "TRX ON": 7316,
-            "TRX OFF": 7387
-          },
-          {
-            "RISE": 7344,
-            "SET": 7494,
-            "TRX ON": 7344,
-            "TRX OFF": 7494
-          }
-        ]
-      }
-    },
-    {
-      "subject": 521,
-      "user": "521_0",
-      "week": 1,
-      "year": 2018,
-      "duration": 103,
-      "duration_min": 103,
-      "resources": [
-        [
-          "DSS-26"
-        ],
-        [
-          "DSS-34"
-        ],
-        [
-          "DSS-24"
-        ],
-        [
-          "DSS-54"
-        ],
-        [
-          "DSS-36"
-        ]
-      ],
-      "track_id": "db0a08f7-04b7-488d-a35a-08c0fe5968fa",
-      "setup_time": 60,
-      "teardown_time": 15,
-      "time_window_start": 4236,
-      "time_window_end": 4311,
-      "resource_vp_dict": {
-        "DSS-26": [
-          {
-            "RISE": 4236,
-            "SET": 4451,
-            "TRX ON": 4236,
-            "TRX OFF": 4451
-          },
-          {
-            "RISE": 4261,
-            "SET": 4405,
-            "TRX ON": 4261,
-            "TRX OFF": 4405
-          },
-          {
-            "RISE": 4286,
-            "SET": 4447,
-            "TRX ON": 4286,
-            "TRX OFF": 4447
-          }
-        ],
-        "DSS-34": [
-          {
-            "RISE": 4236,
-            "SET": 4319,
-            "TRX ON": 4236,
-            "TRX OFF": 4319
-          },
-          {
-            "RISE": 4261,
-            "SET": 4420,
-            "TRX ON": 4261,
-            "TRX OFF": 4420
-          },
-          {
-            "RISE": 4286,
-            "SET": 4353,
-            "TRX ON": 4286,
-            "TRX OFF": 4353
-          }
-        ],
-        "DSS-24": [
-          {
-            "RISE": 4236,
-            "SET": 4422,
-            "TRX ON": 4236,
-            "TRX OFF": 4422
-          },
-          {
-            "RISE": 4261,
-            "SET": 4441,
-            "TRX ON": 4261,
-            "TRX OFF": 4441
-          },
-          {
-            "RISE": 4286,
-            "SET": 4505,
-            "TRX ON": 4286,
-            "TRX OFF": 4505
-          }
-        ],
-        "DSS-54": [
-          {
-            "RISE": 4236,
-            "SET": 4460,
-            "TRX ON": 4236,
-            "TRX OFF": 4460
-          },
-          {
-            "RISE": 4261,
-            "SET": 4379,
-            "TRX ON": 4261,
-            "TRX OFF": 4379
-          },
-          {
-            "RISE": 4286,
-            "SET": 4517,
-            "TRX ON": 4286,
-            "TRX OFF": 4517
-          }
-        ],
-        "DSS-36": [
-          {
-            "RISE": 4236,
-            "SET": 4302,
-            "TRX ON": 4236,
-            "TRX OFF": 4302
-          },
-          {
-            "RISE": 4261,
-            "SET": 4489,
-            "TRX ON": 4261,
-            "TRX OFF": 4489
-          },
-          {
-            "RISE": 4286,
-            "SET": 4362,
-            "TRX ON": 4286,
-            "TRX OFF": 4362
-          }
-        ]
-      }
-    },
-    {
-      "subject": 521,
-      "user": "521_0",
-      "week": 1,
-      "year": 2018,
-      "duration": 89,
-      "duration_min": 89,
-      "resources": [
-        [
-          "DSS-34"
-        ],
-        [
-          "DSS-36"
-        ],
-        [
-          "DSS-26"
-        ]
-      ],
-      "track_id": "bc1afd4c-4a5e-4e52-8d95-b2965f415edb",
-      "setup_time": 60,
-      "teardown_time": 15,
-      "time_window_start": 6598,
-      "time_window_end": 6681,
-      "resource_vp_dict": {
-        "DSS-34": [
-          {
-            "RISE": 6598,
-            "SET": 6726,
-            "TRX ON": 6598,
-            "TRX OFF": 6726
-          },
-          {
-            "RISE": 6625,
-            "SET": 6788,
-            "TRX ON": 6625,
-            "TRX OFF": 6788
-          },
-          {
-            "RISE": 6652,
-            "SET": 6756,
-            "TRX ON": 6652,
-            "TRX OFF": 6756
-          }
-        ],
-        "DSS-36": [
-          {
-            "RISE": 6598,
-            "SET": 6832,
-            "TRX ON": 6598,
-            "TRX OFF": 6832
-          },
-          {
-            "RISE": 6625,
-            "SET": 6784,
-            "TRX ON": 6625,
-            "TRX OFF": 6784
-          },
-          {
-            "RISE": 6652,
-            "SET": 6781,
-            "TRX ON": 6652,
-            "TRX OFF": 6781
-          }
-        ],
-        "DSS-26": [
-          {
-            "RISE": 6598,
-            "SET": 6795,
-            "TRX ON": 6598,
-            "TRX OFF": 6795
-          },
-          {
-            "RISE": 6625,
-            "SET": 6746,
-            "TRX ON": 6625,
-            "TRX OFF": 6746
-          },
-          {
-            "RISE": 6652,
-            "SET": 6777,
-            "TRX ON": 6652,
-            "TRX OFF": 6777
-          }
-        ]
-      }
-    },
-    {
-      "subject": 521,
-      "user": "521_0",
-      "week": 1,
-      "year": 2018,
-      "duration": 111,
-      "duration_min": 111,
-      "resources": [
-        [
-          "DSS-54"
-        ],
-        [
-          "DSS-26"
-        ]
-      ],
-      "track_id": "2bfe476f-bc3c-4fc6-8488-97542928a4b8",
-      "setup_time": 60,
-      "teardown_time": 15,
-      "time_window_start": 6006,
-      "time_window_end": 6094,
-      "resource_vp_dict": {
-        "DSS-54": [
-          {
-            "RISE": 6006,
-            "SET": 6097,
-            "TRX ON": 6006,
-            "TRX OFF": 6097
-          },
-          {
-            "RISE": 6035,
-            "SET": 6129,
-            "TRX ON": 6035,
-            "TRX OFF": 6129
-          },
-          {
-            "RISE": 6064,
-            "SET": 6257,
-            "TRX ON": 6064,
-            "TRX OFF": 6257
-          }
-        ],
-        "DSS-26": [
-          {
-            "RISE": 6006,
-            "SET": 6139,
-            "TRX ON": 6006,
-            "TRX OFF": 6139
-          },
-          {
-            "RISE": 6035,
-            "SET": 6143,
-            "TRX ON": 6035,
-            "TRX OFF": 6143
-          },
-          {
-            "RISE": 6064,
-            "SET": 6267,
-            "TRX ON": 6064,
-            "TRX OFF": 6267
+            "RISE": 8395,
+            "SET": 8616,
+            "TRX ON": 8395,
+            "TRX OFF": 8616
           }
         ]
       }
