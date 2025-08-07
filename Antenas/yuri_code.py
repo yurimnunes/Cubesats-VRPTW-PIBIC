@@ -197,9 +197,11 @@ class OptimizationProblem:
     def __init__(self, graph):
         self.graph = graph
         self.model = Model("DSN_Scheduling")
-        self.M = 1e5
+        self.M = 1e5 # Big M 
         
         # Decision variables from Table 2
+
+        # var y podera ser removida, e o modelo de tracks ser alterado considerando a saida de var x
         self.y = {}          # y_i (track scheduled)
         self.x = {}          # x^a_{u,v} (antenna flow)
         self.z = {}          # z^a_{u,w} (window selection)
@@ -322,12 +324,14 @@ class OptimizationProblem:
                         == quicksum(self.x[(u, v, a)] for v in self.graph.get_feasible_successors(u,a)),
                         name=f"flow_conservation_{u}_{a}"
                     )
+                    ###### Essa Constraint pode ser removida... porem em fluxo deve ser garantido
                     self.model.addConstr(
                         quicksum(self.x[(u, v, a)] for v in self.graph.get_feasible_successors(u,a)) <= self.y[u],
                         name=f"flow_conservation_{u}_{a}_less_than_1"
                     )
             
         
+        #### Isso pode ser removido tambem.
         for u in self.graph.nodes:
             if self.graph.nodes[u]['type'] == 'track':
                 track_data = self.graph.instance.track_nodes[u]
@@ -344,6 +348,7 @@ class OptimizationProblem:
                         name=f"activity_scheduling_{u}"
                     )
 
+    # Pode ser removido tambem, porem precisa ajustar calculos posteriores de time windows
     def _build_window_selection_constraints(self):
         """Time window selection constraints"""
         for u in self.graph.nodes:
