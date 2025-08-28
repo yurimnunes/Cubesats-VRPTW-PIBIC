@@ -1,4 +1,7 @@
+#%%
 import itertools
+import networkx as nx
+import matplotlib.pyplot as plt
 
 class Graph:
     def __init__(self, instance):
@@ -495,6 +498,9 @@ class OptimizationProblem:
 
     def print_antenna_paths(self):
         """Print antenna paths with sync track awareness"""
+
+        plotar_grafos = []
+        
         if self.model.status != GRB.OPTIMAL:
             print("No solution found")
             return
@@ -503,9 +509,13 @@ class OptimizationProblem:
             return f"{int(mins//60):02d}:{int(mins%60):02d}"
 
         print("\nANTENNA PATHS:")
+
         for antenna in self.graph.resources:
             path = []
             current_node = f"vs_{antenna}"
+
+            plotar_grafos.append(nx.DiGraph())
+            plotar_grafos[-1].add_node(current_node, label=f"{antenna}")
             
             print(f"\n📻 {antenna} Timeline:")
             print(f"╠═ {current_node} [Start]")
@@ -542,10 +552,44 @@ class OptimizationProblem:
                 print(f"║  ├─ TRX: {time_str(start)}-{time_str(end)}")
                 print(f"║  └─ Duration: {duration}min")
                 
+                plotar_grafos[-1].add_node(current_node, label=f"Track {track_id}")
+                plotar_grafos[-1].add_edge(current_node, next_node, label=f"Antenna {antenna}")
+                #plotar_grafos[-1].add_edge(next_node, current_node, label=f"Antenna {antenna}")
+
                 current_node = track_id
 
             print(f"╚═ ve_{antenna} [End]")
             
+        plt.figure(figsize=(12, 6))
+        plt.suptitle("Antenna Paths")
+        colors = ["#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd", "#8c564b", "#e377c2", "#7f7f7f", "#bcbd22", "#17becf"]
+        import gzip
+        pos = []
+        for i, G in enumerate(plotar_grafos):
+            pos.append(nx.spring_layout(G, seed=42))
+            #nx.draw(G, pos, with_labels=False, node_color=colors[i % len(colors)], node_size=100, font_size=8, width=1.5)
+            nx.draw_networkx_nodes(G, pos[i], node_color=colors[i], node_size=100)
+            
+            
+            #nx.draw_kamada_kawai(G, with_labels=False, node_color=colors[i % len(colors)], node_size=100, font_size=8, width=1.5)
+            #nx.draw_spectral(G, with_labels=False, node_color=colors[i % len(colors)], node_size=100, font_size=8, width=1.5)
+            #nx.draw_shell(G, nlist=[range(1, 10), range(10, 20)], with_labels=False, node_color=colors[i % len(colors)], node_size=100, font_size=8, width=1.5)
+
+
+            #nx.draw_networkx_edge_labels(G, pos, edge_labels=nx.get_edge_attributes(G, "label"), font_size=8)
+            #nx.draw_networkx_labels(G, pos, labels=nx.get_node_attributes(G, "label"), font_size=8)
+        # legenda
+        plt.legend([f"{antenna}" for antenna in self.graph.resources], bbox_to_anchor=(1.05, 1), loc="upper left", borderaxespad=0.)
+
+        #for i, G in enumerate(plotar_grafos):
+            #nx.draw_networkx_labels(G, pos[i], labels=nx.get_node_attributes(G, "label"), font_size=8)
+            #nx.draw_networkx_edge_labels(G, pos[i], edge_labels=nx.get_edge_attributes(G, "label"), font_size=8)
+        #    nx.draw_networkx_edges(G, pos[i], width=1.5)
+        
+        plt.show()
+        
+    
+    
     def print_variables(self):
         """Print all decision variables with non-zero/selected values"""
         if self.model.status != GRB.OPTIMAL:
@@ -577,7 +621,7 @@ class OptimizationProblem:
         for (track, a), var in self.tau.items():
             if var.X > 0:  # Print if start time is assigned
                 print(f"{var.VarName}: {var.X:.2f}")
-
+#%%
                 
 
 
@@ -587,9 +631,11 @@ from read_problem import Instance
 
 instance = Instance()
 
-# instance.load_data("build/dsn_schedule.json")
-instance.load_data("build/toy_problem.json")
+instance.load_data("build/dsn_schedule.json")
+#instance.load_data("build/toy_problem.json")
 graph = Graph(instance)
+
+#%%
 
 # graph.print_graph()
 # graph.print_nodes_and_instance()
@@ -600,8 +646,10 @@ optimizer.set_objective()  # Use default objective (maximize duration)
 
 status = optimizer.solve()
 
-optimizer.print_variables()
+#%%
+#optimizer.print_variables()
 # 5. Process results
 if status == GRB.OPTIMAL:
     optimizer.print_solution()
     optimizer.print_antenna_paths()
+# %%

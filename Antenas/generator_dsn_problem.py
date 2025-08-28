@@ -1,3 +1,4 @@
+#%%
 import json
 import random
 import uuid
@@ -107,6 +108,7 @@ if __name__ == "__main__":
     YEAR = 2024
     TRACKS_PER_WEEK = 50
     ANTENNAS = [f"DSS-{i:02d}" for i in range(1, 10)]  # 6 antennas
+    print(f"Numero de antenas é {ANTENNAS}")
 
     dsn_data = generate_dsn_data(WEEKS, YEAR, TRACKS_PER_WEEK, ANTENNAS)
 
@@ -119,3 +121,4 @@ if __name__ == "__main__":
 
     print("Realistic DSN schedule generated successfully.")
     #print(dsn_data)
+# %%
