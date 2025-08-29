@@ -1,0 +1,4004 @@
+{
+  "W1_2024": [
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 74,
+      "duration_min": 74,
+      "track_id": "3376b06e-ae66-4f42-afd3-5641f98452f6",
+      "setup_time": 14,
+      "teardown_time": 6,
+      "time_window_start": 1824,
+      "time_window_end": 1898,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": 1805,
+            "SET": 1941,
+            "TRX ON": 1824,
+            "TRX OFF": 1898
+          },
+          {
+            "RISE": 1783,
+            "SET": 1906,
+            "TRX ON": 1824,
+            "TRX OFF": 1898
+          },
+          {
+            "RISE": 1809,
+            "SET": 1909,
+            "TRX ON": 1824,
+            "TRX OFF": 1898
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 95,
+      "duration_min": 95,
+      "track_id": "e7e8f815-27aa-426c-877e-b0afee4bbcef",
+      "setup_time": 16,
+      "teardown_time": 15,
+      "time_window_start": 3582,
+      "time_window_end": 3677,
+      "resources": [
+        [
+          "DSS-02"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-02": [
+          {
+            "RISE": 3552,
+            "SET": 3720,
+            "TRX ON": 3582,
+            "TRX OFF": 3677
+          },
+          {
+            "RISE": 3529,
+            "SET": 3709,
+            "TRX ON": 3582,
+            "TRX OFF": 3677
+          },
+          {
+            "RISE": 3515,
+            "SET": 3747,
+            "TRX ON": 3582,
+            "TRX OFF": 3677
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 69,
+      "duration_min": 69,
+      "track_id": "3764df45-f065-4be9-bd68-018a8d4c38b1",
+      "setup_time": 16,
+      "teardown_time": 10,
+      "time_window_start": 2615,
+      "time_window_end": 2684,
+      "resources": [
+        [
+          "DSS-02"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-02": [
+          {
+            "RISE": 2593,
+            "SET": 2716,
+            "TRX ON": 2615,
+            "TRX OFF": 2684
+          },
+          {
+            "RISE": 2545,
+            "SET": 2716,
+            "TRX ON": 2615,
+            "TRX OFF": 2684
+          },
+          {
+            "RISE": 2561,
+            "SET": 2710,
+            "TRX ON": 2615,
+            "TRX OFF": 2684
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 131,
+      "duration_min": 131,
+      "track_id": "62e571ff-d458-493d-a58e-877972d3e9c2",
+      "setup_time": 27,
+      "teardown_time": 9,
+      "time_window_start": 8785,
+      "time_window_end": 8916,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": 8702,
+            "SET": 8980,
+            "TRX ON": 8785,
+            "TRX OFF": 8916
+          },
+          {
+            "RISE": 8735,
+            "SET": 8961,
+            "TRX ON": 8785,
+            "TRX OFF": 8916
+          },
+          {
+            "RISE": 8746,
+            "SET": 8970,
+            "TRX ON": 8785,
+            "TRX OFF": 8916
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 78,
+      "duration_min": 78,
+      "track_id": "a8f22dc3-5e9c-4144-bb31-6411b0c8530c",
+      "setup_time": 12,
+      "teardown_time": 8,
+      "time_window_start": 1139,
+      "time_window_end": 1217,
+      "resources": [
+        [
+          "DSS-02"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-02": [
+          {
+            "RISE": 1110,
+            "SET": 1254,
+            "TRX ON": 1139,
+            "TRX OFF": 1217
+          },
+          {
+            "RISE": 1087,
+            "SET": 1278,
+            "TRX ON": 1139,
+            "TRX OFF": 1217
+          },
+          {
+            "RISE": 1104,
+            "SET": 1235,
+            "TRX ON": 1139,
+            "TRX OFF": 1217
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 106,
+      "duration_min": 106,
+      "track_id": "81e01cdc-f2d8-4883-8ac5-64829eaab581",
+      "setup_time": 17,
+      "teardown_time": 7,
+      "time_window_start": 1169,
+      "time_window_end": 1275,
+      "resources": [
+        [
+          "DSS-02"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-02": [
+          {
+            "RISE": 1093,
+            "SET": 1322,
+            "TRX ON": 1169,
+            "TRX OFF": 1275
+          },
+          {
+            "RISE": 1108,
+            "SET": 1317,
+            "TRX ON": 1169,
+            "TRX OFF": 1275
+          },
+          {
+            "RISE": 1138,
+            "SET": 1325,
+            "TRX ON": 1169,
+            "TRX OFF": 1275
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 80,
+      "duration_min": 80,
+      "track_id": "b3f14ee7-daf9-4fa5-8e55-3dbc188749e5",
+      "setup_time": 22,
+      "teardown_time": 9,
+      "time_window_start": 916,
+      "time_window_end": 996,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": 838,
+            "SET": 1050,
+            "TRX ON": 916,
+            "TRX OFF": 996
+          },
+          {
+            "RISE": 874,
+            "SET": 1018,
+            "TRX ON": 916,
+            "TRX OFF": 996
+          },
+          {
+            "RISE": 853,
+            "SET": 1036,
+            "TRX ON": 916,
+            "TRX OFF": 996
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 107,
+      "duration_min": 107,
+      "track_id": "ab3c5ce0-46c5-45a6-a1ea-53afb5974861",
+      "setup_time": 27,
+      "teardown_time": 13,
+      "time_window_start": 7517,
+      "time_window_end": 7624,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": 7463,
+            "SET": 7694,
+            "TRX ON": 7517,
+            "TRX OFF": 7624
+          },
+          {
+            "RISE": 7453,
+            "SET": 7662,
+            "TRX ON": 7517,
+            "TRX OFF": 7624
+          },
+          {
+            "RISE": 7467,
+            "SET": 7651,
+            "TRX ON": 7517,
+            "TRX OFF": 7624
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 63,
+      "duration_min": 63,
+      "track_id": "c3cf008b-21de-4dde-9f92-7542b525e2bc",
+      "setup_time": 13,
+      "teardown_time": 7,
+      "time_window_start": 2266,
+      "time_window_end": 2329,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": 2226,
+            "SET": 2374,
+            "TRX ON": 2266,
+            "TRX OFF": 2329
+          },
+          {
+            "RISE": 2249,
+            "SET": 2360,
+            "TRX ON": 2266,
+            "TRX OFF": 2329
+          },
+          {
+            "RISE": 2229,
+            "SET": 2374,
+            "TRX ON": 2266,
+            "TRX OFF": 2329
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 89,
+      "duration_min": 89,
+      "track_id": "d86eb5b3-e176-47c6-a088-5793a01e8d90",
+      "setup_time": 10,
+      "teardown_time": 9,
+      "time_window_start": 5573,
+      "time_window_end": 5662,
+      "resources": [
+        [
+          "DSS-01"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-01": [
+          {
+            "RISE": 5531,
+            "SET": 5729,
+            "TRX ON": 5573,
+            "TRX OFF": 5662
+          },
+          {
+            "RISE": 5557,
+            "SET": 5726,
+            "TRX ON": 5573,
+            "TRX OFF": 5662
+          },
+          {
+            "RISE": 5523,
+            "SET": 5690,
+            "TRX ON": 5573,
+            "TRX OFF": 5662
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 108,
+      "duration_min": 108,
+      "track_id": "7c26fca6-01a9-49ef-8a97-c756439d1f00",
+      "setup_time": 15,
+      "teardown_time": 13,
+      "time_window_start": 8317,
+      "time_window_end": 8425,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": 8244,
+            "SET": 8438,
+            "TRX ON": 8317,
+            "TRX OFF": 8425
+          },
+          {
+            "RISE": 8264,
+            "SET": 8458,
+            "TRX ON": 8317,
+            "TRX OFF": 8425
+          },
+          {
+            "RISE": 8271,
+            "SET": 8439,
+            "TRX ON": 8317,
+            "TRX OFF": 8425
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 96,
+      "duration_min": 96,
+      "track_id": "84d6b671-a698-47bf-aac9-23fb057b62f1",
+      "setup_time": 12,
+      "teardown_time": 6,
+      "time_window_start": 5038,
+      "time_window_end": 5134,
+      "resources": [
+        [
+          "DSS-01"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-01": [
+          {
+            "RISE": 4978,
+            "SET": 5174,
+            "TRX ON": 5038,
+            "TRX OFF": 5134
+          },
+          {
+            "RISE": 4977,
+            "SET": 5148,
+            "TRX ON": 5038,
+            "TRX OFF": 5134
+          },
+          {
+            "RISE": 5018,
+            "SET": 5182,
+            "TRX ON": 5038,
+            "TRX OFF": 5134
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 175,
+      "duration_min": 175,
+      "track_id": "fde9ecb8-22a3-4b53-b3b3-139a2eea458c",
+      "setup_time": 16,
+      "teardown_time": 13,
+      "time_window_start": 2705,
+      "time_window_end": 2880,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": 2677,
+            "SET": 2938,
+            "TRX ON": 2705,
+            "TRX OFF": 2880
+          },
+          {
+            "RISE": 2670,
+            "SET": 2918,
+            "TRX ON": 2705,
+            "TRX OFF": 2880
+          },
+          {
+            "RISE": 2647,
+            "SET": 2934,
+            "TRX ON": 2705,
+            "TRX OFF": 2880
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 64,
+      "duration_min": 64,
+      "track_id": "ddf7e30f-e12a-4428-955d-ae24d5863ecc",
+      "setup_time": 20,
+      "teardown_time": 5,
+      "time_window_start": 8479,
+      "time_window_end": 8543,
+      "resources": [
+        [
+          "DSS-01"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-01": [
+          {
+            "RISE": 8422,
+            "SET": 8562,
+            "TRX ON": 8479,
+            "TRX OFF": 8543
+          },
+          {
+            "RISE": 8459,
+            "SET": 8552,
+            "TRX ON": 8479,
+            "TRX OFF": 8543
+          },
+          {
+            "RISE": 8414,
+            "SET": 8588,
+            "TRX ON": 8479,
+            "TRX OFF": 8543
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 231,
+      "duration_min": 231,
+      "track_id": "ead8997f-91f9-49e9-905f-97cb99787b58",
+      "setup_time": 20,
+      "teardown_time": 6,
+      "time_window_start": 964,
+      "time_window_end": 1195,
+      "resources": [
+        [
+          "DSS-02"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-02": [
+          {
+            "RISE": 902,
+            "SET": 1232,
+            "TRX ON": 964,
+            "TRX OFF": 1195
+          },
+          {
+            "RISE": 931,
+            "SET": 1235,
+            "TRX ON": 964,
+            "TRX OFF": 1195
+          },
+          {
+            "RISE": 936,
+            "SET": 1247,
+            "TRX ON": 964,
+            "TRX OFF": 1195
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 90,
+      "duration_min": 90,
+      "track_id": "cc77ed95-56bf-4beb-8830-aa8d3548c7b8",
+      "setup_time": 23,
+      "teardown_time": 8,
+      "time_window_start": 9355,
+      "time_window_end": 9445,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": 9305,
+            "SET": 9475,
+            "TRX ON": 9355,
+            "TRX OFF": 9445
+          },
+          {
+            "RISE": 9305,
+            "SET": 9479,
+            "TRX ON": 9355,
+            "TRX OFF": 9445
+          },
+          {
+            "RISE": 9303,
+            "SET": 9508,
+            "TRX ON": 9355,
+            "TRX OFF": 9445
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 266,
+      "duration_min": 266,
+      "track_id": "f7eb3b48-c0e6-4c2a-b54f-57523fcbc186",
+      "setup_time": 11,
+      "teardown_time": 11,
+      "time_window_start": 887,
+      "time_window_end": 1153,
+      "resources": [
+        [
+          "DSS-01"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-01": [
+          {
+            "RISE": 861,
+            "SET": 1176,
+            "TRX ON": 887,
+            "TRX OFF": 1153
+          },
+          {
+            "RISE": 864,
+            "SET": 1198,
+            "TRX ON": 887,
+            "TRX OFF": 1153
+          },
+          {
+            "RISE": 848,
+            "SET": 1172,
+            "TRX ON": 887,
+            "TRX OFF": 1153
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 115,
+      "duration_min": 115,
+      "track_id": "1f6b9878-d4ae-4f53-8ea5-cbe43964fff4",
+      "setup_time": 12,
+      "teardown_time": 12,
+      "time_window_start": 6912,
+      "time_window_end": 7027,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": 6894,
+            "SET": 7042,
+            "TRX ON": 6912,
+            "TRX OFF": 7027
+          },
+          {
+            "RISE": 6859,
+            "SET": 7073,
+            "TRX ON": 6912,
+            "TRX OFF": 7027
+          },
+          {
+            "RISE": 6847,
+            "SET": 7039,
+            "TRX ON": 6912,
+            "TRX OFF": 7027
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 73,
+      "duration_min": 73,
+      "track_id": "368342ae-c806-4ce7-84e4-627cced387fe",
+      "setup_time": 22,
+      "teardown_time": 5,
+      "time_window_start": 3872,
+      "time_window_end": 3945,
+      "resources": [
+        [
+          "DSS-01"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-01": [
+          {
+            "RISE": 3826,
+            "SET": 3966,
+            "TRX ON": 3872,
+            "TRX OFF": 3945
+          },
+          {
+            "RISE": 3791,
+            "SET": 4000,
+            "TRX ON": 3872,
+            "TRX OFF": 3945
+          },
+          {
+            "RISE": 3800,
+            "SET": 3979,
+            "TRX ON": 3872,
+            "TRX OFF": 3945
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 63,
+      "duration_min": 63,
+      "track_id": "214eaced-e09a-4c04-8b2d-00a007a9c412",
+      "setup_time": 28,
+      "teardown_time": 13,
+      "time_window_start": 7973,
+      "time_window_end": 8036,
+      "resources": [
+        [
+          "DSS-02"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-02": [
+          {
+            "RISE": 7942,
+            "SET": 8052,
+            "TRX ON": 7973,
+            "TRX OFF": 8036
+          },
+          {
+            "RISE": 7908,
+            "SET": 8079,
+            "TRX ON": 7973,
+            "TRX OFF": 8036
+          },
+          {
+            "RISE": 7913,
+            "SET": 8107,
+            "TRX ON": 7973,
+            "TRX OFF": 8036
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 261,
+      "duration_min": 261,
+      "track_id": "f8c0e576-b0bf-462d-9b8c-8c9b2fa907fb",
+      "setup_time": 15,
+      "teardown_time": 6,
+      "time_window_start": 8701,
+      "time_window_end": 8962,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": 8631,
+            "SET": 8983,
+            "TRX ON": 8701,
+            "TRX OFF": 8962
+          },
+          {
+            "RISE": 8661,
+            "SET": 8975,
+            "TRX ON": 8701,
+            "TRX OFF": 8962
+          },
+          {
+            "RISE": 8626,
+            "SET": 9024,
+            "TRX ON": 8701,
+            "TRX OFF": 8962
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 99,
+      "duration_min": 99,
+      "track_id": "b4a11d20-0a01-4a45-922a-ebb67f6dc062",
+      "setup_time": 12,
+      "teardown_time": 11,
+      "time_window_start": 9333,
+      "time_window_end": 9432,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": 9288,
+            "SET": 9463,
+            "TRX ON": 9333,
+            "TRX OFF": 9432
+          },
+          {
+            "RISE": 9262,
+            "SET": 9459,
+            "TRX ON": 9333,
+            "TRX OFF": 9432
+          },
+          {
+            "RISE": 9308,
+            "SET": 9485,
+            "TRX ON": 9333,
+            "TRX OFF": 9432
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 102,
+      "duration_min": 102,
+      "track_id": "cbe7b9b1-1971-427b-9380-0248e440c1db",
+      "setup_time": 30,
+      "teardown_time": 9,
+      "time_window_start": 5147,
+      "time_window_end": 5249,
+      "resources": [
+        [
+          "DSS-01"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-01": [
+          {
+            "RISE": 5117,
+            "SET": 5287,
+            "TRX ON": 5147,
+            "TRX OFF": 5249
+          },
+          {
+            "RISE": 5078,
+            "SET": 5294,
+            "TRX ON": 5147,
+            "TRX OFF": 5249
+          },
+          {
+            "RISE": 5111,
+            "SET": 5262,
+            "TRX ON": 5147,
+            "TRX OFF": 5249
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 119,
+      "duration_min": 119,
+      "track_id": "c0c01942-5d00-4cde-a62c-73833243def0",
+      "setup_time": 21,
+      "teardown_time": 6,
+      "time_window_start": 8808,
+      "time_window_end": 8927,
+      "resources": [
+        [
+          "DSS-02"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-02": [
+          {
+            "RISE": 8769,
+            "SET": 8943,
+            "TRX ON": 8808,
+            "TRX OFF": 8927
+          },
+          {
+            "RISE": 8759,
+            "SET": 8986,
+            "TRX ON": 8808,
+            "TRX OFF": 8927
+          },
+          {
+            "RISE": 8753,
+            "SET": 8978,
+            "TRX ON": 8808,
+            "TRX OFF": 8927
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 159,
+      "duration_min": 159,
+      "track_id": "4d7217c1-b8a9-4517-be1f-70abb5cbcdea",
+      "setup_time": 13,
+      "teardown_time": 7,
+      "time_window_start": 8666,
+      "time_window_end": 8825,
+      "resources": [
+        [
+          "DSS-01"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-01": [
+          {
+            "RISE": 8606,
+            "SET": 8867,
+            "TRX ON": 8666,
+            "TRX OFF": 8825
+          },
+          {
+            "RISE": 8644,
+            "SET": 8849,
+            "TRX ON": 8666,
+            "TRX OFF": 8825
+          },
+          {
+            "RISE": 8635,
+            "SET": 8870,
+            "TRX ON": 8666,
+            "TRX OFF": 8825
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 118,
+      "duration_min": 118,
+      "track_id": "4cc242b9-7542-4741-bbcd-aaa61f22460d",
+      "setup_time": 11,
+      "teardown_time": 6,
+      "time_window_start": 4325,
+      "time_window_end": 4443,
+      "resources": [
+        [
+          "DSS-02"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-02": [
+          {
+            "RISE": 4312,
+            "SET": 4449,
+            "TRX ON": 4325,
+            "TRX OFF": 4443
+          },
+          {
+            "RISE": 4293,
+            "SET": 4498,
+            "TRX ON": 4325,
+            "TRX OFF": 4443
+          },
+          {
+            "RISE": 4306,
+            "SET": 4489,
+            "TRX ON": 4325,
+            "TRX OFF": 4443
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 105,
+      "duration_min": 105,
+      "track_id": "77124c43-dac9-46a6-852a-f519a4d6e1e3",
+      "setup_time": 23,
+      "teardown_time": 13,
+      "time_window_start": 4291,
+      "time_window_end": 4396,
+      "resources": [
+        [
+          "DSS-01"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-01": [
+          {
+            "RISE": 4208,
+            "SET": 4465,
+            "TRX ON": 4291,
+            "TRX OFF": 4396
+          },
+          {
+            "RISE": 4224,
+            "SET": 4466,
+            "TRX ON": 4291,
+            "TRX OFF": 4396
+          },
+          {
+            "RISE": 4259,
+            "SET": 4443,
+            "TRX ON": 4291,
+            "TRX OFF": 4396
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 62,
+      "duration_min": 62,
+      "track_id": "878fbfcd-e331-400a-819d-fa5b78101609",
+      "setup_time": 19,
+      "teardown_time": 10,
+      "time_window_start": 9543,
+      "time_window_end": 9605,
+      "resources": [
+        [
+          "DSS-01"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-01": [
+          {
+            "RISE": 9467,
+            "SET": 9637,
+            "TRX ON": 9543,
+            "TRX OFF": 9605
+          },
+          {
+            "RISE": 9511,
+            "SET": 9658,
+            "TRX ON": 9543,
+            "TRX OFF": 9605
+          },
+          {
+            "RISE": 9509,
+            "SET": 9657,
+            "TRX ON": 9543,
+            "TRX OFF": 9605
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 221,
+      "duration_min": 221,
+      "track_id": "652caf7e-897a-42ab-a7ea-cfb6c88847e7",
+      "setup_time": 23,
+      "teardown_time": 15,
+      "time_window_start": 406,
+      "time_window_end": 627,
+      "resources": [
+        [
+          "DSS-01"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-01": [
+          {
+            "RISE": 366,
+            "SET": 652,
+            "TRX ON": 406,
+            "TRX OFF": 627
+          },
+          {
+            "RISE": 333,
+            "SET": 686,
+            "TRX ON": 406,
+            "TRX OFF": 627
+          },
+          {
+            "RISE": 377,
+            "SET": 666,
+            "TRX ON": 406,
+            "TRX OFF": 627
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 165,
+      "duration_min": 165,
+      "track_id": "53a7abd5-eea8-4b84-bd22-b62dd121f9cc",
+      "setup_time": 19,
+      "teardown_time": 8,
+      "time_window_start": 3644,
+      "time_window_end": 3809,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": 3613,
+            "SET": 3842,
+            "TRX ON": 3644,
+            "TRX OFF": 3809
+          },
+          {
+            "RISE": 3604,
+            "SET": 3834,
+            "TRX ON": 3644,
+            "TRX OFF": 3809
+          },
+          {
+            "RISE": 3570,
+            "SET": 3821,
+            "TRX ON": 3644,
+            "TRX OFF": 3809
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 378,
+      "duration_min": 378,
+      "track_id": "45b1fdba-55d0-4eff-bdaf-5b7ebabeca4e",
+      "setup_time": 20,
+      "teardown_time": 5,
+      "time_window_start": 8346,
+      "time_window_end": 8724,
+      "resources": [
+        [
+          "DSS-02"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-02": [
+          {
+            "RISE": 8315,
+            "SET": 8766,
+            "TRX ON": 8346,
+            "TRX OFF": 8724
+          },
+          {
+            "RISE": 8310,
+            "SET": 8731,
+            "TRX ON": 8346,
+            "TRX OFF": 8724
+          },
+          {
+            "RISE": 8320,
+            "SET": 8767,
+            "TRX ON": 8346,
+            "TRX OFF": 8724
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 87,
+      "duration_min": 87,
+      "track_id": "ad5655f7-d2af-4396-888d-2be9abfd616c",
+      "setup_time": 29,
+      "teardown_time": 13,
+      "time_window_start": 7119,
+      "time_window_end": 7206,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": 7078,
+            "SET": 7235,
+            "TRX ON": 7119,
+            "TRX OFF": 7206
+          },
+          {
+            "RISE": 7088,
+            "SET": 7264,
+            "TRX ON": 7119,
+            "TRX OFF": 7206
+          },
+          {
+            "RISE": 7063,
+            "SET": 7219,
+            "TRX ON": 7119,
+            "TRX OFF": 7206
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 67,
+      "duration_min": 67,
+      "track_id": "76d65217-ecae-4f5f-aad6-fd8c7346ce3c",
+      "setup_time": 19,
+      "teardown_time": 13,
+      "time_window_start": 5409,
+      "time_window_end": 5476,
+      "resources": [
+        [
+          "DSS-02"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-02": [
+          {
+            "RISE": 5370,
+            "SET": 5514,
+            "TRX ON": 5409,
+            "TRX OFF": 5476
+          },
+          {
+            "RISE": 5346,
+            "SET": 5507,
+            "TRX ON": 5409,
+            "TRX OFF": 5476
+          },
+          {
+            "RISE": 5355,
+            "SET": 5497,
+            "TRX ON": 5409,
+            "TRX OFF": 5476
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 95,
+      "duration_min": 95,
+      "track_id": "0bbb1c3a-c419-428d-87a4-ae3c95176bc2",
+      "setup_time": 10,
+      "teardown_time": 9,
+      "time_window_start": 2851,
+      "time_window_end": 2946,
+      "resources": [
+        [
+          "DSS-02"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-02": [
+          {
+            "RISE": 2791,
+            "SET": 2992,
+            "TRX ON": 2851,
+            "TRX OFF": 2946
+          },
+          {
+            "RISE": 2803,
+            "SET": 2996,
+            "TRX ON": 2851,
+            "TRX OFF": 2946
+          },
+          {
+            "RISE": 2821,
+            "SET": 2984,
+            "TRX ON": 2851,
+            "TRX OFF": 2946
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 90,
+      "duration_min": 90,
+      "track_id": "6e2fa390-1fe2-4a5a-9519-c1c3c9add227",
+      "setup_time": 15,
+      "teardown_time": 15,
+      "time_window_start": 7238,
+      "time_window_end": 7328,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": 7181,
+            "SET": 7383,
+            "TRX ON": 7238,
+            "TRX OFF": 7328
+          },
+          {
+            "RISE": 7184,
+            "SET": 7364,
+            "TRX ON": 7238,
+            "TRX OFF": 7328
+          },
+          {
+            "RISE": 7218,
+            "SET": 7395,
+            "TRX ON": 7238,
+            "TRX OFF": 7328
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 72,
+      "duration_min": 72,
+      "track_id": "78b26ead-636b-44ae-8b09-e999ead89588",
+      "setup_time": 14,
+      "teardown_time": 5,
+      "time_window_start": 3848,
+      "time_window_end": 3920,
+      "resources": [
+        [
+          "DSS-02"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-02": [
+          {
+            "RISE": 3795,
+            "SET": 3979,
+            "TRX ON": 3848,
+            "TRX OFF": 3920
+          },
+          {
+            "RISE": 3785,
+            "SET": 3929,
+            "TRX ON": 3848,
+            "TRX OFF": 3920
+          },
+          {
+            "RISE": 3805,
+            "SET": 3951,
+            "TRX ON": 3848,
+            "TRX OFF": 3920
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 91,
+      "duration_min": 91,
+      "track_id": "f8a62d61-4c9e-4be1-8f22-034cb36cb659",
+      "setup_time": 22,
+      "teardown_time": 8,
+      "time_window_start": 9431,
+      "time_window_end": 9522,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": 9409,
+            "SET": 9587,
+            "TRX ON": 9431,
+            "TRX OFF": 9522
+          },
+          {
+            "RISE": 9361,
+            "SET": 9585,
+            "TRX ON": 9431,
+            "TRX OFF": 9522
+          },
+          {
+            "RISE": 9360,
+            "SET": 9586,
+            "TRX ON": 9431,
+            "TRX OFF": 9522
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 373,
+      "duration_min": 373,
+      "track_id": "05e14870-3c5b-4aff-a6bf-741616317930",
+      "setup_time": 24,
+      "teardown_time": 5,
+      "time_window_start": 3585,
+      "time_window_end": 3958,
+      "resources": [
+        [
+          "DSS-01"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-01": [
+          {
+            "RISE": 3532,
+            "SET": 3971,
+            "TRX ON": 3585,
+            "TRX OFF": 3958
+          },
+          {
+            "RISE": 3510,
+            "SET": 3992,
+            "TRX ON": 3585,
+            "TRX OFF": 3958
+          },
+          {
+            "RISE": 3519,
+            "SET": 3996,
+            "TRX ON": 3585,
+            "TRX OFF": 3958
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 92,
+      "duration_min": 92,
+      "track_id": "3856fcfa-208e-43d8-9c70-f6d9f7863876",
+      "setup_time": 23,
+      "teardown_time": 13,
+      "time_window_start": 7251,
+      "time_window_end": 7343,
+      "resources": [
+        [
+          "DSS-01"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-01": [
+          {
+            "RISE": 7181,
+            "SET": 7411,
+            "TRX ON": 7251,
+            "TRX OFF": 7343
+          },
+          {
+            "RISE": 7198,
+            "SET": 7384,
+            "TRX ON": 7251,
+            "TRX OFF": 7343
+          },
+          {
+            "RISE": 7212,
+            "SET": 7404,
+            "TRX ON": 7251,
+            "TRX OFF": 7343
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 88,
+      "duration_min": 88,
+      "track_id": "02c58620-46b4-4f3d-8a7b-decad25d08d5",
+      "setup_time": 12,
+      "teardown_time": 9,
+      "time_window_start": 8540,
+      "time_window_end": 8628,
+      "resources": [
+        [
+          "DSS-02"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-02": [
+          {
+            "RISE": 8508,
+            "SET": 8694,
+            "TRX ON": 8540,
+            "TRX OFF": 8628
+          },
+          {
+            "RISE": 8494,
+            "SET": 8642,
+            "TRX ON": 8540,
+            "TRX OFF": 8628
+          },
+          {
+            "RISE": 8520,
+            "SET": 8646,
+            "TRX ON": 8540,
+            "TRX OFF": 8628
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 73,
+      "duration_min": 73,
+      "track_id": "1cef92d7-444b-490e-a034-7d0c3a415e2c",
+      "setup_time": 12,
+      "teardown_time": 11,
+      "time_window_start": 3788,
+      "time_window_end": 3861,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": 3747,
+            "SET": 3898,
+            "TRX ON": 3788,
+            "TRX OFF": 3861
+          },
+          {
+            "RISE": 3773,
+            "SET": 3885,
+            "TRX ON": 3788,
+            "TRX OFF": 3861
+          },
+          {
+            "RISE": 3723,
+            "SET": 3898,
+            "TRX ON": 3788,
+            "TRX OFF": 3861
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 82,
+      "duration_min": 82,
+      "track_id": "51a0f590-1804-4ec8-9fab-70acd64bd423",
+      "setup_time": 19,
+      "teardown_time": 11,
+      "time_window_start": 9432,
+      "time_window_end": 9514,
+      "resources": [
+        [
+          "DSS-02"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-02": [
+          {
+            "RISE": 9379,
+            "SET": 9572,
+            "TRX ON": 9432,
+            "TRX OFF": 9514
+          },
+          {
+            "RISE": 9366,
+            "SET": 9559,
+            "TRX ON": 9432,
+            "TRX OFF": 9514
+          },
+          {
+            "RISE": 9362,
+            "SET": 9563,
+            "TRX ON": 9432,
+            "TRX OFF": 9514
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 91,
+      "duration_min": 91,
+      "track_id": "475bfb91-bd79-4f6e-b860-6c41c0115ad4",
+      "setup_time": 10,
+      "teardown_time": 11,
+      "time_window_start": 3613,
+      "time_window_end": 3704,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": 3552,
+            "SET": 3740,
+            "TRX ON": 3613,
+            "TRX OFF": 3704
+          },
+          {
+            "RISE": 3557,
+            "SET": 3725,
+            "TRX ON": 3613,
+            "TRX OFF": 3704
+          },
+          {
+            "RISE": 3550,
+            "SET": 3744,
+            "TRX ON": 3613,
+            "TRX OFF": 3704
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 96,
+      "duration_min": 96,
+      "track_id": "7a1e19c9-b24d-4ace-9bfc-6d9285256202",
+      "setup_time": 10,
+      "teardown_time": 6,
+      "time_window_start": 8751,
+      "time_window_end": 8847,
+      "resources": [
+        [
+          "DSS-01"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-01": [
+          {
+            "RISE": 8686,
+            "SET": 8882,
+            "TRX ON": 8751,
+            "TRX OFF": 8847
+          },
+          {
+            "RISE": 8730,
+            "SET": 8856,
+            "TRX ON": 8751,
+            "TRX OFF": 8847
+          },
+          {
+            "RISE": 8725,
+            "SET": 8877,
+            "TRX ON": 8751,
+            "TRX OFF": 8847
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 108,
+      "duration_min": 108,
+      "track_id": "33d0b609-9050-4224-92f4-999b89810091",
+      "setup_time": 22,
+      "teardown_time": 9,
+      "time_window_start": 5363,
+      "time_window_end": 5471,
+      "resources": [
+        [
+          "DSS-02"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-02": [
+          {
+            "RISE": 5325,
+            "SET": 5533,
+            "TRX ON": 5363,
+            "TRX OFF": 5471
+          },
+          {
+            "RISE": 5336,
+            "SET": 5510,
+            "TRX ON": 5363,
+            "TRX OFF": 5471
+          },
+          {
+            "RISE": 5340,
+            "SET": 5527,
+            "TRX ON": 5363,
+            "TRX OFF": 5471
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 298,
+      "duration_min": 298,
+      "track_id": "5eebc6d9-b92b-437c-9091-1a8563491dbe",
+      "setup_time": 30,
+      "teardown_time": 6,
+      "time_window_start": 8837,
+      "time_window_end": 9135,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": 8805,
+            "SET": 9189,
+            "TRX ON": 8837,
+            "TRX OFF": 9135
+          },
+          {
+            "RISE": 8806,
+            "SET": 9201,
+            "TRX ON": 8837,
+            "TRX OFF": 9135
+          },
+          {
+            "RISE": 8792,
+            "SET": 9153,
+            "TRX ON": 8837,
+            "TRX OFF": 9135
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 96,
+      "duration_min": 96,
+      "track_id": "6d713635-c193-4843-ae84-7e6b722ca8b4",
+      "setup_time": 16,
+      "teardown_time": 12,
+      "time_window_start": 3908,
+      "time_window_end": 4004,
+      "resources": [
+        [
+          "DSS-02"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-02": [
+          {
+            "RISE": 3882,
+            "SET": 4054,
+            "TRX ON": 3908,
+            "TRX OFF": 4004
+          },
+          {
+            "RISE": 3854,
+            "SET": 4063,
+            "TRX ON": 3908,
+            "TRX OFF": 4004
+          },
+          {
+            "RISE": 3847,
+            "SET": 4023,
+            "TRX ON": 3908,
+            "TRX OFF": 4004
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 169,
+      "duration_min": 169,
+      "track_id": "c9e00ad1-dee7-4508-bb1f-0202be87b5f9",
+      "setup_time": 22,
+      "teardown_time": 8,
+      "time_window_start": 5111,
+      "time_window_end": 5280,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": 5036,
+            "SET": 5328,
+            "TRX ON": 5111,
+            "TRX OFF": 5280
+          },
+          {
+            "RISE": 5074,
+            "SET": 5294,
+            "TRX ON": 5111,
+            "TRX OFF": 5280
+          },
+          {
+            "RISE": 5045,
+            "SET": 5337,
+            "TRX ON": 5111,
+            "TRX OFF": 5280
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 64,
+      "duration_min": 64,
+      "track_id": "77cf088b-9096-4501-8a0e-eb41b14fbfea",
+      "setup_time": 26,
+      "teardown_time": 15,
+      "time_window_start": 5688,
+      "time_window_end": 5752,
+      "resources": [
+        [
+          "DSS-02"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-02": [
+          {
+            "RISE": 5610,
+            "SET": 5798,
+            "TRX ON": 5688,
+            "TRX OFF": 5752
+          },
+          {
+            "RISE": 5656,
+            "SET": 5794,
+            "TRX ON": 5688,
+            "TRX OFF": 5752
+          },
+          {
+            "RISE": 5639,
+            "SET": 5807,
+            "TRX ON": 5688,
+            "TRX OFF": 5752
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 101,
+      "duration_min": 101,
+      "track_id": "d675c2ce-2474-4231-b545-8f3175ecea98",
+      "setup_time": 18,
+      "teardown_time": 14,
+      "time_window_start": 7135,
+      "time_window_end": 7236,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": 7068,
+            "SET": 7280,
+            "TRX ON": 7135,
+            "TRX OFF": 7236
+          },
+          {
+            "RISE": 7088,
+            "SET": 7277,
+            "TRX ON": 7135,
+            "TRX OFF": 7236
+          },
+          {
+            "RISE": 7065,
+            "SET": 7296,
+            "TRX ON": 7135,
+            "TRX OFF": 7236
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 227,
+      "duration_min": 227,
+      "track_id": "0b80313c-b869-4438-ac6c-daba3c4e622e",
+      "setup_time": 12,
+      "teardown_time": 9,
+      "time_window_start": 9707,
+      "time_window_end": 9934,
+      "resources": [
+        [
+          "DSS-01"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-01": [
+          {
+            "RISE": 9647,
+            "SET": 9972,
+            "TRX ON": 9707,
+            "TRX OFF": 9934
+          },
+          {
+            "RISE": 9659,
+            "SET": 9982,
+            "TRX ON": 9707,
+            "TRX OFF": 9934
+          },
+          {
+            "RISE": 9653,
+            "SET": 9967,
+            "TRX ON": 9707,
+            "TRX OFF": 9934
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 144,
+      "duration_min": 144,
+      "track_id": "311bc2a6-eac8-4dd6-9e7b-5e9164278b3a",
+      "setup_time": 25,
+      "teardown_time": 8,
+      "time_window_start": 5511,
+      "time_window_end": 5655,
+      "resources": [
+        [
+          "DSS-02"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-02": [
+          {
+            "RISE": 5465,
+            "SET": 5680,
+            "TRX ON": 5511,
+            "TRX OFF": 5655
+          },
+          {
+            "RISE": 5430,
+            "SET": 5701,
+            "TRX ON": 5511,
+            "TRX OFF": 5655
+          },
+          {
+            "RISE": 5442,
+            "SET": 5719,
+            "TRX ON": 5511,
+            "TRX OFF": 5655
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 95,
+      "duration_min": 95,
+      "track_id": "5c07126d-bfb0-43e8-acdf-5e7141d9f57b",
+      "setup_time": 17,
+      "teardown_time": 12,
+      "time_window_start": 1402,
+      "time_window_end": 1497,
+      "resources": [
+        [
+          "DSS-02"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-02": [
+          {
+            "RISE": 1357,
+            "SET": 1559,
+            "TRX ON": 1402,
+            "TRX OFF": 1497
+          },
+          {
+            "RISE": 1384,
+            "SET": 1514,
+            "TRX ON": 1402,
+            "TRX OFF": 1497
+          },
+          {
+            "RISE": 1367,
+            "SET": 1523,
+            "TRX ON": 1402,
+            "TRX OFF": 1497
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 97,
+      "duration_min": 97,
+      "track_id": "d0b192f4-e669-4130-b86c-61b85fa2280c",
+      "setup_time": 21,
+      "teardown_time": 12,
+      "time_window_start": 6625,
+      "time_window_end": 6722,
+      "resources": [
+        [
+          "DSS-02"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-02": [
+          {
+            "RISE": 6577,
+            "SET": 6781,
+            "TRX ON": 6625,
+            "TRX OFF": 6722
+          },
+          {
+            "RISE": 6569,
+            "SET": 6755,
+            "TRX ON": 6625,
+            "TRX OFF": 6722
+          },
+          {
+            "RISE": 6582,
+            "SET": 6778,
+            "TRX ON": 6625,
+            "TRX OFF": 6722
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 67,
+      "duration_min": 67,
+      "track_id": "8cd9930c-91a1-4a59-91a4-9acf82f5fa33",
+      "setup_time": 16,
+      "teardown_time": 10,
+      "time_window_start": 7434,
+      "time_window_end": 7501,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": 7358,
+            "SET": 7559,
+            "TRX ON": 7434,
+            "TRX OFF": 7501
+          },
+          {
+            "RISE": 7374,
+            "SET": 7522,
+            "TRX ON": 7434,
+            "TRX OFF": 7501
+          },
+          {
+            "RISE": 7406,
+            "SET": 7524,
+            "TRX ON": 7434,
+            "TRX OFF": 7501
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 108,
+      "duration_min": 108,
+      "track_id": "7bd33877-9701-4072-914e-82d4bd5055a8",
+      "setup_time": 26,
+      "teardown_time": 14,
+      "time_window_start": 7933,
+      "time_window_end": 8041,
+      "resources": [
+        [
+          "DSS-01"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-01": [
+          {
+            "RISE": 7854,
+            "SET": 8067,
+            "TRX ON": 7933,
+            "TRX OFF": 8041
+          },
+          {
+            "RISE": 7889,
+            "SET": 8069,
+            "TRX ON": 7933,
+            "TRX OFF": 8041
+          },
+          {
+            "RISE": 7884,
+            "SET": 8066,
+            "TRX ON": 7933,
+            "TRX OFF": 8041
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 77,
+      "duration_min": 77,
+      "track_id": "8d5cd439-cbe0-48b0-8ca3-e8e3dd188581",
+      "setup_time": 11,
+      "teardown_time": 5,
+      "time_window_start": 4952,
+      "time_window_end": 5029,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": 4881,
+            "SET": 5042,
+            "TRX ON": 4952,
+            "TRX OFF": 5029
+          },
+          {
+            "RISE": 4901,
+            "SET": 5089,
+            "TRX ON": 4952,
+            "TRX OFF": 5029
+          },
+          {
+            "RISE": 4893,
+            "SET": 5065,
+            "TRX ON": 4952,
+            "TRX OFF": 5029
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 81,
+      "duration_min": 81,
+      "track_id": "75bf9474-b67e-4d13-a718-fee32030a25b",
+      "setup_time": 15,
+      "teardown_time": 5,
+      "time_window_start": 9405,
+      "time_window_end": 9486,
+      "resources": [
+        [
+          "DSS-02"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-02": [
+          {
+            "RISE": 9383,
+            "SET": 9543,
+            "TRX ON": 9405,
+            "TRX OFF": 9486
+          },
+          {
+            "RISE": 9386,
+            "SET": 9516,
+            "TRX ON": 9405,
+            "TRX OFF": 9486
+          },
+          {
+            "RISE": 9359,
+            "SET": 9495,
+            "TRX ON": 9405,
+            "TRX OFF": 9486
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 69,
+      "duration_min": 69,
+      "track_id": "c3c9cc11-aabe-4a66-8e8a-e72a88597ee0",
+      "setup_time": 28,
+      "teardown_time": 9,
+      "time_window_start": 9453,
+      "time_window_end": 9522,
+      "resources": [
+        [
+          "DSS-01"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-01": [
+          {
+            "RISE": 9418,
+            "SET": 9566,
+            "TRX ON": 9453,
+            "TRX OFF": 9522
+          },
+          {
+            "RISE": 9377,
+            "SET": 9557,
+            "TRX ON": 9453,
+            "TRX OFF": 9522
+          },
+          {
+            "RISE": 9387,
+            "SET": 9569,
+            "TRX ON": 9453,
+            "TRX OFF": 9522
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 87,
+      "duration_min": 87,
+      "track_id": "d6cb9545-bcd2-40cc-8a1f-43ac392cf168",
+      "setup_time": 19,
+      "teardown_time": 14,
+      "time_window_start": 7253,
+      "time_window_end": 7340,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": 7187,
+            "SET": 7360,
+            "TRX ON": 7253,
+            "TRX OFF": 7340
+          },
+          {
+            "RISE": 7174,
+            "SET": 7402,
+            "TRX ON": 7253,
+            "TRX OFF": 7340
+          },
+          {
+            "RISE": 7221,
+            "SET": 7394,
+            "TRX ON": 7253,
+            "TRX OFF": 7340
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 75,
+      "duration_min": 75,
+      "track_id": "ece4a1be-1928-4ea5-bb96-447223f28b21",
+      "setup_time": 15,
+      "teardown_time": 13,
+      "time_window_start": 3457,
+      "time_window_end": 3532,
+      "resources": [
+        [
+          "DSS-01"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-01": [
+          {
+            "RISE": 3416,
+            "SET": 3573,
+            "TRX ON": 3457,
+            "TRX OFF": 3532
+          },
+          {
+            "RISE": 3398,
+            "SET": 3583,
+            "TRX ON": 3457,
+            "TRX OFF": 3532
+          },
+          {
+            "RISE": 3412,
+            "SET": 3563,
+            "TRX ON": 3457,
+            "TRX OFF": 3532
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 104,
+      "duration_min": 104,
+      "track_id": "46bbd03a-39a1-41c8-83f5-00f318e5acdc",
+      "setup_time": 24,
+      "teardown_time": 6,
+      "time_window_start": 534,
+      "time_window_end": 638,
+      "resources": [
+        [
+          "DSS-02"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-02": [
+          {
+            "RISE": 460,
+            "SET": 694,
+            "TRX ON": 534,
+            "TRX OFF": 638
+          },
+          {
+            "RISE": 470,
+            "SET": 681,
+            "TRX ON": 534,
+            "TRX OFF": 638
+          },
+          {
+            "RISE": 468,
+            "SET": 695,
+            "TRX ON": 534,
+            "TRX OFF": 638
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 77,
+      "duration_min": 77,
+      "track_id": "3af823ad-8a04-42b0-b921-3138b3b213d5",
+      "setup_time": 14,
+      "teardown_time": 6,
+      "time_window_start": 8922,
+      "time_window_end": 8999,
+      "resources": [
+        [
+          "DSS-02"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-02": [
+          {
+            "RISE": 8870,
+            "SET": 9052,
+            "TRX ON": 8922,
+            "TRX OFF": 8999
+          },
+          {
+            "RISE": 8856,
+            "SET": 9041,
+            "TRX ON": 8922,
+            "TRX OFF": 8999
+          },
+          {
+            "RISE": 8850,
+            "SET": 9023,
+            "TRX ON": 8922,
+            "TRX OFF": 8999
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 104,
+      "duration_min": 104,
+      "track_id": "7aaee303-60e4-4b6a-b120-9249754f3fc4",
+      "setup_time": 22,
+      "teardown_time": 9,
+      "time_window_start": 7195,
+      "time_window_end": 7299,
+      "resources": [
+        [
+          "DSS-02"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-02": [
+          {
+            "RISE": 7145,
+            "SET": 7313,
+            "TRX ON": 7195,
+            "TRX OFF": 7299
+          },
+          {
+            "RISE": 7135,
+            "SET": 7310,
+            "TRX ON": 7195,
+            "TRX OFF": 7299
+          },
+          {
+            "RISE": 7117,
+            "SET": 7335,
+            "TRX ON": 7195,
+            "TRX OFF": 7299
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 74,
+      "duration_min": 74,
+      "track_id": "68fe2c5b-6e9f-4c1c-af3f-d66cc1224d11",
+      "setup_time": 28,
+      "teardown_time": 14,
+      "time_window_start": 5280,
+      "time_window_end": 5354,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": 5200,
+            "SET": 5385,
+            "TRX ON": 5280,
+            "TRX OFF": 5354
+          },
+          {
+            "RISE": 5216,
+            "SET": 5370,
+            "TRX ON": 5280,
+            "TRX OFF": 5354
+          },
+          {
+            "RISE": 5204,
+            "SET": 5416,
+            "TRX ON": 5280,
+            "TRX OFF": 5354
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 118,
+      "duration_min": 118,
+      "track_id": "7f261edb-a81e-4cf4-8b10-e1e134dcdf14",
+      "setup_time": 18,
+      "teardown_time": 7,
+      "time_window_start": 2870,
+      "time_window_end": 2988,
+      "resources": [
+        [
+          "DSS-02_DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-02_DSS-03": [
+          {
+            "RISE": 2847,
+            "SET": 3025,
+            "TRX ON": 2870,
+            "TRX OFF": 2988
+          },
+          {
+            "RISE": 2830,
+            "SET": 3021,
+            "TRX ON": 2870,
+            "TRX OFF": 2988
+          },
+          {
+            "RISE": 2831,
+            "SET": 3015,
+            "TRX ON": 2870,
+            "TRX OFF": 2988
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 102,
+      "duration_min": 102,
+      "track_id": "77920792-9800-4c3d-a1f2-78ad58830928",
+      "setup_time": 22,
+      "teardown_time": 13,
+      "time_window_start": 5403,
+      "time_window_end": 5505,
+      "resources": [
+        [
+          "DSS-01"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-01": [
+          {
+            "RISE": 5361,
+            "SET": 5534,
+            "TRX ON": 5403,
+            "TRX OFF": 5505
+          },
+          {
+            "RISE": 5361,
+            "SET": 5525,
+            "TRX ON": 5403,
+            "TRX OFF": 5505
+          },
+          {
+            "RISE": 5332,
+            "SET": 5543,
+            "TRX ON": 5403,
+            "TRX OFF": 5505
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 86,
+      "duration_min": 86,
+      "track_id": "d8cdbddf-2bec-4911-80c5-289aef244ffd",
+      "setup_time": 11,
+      "teardown_time": 8,
+      "time_window_start": 18,
+      "time_window_end": 104,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": -41,
+            "SET": 143,
+            "TRX ON": 18,
+            "TRX OFF": 104
+          },
+          {
+            "RISE": -33,
+            "SET": 140,
+            "TRX ON": 18,
+            "TRX OFF": 104
+          },
+          {
+            "RISE": -41,
+            "SET": 115,
+            "TRX ON": 18,
+            "TRX OFF": 104
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 78,
+      "duration_min": 78,
+      "track_id": "7c0664c0-e805-44fb-ae5c-058b1d670a67",
+      "setup_time": 24,
+      "teardown_time": 12,
+      "time_window_start": 3335,
+      "time_window_end": 3413,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": 3273,
+            "SET": 3476,
+            "TRX ON": 3335,
+            "TRX OFF": 3413
+          },
+          {
+            "RISE": 3296,
+            "SET": 3470,
+            "TRX ON": 3335,
+            "TRX OFF": 3413
+          },
+          {
+            "RISE": 3301,
+            "SET": 3444,
+            "TRX ON": 3335,
+            "TRX OFF": 3413
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 74,
+      "duration_min": 74,
+      "track_id": "a440d1af-e2f7-4878-8679-a6f02357b88d",
+      "setup_time": 13,
+      "teardown_time": 12,
+      "time_window_start": 9024,
+      "time_window_end": 9098,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": 8958,
+            "SET": 9119,
+            "TRX ON": 9024,
+            "TRX OFF": 9098
+          },
+          {
+            "RISE": 8980,
+            "SET": 9169,
+            "TRX ON": 9024,
+            "TRX OFF": 9098
+          },
+          {
+            "RISE": 8966,
+            "SET": 9128,
+            "TRX ON": 9024,
+            "TRX OFF": 9098
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 84,
+      "duration_min": 84,
+      "track_id": "c61de22e-bf32-4e55-91ab-cf9f32a44cd3",
+      "setup_time": 16,
+      "teardown_time": 14,
+      "time_window_start": 7736,
+      "time_window_end": 7820,
+      "resources": [
+        [
+          "DSS-01"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-01": [
+          {
+            "RISE": 7665,
+            "SET": 7838,
+            "TRX ON": 7736,
+            "TRX OFF": 7820
+          },
+          {
+            "RISE": 7703,
+            "SET": 7883,
+            "TRX ON": 7736,
+            "TRX OFF": 7820
+          },
+          {
+            "RISE": 7670,
+            "SET": 7888,
+            "TRX ON": 7736,
+            "TRX OFF": 7820
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 77,
+      "duration_min": 77,
+      "track_id": "0c81a372-1442-4a3c-bbc2-7064a1687c7b",
+      "setup_time": 10,
+      "teardown_time": 9,
+      "time_window_start": 6798,
+      "time_window_end": 6875,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": 6751,
+            "SET": 6926,
+            "TRX ON": 6798,
+            "TRX OFF": 6875
+          },
+          {
+            "RISE": 6757,
+            "SET": 6939,
+            "TRX ON": 6798,
+            "TRX OFF": 6875
+          },
+          {
+            "RISE": 6779,
+            "SET": 6912,
+            "TRX ON": 6798,
+            "TRX OFF": 6875
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 89,
+      "duration_min": 89,
+      "track_id": "810875cf-dbed-4a7d-ab2b-0e4a778486f3",
+      "setup_time": 20,
+      "teardown_time": 8,
+      "time_window_start": 5446,
+      "time_window_end": 5535,
+      "resources": [
+        [
+          "DSS-01"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-01": [
+          {
+            "RISE": 5390,
+            "SET": 5567,
+            "TRX ON": 5446,
+            "TRX OFF": 5535
+          },
+          {
+            "RISE": 5412,
+            "SET": 5597,
+            "TRX ON": 5446,
+            "TRX OFF": 5535
+          },
+          {
+            "RISE": 5377,
+            "SET": 5569,
+            "TRX ON": 5446,
+            "TRX OFF": 5535
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 118,
+      "duration_min": 118,
+      "track_id": "5c063949-7e2f-4c0a-a14f-712e8e11f35a",
+      "setup_time": 22,
+      "teardown_time": 11,
+      "time_window_start": 715,
+      "time_window_end": 833,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": 684,
+            "SET": 875,
+            "TRX ON": 715,
+            "TRX OFF": 833
+          },
+          {
+            "RISE": 691,
+            "SET": 852,
+            "TRX ON": 715,
+            "TRX OFF": 833
+          },
+          {
+            "RISE": 661,
+            "SET": 881,
+            "TRX ON": 715,
+            "TRX OFF": 833
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 122,
+      "duration_min": 122,
+      "track_id": "6f508069-1bb5-4b39-accd-353dc6d4341b",
+      "setup_time": 14,
+      "teardown_time": 11,
+      "time_window_start": 7213,
+      "time_window_end": 7335,
+      "resources": [
+        [
+          "DSS-01"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-01": [
+          {
+            "RISE": 7195,
+            "SET": 7376,
+            "TRX ON": 7213,
+            "TRX OFF": 7335
+          },
+          {
+            "RISE": 7149,
+            "SET": 7362,
+            "TRX ON": 7213,
+            "TRX OFF": 7335
+          },
+          {
+            "RISE": 7178,
+            "SET": 7385,
+            "TRX ON": 7213,
+            "TRX OFF": 7335
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 230,
+      "duration_min": 230,
+      "track_id": "371e8d96-056e-4d20-a35c-a8953999b9b8",
+      "setup_time": 27,
+      "teardown_time": 11,
+      "time_window_start": 6512,
+      "time_window_end": 6742,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": 6440,
+            "SET": 6809,
+            "TRX ON": 6512,
+            "TRX OFF": 6742
+          },
+          {
+            "RISE": 6437,
+            "SET": 6784,
+            "TRX ON": 6512,
+            "TRX OFF": 6742
+          },
+          {
+            "RISE": 6430,
+            "SET": 6787,
+            "TRX ON": 6512,
+            "TRX OFF": 6742
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 150,
+      "duration_min": 150,
+      "track_id": "ccf6db79-670e-4017-bfcc-3da67879942e",
+      "setup_time": 12,
+      "teardown_time": 11,
+      "time_window_start": 3846,
+      "time_window_end": 3996,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": 3789,
+            "SET": 4062,
+            "TRX ON": 3846,
+            "TRX OFF": 3996
+          },
+          {
+            "RISE": 3828,
+            "SET": 4035,
+            "TRX ON": 3846,
+            "TRX OFF": 3996
+          },
+          {
+            "RISE": 3824,
+            "SET": 4051,
+            "TRX ON": 3846,
+            "TRX OFF": 3996
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 82,
+      "duration_min": 82,
+      "track_id": "29f73f5f-0854-40c8-93a0-2fe4850a7af8",
+      "setup_time": 21,
+      "teardown_time": 11,
+      "time_window_start": 753,
+      "time_window_end": 835,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": 706,
+            "SET": 882,
+            "TRX ON": 753,
+            "TRX OFF": 835
+          },
+          {
+            "RISE": 689,
+            "SET": 896,
+            "TRX ON": 753,
+            "TRX OFF": 835
+          },
+          {
+            "RISE": 721,
+            "SET": 856,
+            "TRX ON": 753,
+            "TRX OFF": 835
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 200,
+      "duration_min": 200,
+      "track_id": "68a54b30-4971-43cb-bae7-34e15e56ffb8",
+      "setup_time": 17,
+      "teardown_time": 12,
+      "time_window_start": 2868,
+      "time_window_end": 3068,
+      "resources": [
+        [
+          "DSS-01"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-01": [
+          {
+            "RISE": 2837,
+            "SET": 3109,
+            "TRX ON": 2868,
+            "TRX OFF": 3068
+          },
+          {
+            "RISE": 2811,
+            "SET": 3096,
+            "TRX ON": 2868,
+            "TRX OFF": 3068
+          },
+          {
+            "RISE": 2822,
+            "SET": 3096,
+            "TRX ON": 2868,
+            "TRX OFF": 3068
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 82,
+      "duration_min": 82,
+      "track_id": "0cfa1374-234c-4081-8181-b39eda977919",
+      "setup_time": 28,
+      "teardown_time": 9,
+      "time_window_start": 8955,
+      "time_window_end": 9037,
+      "resources": [
+        [
+          "DSS-02"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-02": [
+          {
+            "RISE": 8883,
+            "SET": 9062,
+            "TRX ON": 8955,
+            "TRX OFF": 9037
+          },
+          {
+            "RISE": 8898,
+            "SET": 9100,
+            "TRX ON": 8955,
+            "TRX OFF": 9037
+          },
+          {
+            "RISE": 8908,
+            "SET": 9058,
+            "TRX ON": 8955,
+            "TRX OFF": 9037
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 96,
+      "duration_min": 96,
+      "track_id": "fabeda31-f4c3-4d13-b8f1-40ac98cc2f58",
+      "setup_time": 19,
+      "teardown_time": 9,
+      "time_window_start": 1747,
+      "time_window_end": 1843,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": 1703,
+            "SET": 1869,
+            "TRX ON": 1747,
+            "TRX OFF": 1843
+          },
+          {
+            "RISE": 1728,
+            "SET": 1888,
+            "TRX ON": 1747,
+            "TRX OFF": 1843
+          },
+          {
+            "RISE": 1673,
+            "SET": 1895,
+            "TRX ON": 1747,
+            "TRX OFF": 1843
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 100,
+      "duration_min": 100,
+      "track_id": "0787ffde-fc1e-4e8b-ab81-b989695d658a",
+      "setup_time": 16,
+      "teardown_time": 14,
+      "time_window_start": 3770,
+      "time_window_end": 3870,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": 3705,
+            "SET": 3926,
+            "TRX ON": 3770,
+            "TRX OFF": 3870
+          },
+          {
+            "RISE": 3711,
+            "SET": 3937,
+            "TRX ON": 3770,
+            "TRX OFF": 3870
+          },
+          {
+            "RISE": 3746,
+            "SET": 3924,
+            "TRX ON": 3770,
+            "TRX OFF": 3870
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 68,
+      "duration_min": 68,
+      "track_id": "d1a7608b-ea13-4688-b708-65f2ca108b0a",
+      "setup_time": 12,
+      "teardown_time": 9,
+      "time_window_start": 7222,
+      "time_window_end": 7290,
+      "resources": [
+        [
+          "DSS-02"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-02": [
+          {
+            "RISE": 7199,
+            "SET": 7311,
+            "TRX ON": 7222,
+            "TRX OFF": 7290
+          },
+          {
+            "RISE": 7202,
+            "SET": 7349,
+            "TRX ON": 7222,
+            "TRX OFF": 7290
+          },
+          {
+            "RISE": 7176,
+            "SET": 7355,
+            "TRX ON": 7222,
+            "TRX OFF": 7290
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 89,
+      "duration_min": 89,
+      "track_id": "ae6a6729-cabe-49bd-a7f4-4524e7d0e79e",
+      "setup_time": 21,
+      "teardown_time": 15,
+      "time_window_start": 6464,
+      "time_window_end": 6553,
+      "resources": [
+        [
+          "DSS-02"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-02": [
+          {
+            "RISE": 6406,
+            "SET": 6592,
+            "TRX ON": 6464,
+            "TRX OFF": 6553
+          },
+          {
+            "RISE": 6391,
+            "SET": 6608,
+            "TRX ON": 6464,
+            "TRX OFF": 6553
+          },
+          {
+            "RISE": 6383,
+            "SET": 6591,
+            "TRX ON": 6464,
+            "TRX OFF": 6553
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 192,
+      "duration_min": 192,
+      "track_id": "e77f6b93-b805-425b-a553-4d0b53e392d7",
+      "setup_time": 20,
+      "teardown_time": 14,
+      "time_window_start": 7724,
+      "time_window_end": 7916,
+      "resources": [
+        [
+          "DSS-01"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-01": [
+          {
+            "RISE": 7664,
+            "SET": 7982,
+            "TRX ON": 7724,
+            "TRX OFF": 7916
+          },
+          {
+            "RISE": 7675,
+            "SET": 7988,
+            "TRX ON": 7724,
+            "TRX OFF": 7916
+          },
+          {
+            "RISE": 7660,
+            "SET": 7949,
+            "TRX ON": 7724,
+            "TRX OFF": 7916
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 62,
+      "duration_min": 62,
+      "track_id": "1e779acd-9879-49b0-847e-98f1c4e9941a",
+      "setup_time": 19,
+      "teardown_time": 12,
+      "time_window_start": 6689,
+      "time_window_end": 6751,
+      "resources": [
+        [
+          "DSS-01"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-01": [
+          {
+            "RISE": 6614,
+            "SET": 6797,
+            "TRX ON": 6689,
+            "TRX OFF": 6751
+          },
+          {
+            "RISE": 6662,
+            "SET": 6787,
+            "TRX ON": 6689,
+            "TRX OFF": 6751
+          },
+          {
+            "RISE": 6641,
+            "SET": 6786,
+            "TRX ON": 6689,
+            "TRX OFF": 6751
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 88,
+      "duration_min": 88,
+      "track_id": "1342544e-57c6-438c-927d-7ccdcbc1fdda",
+      "setup_time": 24,
+      "teardown_time": 8,
+      "time_window_start": 4583,
+      "time_window_end": 4671,
+      "resources": [
+        [
+          "DSS-01"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-01": [
+          {
+            "RISE": 4516,
+            "SET": 4702,
+            "TRX ON": 4583,
+            "TRX OFF": 4671
+          },
+          {
+            "RISE": 4525,
+            "SET": 4736,
+            "TRX ON": 4583,
+            "TRX OFF": 4671
+          },
+          {
+            "RISE": 4518,
+            "SET": 4701,
+            "TRX ON": 4583,
+            "TRX OFF": 4671
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 67,
+      "duration_min": 67,
+      "track_id": "a3fa89ef-2663-4b0a-86f4-837ffe303476",
+      "setup_time": 24,
+      "teardown_time": 6,
+      "time_window_start": 992,
+      "time_window_end": 1059,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": 928,
+            "SET": 1103,
+            "TRX ON": 992,
+            "TRX OFF": 1059
+          },
+          {
+            "RISE": 967,
+            "SET": 1068,
+            "TRX ON": 992,
+            "TRX OFF": 1059
+          },
+          {
+            "RISE": 918,
+            "SET": 1086,
+            "TRX ON": 992,
+            "TRX OFF": 1059
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 191,
+      "duration_min": 191,
+      "track_id": "36c4b82b-974b-4411-989e-3d236f87e039",
+      "setup_time": 16,
+      "teardown_time": 14,
+      "time_window_start": 9250,
+      "time_window_end": 9441,
+      "resources": [
+        [
+          "DSS-01"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-01": [
+          {
+            "RISE": 9213,
+            "SET": 9504,
+            "TRX ON": 9250,
+            "TRX OFF": 9441
+          },
+          {
+            "RISE": 9225,
+            "SET": 9505,
+            "TRX ON": 9250,
+            "TRX OFF": 9441
+          },
+          {
+            "RISE": 9177,
+            "SET": 9493,
+            "TRX ON": 9250,
+            "TRX OFF": 9441
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 274,
+      "duration_min": 274,
+      "track_id": "e2ab4523-56f4-4d88-9bc9-7fb1a9cb4a4e",
+      "setup_time": 27,
+      "teardown_time": 9,
+      "time_window_start": 46,
+      "time_window_end": 320,
+      "resources": [
+        [
+          "DSS-01"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-01": [
+          {
+            "RISE": -23,
+            "SET": 384,
+            "TRX ON": 46,
+            "TRX OFF": 320
+          },
+          {
+            "RISE": 18,
+            "SET": 337,
+            "TRX ON": 46,
+            "TRX OFF": 320
+          },
+          {
+            "RISE": 19,
+            "SET": 351,
+            "TRX ON": 46,
+            "TRX OFF": 320
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 76,
+      "duration_min": 76,
+      "track_id": "a7c31128-fc13-448d-8762-224557f73b62",
+      "setup_time": 11,
+      "teardown_time": 7,
+      "time_window_start": 3898,
+      "time_window_end": 3974,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": 3880,
+            "SET": 4028,
+            "TRX ON": 3898,
+            "TRX OFF": 3974
+          },
+          {
+            "RISE": 3883,
+            "SET": 4011,
+            "TRX ON": 3898,
+            "TRX OFF": 3974
+          },
+          {
+            "RISE": 3859,
+            "SET": 4030,
+            "TRX ON": 3898,
+            "TRX OFF": 3974
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 61,
+      "duration_min": 61,
+      "track_id": "ef4a3281-d53e-4d1a-8746-206298c13450",
+      "setup_time": 11,
+      "teardown_time": 12,
+      "time_window_start": 8543,
+      "time_window_end": 8604,
+      "resources": [
+        [
+          "DSS-02"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-02": [
+          {
+            "RISE": 8489,
+            "SET": 8622,
+            "TRX ON": 8543,
+            "TRX OFF": 8604
+          },
+          {
+            "RISE": 8501,
+            "SET": 8661,
+            "TRX ON": 8543,
+            "TRX OFF": 8604
+          },
+          {
+            "RISE": 8474,
+            "SET": 8644,
+            "TRX ON": 8543,
+            "TRX OFF": 8604
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 77,
+      "duration_min": 77,
+      "track_id": "93722866-2543-466d-8079-d07c5691ce5b",
+      "setup_time": 29,
+      "teardown_time": 15,
+      "time_window_start": 5277,
+      "time_window_end": 5354,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": 5228,
+            "SET": 5393,
+            "TRX ON": 5277,
+            "TRX OFF": 5354
+          },
+          {
+            "RISE": 5210,
+            "SET": 5402,
+            "TRX ON": 5277,
+            "TRX OFF": 5354
+          },
+          {
+            "RISE": 5230,
+            "SET": 5398,
+            "TRX ON": 5277,
+            "TRX OFF": 5354
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 104,
+      "duration_min": 104,
+      "track_id": "bb66b219-8cd0-4d5a-9788-ccebc1d19243",
+      "setup_time": 13,
+      "teardown_time": 15,
+      "time_window_start": 8282,
+      "time_window_end": 8386,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": 8223,
+            "SET": 8456,
+            "TRX ON": 8282,
+            "TRX OFF": 8386
+          },
+          {
+            "RISE": 8256,
+            "SET": 8428,
+            "TRX ON": 8282,
+            "TRX OFF": 8386
+          },
+          {
+            "RISE": 8241,
+            "SET": 8457,
+            "TRX ON": 8282,
+            "TRX OFF": 8386
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 172,
+      "duration_min": 172,
+      "track_id": "7587baa5-8b86-4728-85ac-7f9108e697f1",
+      "setup_time": 23,
+      "teardown_time": 6,
+      "time_window_start": 3743,
+      "time_window_end": 3915,
+      "resources": [
+        [
+          "DSS-02"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-02": [
+          {
+            "RISE": 3678,
+            "SET": 3937,
+            "TRX ON": 3743,
+            "TRX OFF": 3915
+          },
+          {
+            "RISE": 3697,
+            "SET": 3930,
+            "TRX ON": 3743,
+            "TRX OFF": 3915
+          },
+          {
+            "RISE": 3677,
+            "SET": 3980,
+            "TRX ON": 3743,
+            "TRX OFF": 3915
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 132,
+      "duration_min": 132,
+      "track_id": "3f87a88f-4872-4577-9224-756f51ed6b33",
+      "setup_time": 23,
+      "teardown_time": 6,
+      "time_window_start": 7770,
+      "time_window_end": 7902,
+      "resources": [
+        [
+          "DSS-02"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-02": [
+          {
+            "RISE": 7696,
+            "SET": 7916,
+            "TRX ON": 7770,
+            "TRX OFF": 7902
+          },
+          {
+            "RISE": 7712,
+            "SET": 7911,
+            "TRX ON": 7770,
+            "TRX OFF": 7902
+          },
+          {
+            "RISE": 7710,
+            "SET": 7943,
+            "TRX ON": 7770,
+            "TRX OFF": 7902
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 92,
+      "duration_min": 92,
+      "track_id": "cace8541-9635-46a3-ba7d-26d1b39a908b",
+      "setup_time": 16,
+      "teardown_time": 7,
+      "time_window_start": 9837,
+      "time_window_end": 9929,
+      "resources": [
+        [
+          "DSS-01"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-01": [
+          {
+            "RISE": 9767,
+            "SET": 9942,
+            "TRX ON": 9837,
+            "TRX OFF": 9929
+          },
+          {
+            "RISE": 9799,
+            "SET": 9990,
+            "TRX ON": 9837,
+            "TRX OFF": 9929
+          },
+          {
+            "RISE": 9786,
+            "SET": 9959,
+            "TRX ON": 9837,
+            "TRX OFF": 9929
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 95,
+      "duration_min": 95,
+      "track_id": "4609cf23-ef44-4706-b2bd-eaf7cac2b5ce",
+      "setup_time": 29,
+      "teardown_time": 14,
+      "time_window_start": 9406,
+      "time_window_end": 9501,
+      "resources": [
+        [
+          "DSS-03"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-03": [
+          {
+            "RISE": 9376,
+            "SET": 9553,
+            "TRX ON": 9406,
+            "TRX OFF": 9501
+          },
+          {
+            "RISE": 9318,
+            "SET": 9557,
+            "TRX ON": 9406,
+            "TRX OFF": 9501
+          },
+          {
+            "RISE": 9324,
+            "SET": 9559,
+            "TRX ON": 9406,
+            "TRX OFF": 9501
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 108,
+      "duration_min": 108,
+      "track_id": "3cbebfa1-f946-44ea-8531-7a2e967572a1",
+      "setup_time": 19,
+      "teardown_time": 10,
+      "time_window_start": 4381,
+      "time_window_end": 4489,
+      "resources": [
+        [
+          "DSS-01"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-01": [
+          {
+            "RISE": 4307,
+            "SET": 4508,
+            "TRX ON": 4381,
+            "TRX OFF": 4489
+          },
+          {
+            "RISE": 4326,
+            "SET": 4541,
+            "TRX ON": 4381,
+            "TRX OFF": 4489
+          },
+          {
+            "RISE": 4337,
+            "SET": 4503,
+            "TRX ON": 4381,
+            "TRX OFF": 4489
+          }
+        ]
+      }
+    },
+    {
+      "subject": 521,
+      "user": "521_0",
+      "week": 1,
+      "year": 2024,
+      "duration": 84,
+      "duration_min": 84,
+      "track_id": "4f39a879-7441-47cd-8ba4-bb53f2b64b25",
+      "setup_time": 23,
+      "teardown_time": 12,
+      "time_window_start": 502,
+      "time_window_end": 586,
+      "resources": [
+        [
+          "DSS-02"
+        ]
+      ],
+      "resource_vp_dict": {
+        "DSS-02": [
+          {
+            "RISE": 460,
+            "SET": 644,
+            "TRX ON": 502,
+            "TRX OFF": 586
+          },
+          {
+            "RISE": 459,
+            "SET": 647,
+            "TRX ON": 502,
+            "TRX OFF": 586
+          },
+          {
+            "RISE": 419,
+            "SET": 634,
+            "TRX ON": 502,
+            "TRX OFF": 586
+          }
+        ]
+      }
+    }
+  ]
+}

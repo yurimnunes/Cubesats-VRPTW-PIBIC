@@ -661,9 +661,9 @@ class OptimizationProblem:
                     # Adicionar label com ID da track e janela de tempo
                     #window_label = f"Track {track_id}\n{time_str(window_start)}-{time_str(window_end)}"
                     window_label = f"{time_str(window_start)}-{time_str(window_end)}"
-                    #ax.text(angle, plot_radius + 0.05, window_label, 
-                    #    ha='center', va='bottom', fontsize=8, color='red',
-                    #    bbox=dict(boxstyle="round,pad=0.3", fc="white", ec="red", alpha=0.8))
+                    ax.text(angle, plot_radius + 0.05, window_label, 
+                        ha='center', va='bottom', fontsize=8, color='red',
+                        bbox=dict(boxstyle="round,pad=0.3", fc="white", ec="red", alpha=0.8))
         
         # Configurar o gráfico polar
         ax.set_theta_offset(math.pi/2)  # 0° no topo

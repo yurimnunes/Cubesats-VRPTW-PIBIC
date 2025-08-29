@@ -106,17 +106,18 @@ def generate_dsn_data(weeks, year, tracks_per_week, antennas):
 
 if __name__ == "__main__":
     # # Configuration
-    WEEKS = list(range(1, 3))
+    WEEKS = list(range(1, 2))
     YEAR = 2024
-    TRACKS_PER_WEEK = 50
-    ANTENNAS = [f"DSS-{i:02d}" for i in range(1, 10)]  # 6 antennas
+    TRACKS_PER_WEEK = 100
+    n_antenas = 3
+    ANTENNAS = [f"DSS-{i:02d}" for i in range(1, n_antenas + 1)]  # 6 antennas
     print(f"Numero de antenas é {ANTENNAS}")
 
     dsn_data = generate_dsn_data(WEEKS, YEAR, TRACKS_PER_WEEK, ANTENNAS)
 
     import os
 
-    relative_path = os.path.dirname(os.path.abspath(__file__)) + "/build/dsn_schedule.json"
+    relative_path = os.path.dirname(os.path.abspath(__file__)) + f"/build/dsn_tracks{TRACKS_PER_WEEK*len(WEEKS)}_antenas{len(ANTENNAS)}.json"
     
     with open(relative_path, "w") as file:
         json.dump(dsn_data, file, indent=2)
