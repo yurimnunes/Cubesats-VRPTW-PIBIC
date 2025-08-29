@@ -519,6 +519,12 @@ class OptimizationProblem:
         colors = plt.cm.tab10.colors
         antenna_colors = {}
         
+        # Identificar tracks não agendadas
+        unscheduled_tracks = []
+        for track in self.graph.instance.tracks:
+            if self.y[track].X < 0.5:  # Track não foi agendada
+                unscheduled_tracks.append(track)
+        
         # Para cada antena, vamos desenhar seu caminho
         for idx, antenna in enumerate(self.graph.resources):
             # Atribuir uma cor para esta antena
@@ -594,7 +600,7 @@ class OptimizationProblem:
             
             # Adicionar labels aos pontos (apenas para tracks, não para o início)
             for i, (angle, radius, label) in enumerate(zip(angles, radii, labels)):
-                if i >= 0:  # Não mostrar label para o ponto de início
+                if i > 0:  # Não mostrar label para o ponto de início
                     # Determinar a posição do texto para evitar sobreposição
                     text_radius = radius + 0.15
                     
@@ -610,6 +616,39 @@ class OptimizationProblem:
                         ha='center', va=va, fontsize=8,
                         bbox=dict(boxstyle="round,pad=0.2", fc="white", ec=antenna_colors[antenna], alpha=0.8))
         
+        # Adicionar tracks não agendadas no raio extremo (0.9 do máximo)
+        max_radius = len(self.graph.resources) + 1
+        unscheduled_radius = max_radius * 0.9
+        
+        for track_id in unscheduled_tracks:
+            track_data = self.graph.instance.track_nodes[track_id]
+            
+            # Usar a primeira janela da primeira antena para posicionamento
+            if track_data['resource_windows']:
+                first_antenna = list(track_data['resource_windows'].keys())[0]
+                windows = track_data['resource_windows'][first_antenna]
+                
+                # Usar a primeira janela disponível
+                if windows:
+                    window = windows[0]
+                    window_start, window_end = window
+                    
+                    # Calcular o ponto médio da janela para posicionamento
+                    window_mid = (window_start + window_end) / 2
+                    
+                    # Converter tempo para ângulo
+                    angle = (window_mid / (168*60)) * 2 * math.pi
+                    
+                    # Plotar um X vermelho para indicar track não agendada
+                    ax.plot(angle, unscheduled_radius, 'x', color='red', markersize=10, mew=2)
+                    
+                    # Adicionar label com ID da track e janela de tempo
+                    #window_label = f"Track {track_id}\n{time_str(window_start)}-{time_str(window_end)}"
+                    window_label = f"{time_str(window_start)}-{time_str(window_end)}"
+                    #ax.text(angle, unscheduled_radius + 0.15, window_label, 
+                    #    ha='center', va='bottom', fontsize=8, color='red',
+                    #    bbox=dict(boxstyle="round,pad=0.3", fc="white", ec="red", alpha=0.8))
+        
         # Configurar o gráfico polar
         ax.set_theta_offset(math.pi/2)  # 0° no topo
         ax.set_theta_direction(-1)  # Sentido horário
@@ -623,20 +662,25 @@ class OptimizationProblem:
         # Adicionar linhas de grade para os dias
         ax.grid(True, which='major', axis='x', linestyle='-', alpha=0.7)
         
-        # Configurar os ticks do raio (antenas)
-        ax.set_yticks(range(1, len(self.graph.resources) + 1))
-        ax.set_yticklabels([f'Antena {a}' for a in self.graph.resources])
-        ax.set_ylim(0, len(self.graph.resources) + 1)
+        # Configurar os ticks do raio (antenas + track não agendadas)
+        antenna_ticks = list(range(1, len(self.graph.resources) + 1)) + [unscheduled_radius]
+        antenna_labels = [f'Antena {a}' for a in self.graph.resources] + ['Não Agendadas']
+        ax.set_yticks(antenna_ticks)
+        ax.set_yticklabels(antenna_labels)
+        ax.set_ylim(0, max_radius)
         
         # Adicionar legenda
         ax.legend(loc='upper right', bbox_to_anchor=(1.15, 1))
         
         # Adicionar título
-        plt.title('Cronograma Semanal das Antenas (168 horas)', pad=20, fontsize=16)
+        scheduled_count = len(self.graph.instance.tracks) - len(unscheduled_tracks)
+        total_count = len(self.graph.instance.tracks)
+        plt.title(f'Cronograma Semanal das Antenas (168 horas) - {scheduled_count}/{total_count} Tracks Agendadas', 
+                pad=20, fontsize=16)
         
         # Ajustar layout
         plt.tight_layout()
-        plt.show() 
+        plt.show()
     def print_variables(self):
         """Print all decision variables with non-zero/selected values"""
         if self.model.status != GRB.OPTIMAL:
@@ -680,6 +724,8 @@ instance = Instance()
 
 #instance.load_data("build/dsn_schedule.json")
 instance.load_data("build/dsn_tracks50_antenas3.json")
+#instance.load_data("build/dsn_tracks100_antenas3.json")
+#instance.load_data("build/dsn_tracks100_antenas9.json")
 #instance.load_data("build/toy_problem.json")
 graph = Graph(instance)
 
