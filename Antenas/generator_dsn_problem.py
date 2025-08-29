@@ -47,9 +47,11 @@ def generate_view_periods(time_window_start, time_window_end, setup, teardown):
     return periods
 
 def generate_track_data(week, year, num_tracks, antennas):
-    start_week = datetime.strptime(f'{year}-W{week}-1', "%Y-W%W-%w")
-    start_week_minutes = datetime_to_minutes(start_week)
-    end_week_minutes = start_week_minutes + 7 * 24 * 60
+    #start_week = datetime.strptime(f'{year}-W{week}-1', "%Y-W%W-%w")
+    #start_week_minutes = datetime_to_minutes(start_week)
+    #end_week_minutes = start_week_minutes + 7 * 24 * 60
+    start_week_minutes =(7 * 24 * 60)*(week -1) 
+    end_week_minutes = (7 * 24 * 60)*(week)
     tracks = []
   
     for _ in range(num_tracks):
