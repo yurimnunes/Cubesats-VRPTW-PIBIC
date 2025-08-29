@@ -505,10 +505,10 @@ class OptimizationProblem:
             return
 
         def time_str(mins):
-            days = int(mins // (24*60))
-            hours = int((mins % (24*60)) // 60)
+            """Formata o tempo para HH:MM (apenas horário, sem dias)"""
+            hours = int(mins // 60)
             minutes = int(mins % 60)
-            return f"D{days} {hours:02d}:{minutes:02d}"
+            return f"{hours:02d}:{minutes:02d}"
 
         print("\nANTENNA PATHS:")
         
@@ -561,10 +561,16 @@ class OptimizationProblem:
                 angles.append(angle)
                 radii.append(idx + 1)  # Mesmo raio para esta antena
                 
-                # Formatar label como solicitado: "início-fim"
+                # Formatar label como solicitado: apenas horário (HH:MM-HH:MM)
                 labels.append(f"{time_str(start)}-{time_str(end)}")
                 
-                # Informações para console
+                # Informações para console (mantemos com dias para debug)
+                def console_time_str(mins):
+                    days = int(mins // (24*60))
+                    hours = int((mins % (24*60)) // 60)
+                    minutes = int(mins % 60)
+                    return f"D{days} {hours:02d}:{minutes:02d}"
+                    
                 w_idx = next(i for i in range(len(track_data['resource_windows'][antenna])) 
                         if self.z[(track_id, antenna, i)].X > 0.5)
                 window = track_data['resource_windows'][antenna][w_idx]
@@ -575,8 +581,8 @@ class OptimizationProblem:
                     sync_note = f" (SYNC with {', '.join(sync_partners)})"
 
                 print(f"╠═ Track {track_id}{sync_note}")
-                print(f"║  ├─ Window: {time_str(window[0])}-{time_str(window[1])}")
-                print(f"║  ├─ TRX: {time_str(start)}-{time_str(end)}")
+                print(f"║  ├─ Window: {console_time_str(window[0])}-{console_time_str(window[1])}")
+                print(f"║  ├─ TRX: {console_time_str(start)}-{console_time_str(end)}")
                 print(f"║  └─ Duration: {track_data['duration']}min")
                 
                 current_node = track_id
@@ -588,7 +594,7 @@ class OptimizationProblem:
             
             # Adicionar labels aos pontos (apenas para tracks, não para o início)
             for i, (angle, radius, label) in enumerate(zip(angles, radii, labels)):
-                if i > 0:  # Não mostrar label para o ponto de início
+                if i >= 0:  # Não mostrar label para o ponto de início
                     # Determinar a posição do texto para evitar sobreposição
                     text_radius = radius + 0.15
                     
@@ -630,7 +636,7 @@ class OptimizationProblem:
         
         # Ajustar layout
         plt.tight_layout()
-        plt.show()        
+        plt.show() 
     def print_variables(self):
         """Print all decision variables with non-zero/selected values"""
         if self.model.status != GRB.OPTIMAL:
