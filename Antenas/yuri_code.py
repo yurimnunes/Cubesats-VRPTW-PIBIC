@@ -499,18 +499,21 @@ class OptimizationProblem:
                     print(f"    Window: {time_str(window[0])}-{time_str(window[1])}")
 
     def print_antenna_paths(self):
-        """Print antenna paths with sync track awareness in a circular plot"""
+        """Print antenna paths with sync track awareness in a circular plot spanning 168 hours"""
         if self.model.status != GRB.OPTIMAL:
             print("No solution found")
             return
 
         def time_str(mins):
-            return f"{int(mins//60):02d}:{int(mins%60):02d}"
+            days = int(mins // (24*60))
+            hours = int((mins % (24*60)) // 60)
+            minutes = int(mins % 60)
+            return f"D{days} {hours:02d}:{minutes:02d}"
 
         print("\nANTENNA PATHS:")
         
         # Configuração do plot circular
-        fig, ax = plt.subplots(figsize=(12, 12), subplot_kw={'projection': 'polar'})
+        fig, ax = plt.subplots(figsize=(16, 16), subplot_kw={'projection': 'polar'})
         
         # Cores para diferentes antenas
         colors = plt.cm.tab10.colors
@@ -552,14 +555,13 @@ class OptimizationProblem:
                 start = self.tau[(track_id, antenna)].X
                 end = start + track_data['duration']
                 
-                # Converter tempo para ângulo (0-24 horas para 0-2π)
-                # Se seu tempo está em minutos desde o início da semana:
-                # angle = (start % (24*60)) / (24*60) * 2 * math.pi
-                angle = (start / (24*60)) * 2 * math.pi  # Se start é em minutos desde meia-noite
+                # Converter tempo para ângulo (0-168 horas para 0-2π)
+                angle = (start / (168*60)) * 2 * math.pi  # 168 horas em minutos
                 
                 angles.append(angle)
                 radii.append(idx + 1)  # Mesmo raio para esta antena
-                #labels.append(f"Track {track_id}\n{time_str(start)}-{time_str(end)}")
+                
+                # Formatar label como solicitado: "início-fim"
                 labels.append(f"{time_str(start)}-{time_str(end)}")
                 
                 # Informações para console
@@ -582,44 +584,53 @@ class OptimizationProblem:
             print(f"╚═ ve_{antenna} [End]")
             
             # Plotar o caminho desta antena
-            ax.plot(angles, radii, 'o-', color=antenna_colors[antenna], label=antenna, linewidth=2)
+            ax.plot(angles, radii, 'o-', color=antenna_colors[antenna], label=antenna, linewidth=2, markersize=8)
             
-            # Adicionar labels aos pontos
+            # Adicionar labels aos pontos (apenas para tracks, não para o início)
             for i, (angle, radius, label) in enumerate(zip(angles, radii, labels)):
                 if i > 0:  # Não mostrar label para o ponto de início
-                    ax.annotate(label, 
-                            xy=(angle, radius), 
-                            xytext=(5, 5), 
-                            textcoords='offset points',
-                            fontsize=8,
-                            bbox=dict(boxstyle="round,pad=0.3", fc="white", alpha=0.7))
+                    # Determinar a posição do texto para evitar sobreposição
+                    text_radius = radius + 0.15
+                    
+                    # Alternar entre inside e outside para evitar sobreposição
+                    if i % 2 == 0:
+                        text_radius = radius - 0.15
+                        va = 'top'
+                    else:
+                        text_radius = radius + 0.15
+                        va = 'bottom'
+                    
+                    ax.text(angle, text_radius, label, 
+                        ha='center', va=va, fontsize=8,
+                        bbox=dict(boxstyle="round,pad=0.2", fc="white", ec=antenna_colors[antenna], alpha=0.8))
         
         # Configurar o gráfico polar
         ax.set_theta_offset(math.pi/2)  # 0° no topo
         ax.set_theta_direction(-1)  # Sentido horário
-        ax.set_rlabel_position(0)  # Labels do raio no ângulo 0
         
-        # Configurar os ticks do ângulo (horas)
-        ax.set_xticks(np.linspace(0, 2*math.pi, 24, endpoint=False))
-        ax.set_xticklabels([f'{h}:00' for h in range(24)])
+        # Configurar os ticks do ângulo (dias da semana)
+        days = ["Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado", "Domingo"]
+        day_ticks = np.linspace(0, 2*math.pi, 7, endpoint=False)
+        ax.set_xticks(day_ticks)
+        ax.set_xticklabels(days)
+        
+        # Adicionar linhas de grade para os dias
+        ax.grid(True, which='major', axis='x', linestyle='-', alpha=0.7)
         
         # Configurar os ticks do raio (antenas)
         ax.set_yticks(range(1, len(self.graph.resources) + 1))
-        ax.set_yticklabels([f'Antenna {a}' for a in self.graph.resources])
-        
-        # Adicionar grade
-        ax.grid(True)
+        ax.set_yticklabels([f'Antena {a}' for a in self.graph.resources])
+        ax.set_ylim(0, len(self.graph.resources) + 1)
         
         # Adicionar legenda
-        ax.legend(loc='upper right', bbox_to_anchor=(1.3, 1))
+        ax.legend(loc='upper right', bbox_to_anchor=(1.15, 1))
         
-        # Título
-        plt.title('Cronograma Circular das Antenas', pad=20)
+        # Adicionar título
+        plt.title('Cronograma Semanal das Antenas (168 horas)', pad=20, fontsize=16)
         
         # Ajustar layout
         plt.tight_layout()
-        plt.show()
-    
+        plt.show()        
     def print_variables(self):
         """Print all decision variables with non-zero/selected values"""
         if self.model.status != GRB.OPTIMAL:
