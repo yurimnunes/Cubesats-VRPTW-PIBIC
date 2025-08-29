@@ -2,6 +2,7 @@
 import itertools
 import networkx as nx
 import matplotlib.pyplot as plt
+import math
 
 class Graph:
     def __init__(self, instance):
@@ -499,7 +500,6 @@ class OptimizationProblem:
     def print_antenna_paths(self):
         """Print antenna paths with sync track awareness"""
 
-        plotar_grafos = []
         
         if self.model.status != GRB.OPTIMAL:
             print("No solution found")
@@ -510,12 +510,20 @@ class OptimizationProblem:
 
         print("\nANTENNA PATHS:")
 
-        for antenna in self.graph.resources:
-            path = []
-            current_node = f"vs_{antenna}"
+        plotar_grafos = []
+        posicoes_por_antena = []
 
-            plotar_grafos.append(nx.DiGraph())
-            plotar_grafos[-1].add_node(current_node, label=f"{antenna}")
+        for antenna in self.graph.resources:
+            G = nx.DiGraph()
+            pos_dict = {}
+            current_node = f"vs_{antenna}"
+            G.add_node(current_node, label=f"{antenna}")
+            
+            #calcular posicao inicial
+            var = len(posicoes_por_antena)/len(self.graph.resources)
+            raio = len(self.graph.resources)/(2*math.pi)
+            pos = (math.cos(var)*raio, math.sin(var)*raio)
+            pos_dict[current_node] = pos
             
             print(f"\n📻 {antenna} Timeline:")
             print(f"╠═ {current_node} [Start]")
@@ -551,43 +559,43 @@ class OptimizationProblem:
                 print(f"║  ├─ Window: {time_str(window[0])}-{time_str(window[1])}")
                 print(f"║  ├─ TRX: {time_str(start)}-{time_str(end)}")
                 print(f"║  └─ Duration: {duration}min")
-                
-                plotar_grafos[-1].add_node(current_node, label=f"Track {track_id}")
-                plotar_grafos[-1].add_edge(current_node, next_node, label=f"Antenna {antenna}")
-                #plotar_grafos[-1].add_edge(next_node, current_node, label=f"Antenna {antenna}")
+
+                G.add_node(track_id, label=f"Track {track_id}")
+                G.add_edge(current_node, track_id, label=f"Antenna {antenna}")
+
+                # Calcular posição baeada no tempo
+                #diametro = 0 até tempo maximo * 2pi
+                var = -(start/(7*24*60))*(2*math.pi)
+                # diametro = 2*pi*r
+                # r = var/(2*math.pi)
+                raio = start/(7*24*60)
+                pos = (math.cos(var)*raio, math.sin(var)*raio)
+                pos_dict[track_id] = pos
 
                 current_node = track_id
 
             print(f"╚═ ve_{antenna} [End]")
+            plotar_grafos.append(G)
+            posicoes_por_antena.append(pos_dict)
             
-        plt.figure(figsize=(12, 6))
-        plt.suptitle("Antenna Paths")
-        colors = ["#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd", "#8c564b", "#e377c2", "#7f7f7f", "#bcbd22", "#17becf"]
-        import gzip
-        pos = []
-        for i, G in enumerate(plotar_grafos):
-            pos.append(nx.spring_layout(G, seed=42))
-            #nx.draw(G, pos, with_labels=False, node_color=colors[i % len(colors)], node_size=100, font_size=8, width=1.5)
-            nx.draw_networkx_nodes(G, pos[i], node_color=colors[i], node_size=100)
-            
-            
-            #nx.draw_kamada_kawai(G, with_labels=False, node_color=colors[i % len(colors)], node_size=100, font_size=8, width=1.5)
-            #nx.draw_spectral(G, with_labels=False, node_color=colors[i % len(colors)], node_size=100, font_size=8, width=1.5)
-            #nx.draw_shell(G, nlist=[range(1, 10), range(10, 20)], with_labels=False, node_color=colors[i % len(colors)], node_size=100, font_size=8, width=1.5)
-
-
-            #nx.draw_networkx_edge_labels(G, pos, edge_labels=nx.get_edge_attributes(G, "label"), font_size=8)
-            #nx.draw_networkx_labels(G, pos, labels=nx.get_node_attributes(G, "label"), font_size=8)
-        # legenda
-        plt.legend([f"{antenna}" for antenna in self.graph.resources], bbox_to_anchor=(1.05, 1), loc="upper left", borderaxespad=0.)
-
-        #for i, G in enumerate(plotar_grafos):
-            #nx.draw_networkx_labels(G, pos[i], labels=nx.get_node_attributes(G, "label"), font_size=8)
-            #nx.draw_networkx_edge_labels(G, pos[i], edge_labels=nx.get_edge_attributes(G, "label"), font_size=8)
-        #    nx.draw_networkx_edges(G, pos[i], width=1.5)
+       # Plotar os grafos
+        n_antennas = len(plotar_grafos)
+        fig, axes = plt.subplots(1, n_antennas, figsize=(5*n_antennas, 5))
+        if n_antennas == 1:
+            axes = [axes]
         
-        plt.show()
+        colors = ["#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd", 
+                "#8c564b", "#e377c2", "#7f7f7f", "#bcbd22", "#17becf"]
         
+        for i, (G, pos_dict) in enumerate(zip(plotar_grafos, posicoes_por_antena)):
+            ax = axes[i] if n_antennas > 1 else axes
+            nx.draw_networkx_nodes(G, pos_dict, ax=ax, node_color=colors[i], node_size=100)
+            nx.draw_networkx_edges(G, pos_dict, ax=ax, edge_color=colors[i], arrows=True)
+            labels = nx.get_node_attributes(G, 'label')
+            nx.draw_networkx_labels(G, pos_dict, labels, ax=ax, font_size=8)
+            ax.set_title(f"Antenna {list(self.graph.resources)[i]}")
+        
+        plt.show() 
     
     
     def print_variables(self):
@@ -631,7 +639,8 @@ from read_problem import Instance
 
 instance = Instance()
 
-instance.load_data("build/dsn_schedule.json")
+#instance.load_data("build/dsn_schedule.json")
+instance.load_data("build/dsn_tracks50_antenas3.json")
 #instance.load_data("build/toy_problem.json")
 graph = Graph(instance)
 
