@@ -3,6 +3,7 @@ import itertools
 import networkx as nx
 import matplotlib.pyplot as plt
 import math
+import numpy as np
 
 class Graph:
     def __init__(self, instance):
@@ -498,9 +499,7 @@ class OptimizationProblem:
                     print(f"    Window: {time_str(window[0])}-{time_str(window[1])}")
 
     def print_antenna_paths(self):
-        """Print antenna paths with sync track awareness"""
-
-        
+        """Print antenna paths with sync track awareness in a circular plot"""
         if self.model.status != GRB.OPTIMAL:
             print("No solution found")
             return
@@ -509,27 +508,35 @@ class OptimizationProblem:
             return f"{int(mins//60):02d}:{int(mins%60):02d}"
 
         print("\nANTENNA PATHS:")
-
-        plotar_grafos = []
-        posicoes_por_antena = []
-
-        for antenna in self.graph.resources:
-            G = nx.DiGraph()
-            pos_dict = {}
+        
+        # Configuração do plot circular
+        fig, ax = plt.subplots(figsize=(12, 12), subplot_kw={'projection': 'polar'})
+        
+        # Cores para diferentes antenas
+        colors = plt.cm.tab10.colors
+        antenna_colors = {}
+        
+        # Para cada antena, vamos desenhar seu caminho
+        for idx, antenna in enumerate(self.graph.resources):
+            # Atribuir uma cor para esta antena
+            antenna_colors[antenna] = colors[idx % len(colors)]
+            
             current_node = f"vs_{antenna}"
-            G.add_node(current_node, label=f"{antenna}")
-            
-            #calcular posicao inicial
-            var = len(posicoes_por_antena)/len(self.graph.resources)
-            raio = len(self.graph.resources)/(2*math.pi)
-            pos = (math.cos(var)*raio, math.sin(var)*raio)
-            pos_dict[current_node] = pos
-            
             print(f"\n📻 {antenna} Timeline:")
             print(f"╠═ {current_node} [Start]")
-
+            
+            # Lista para armazenar os pontos do caminho
+            angles = []
+            radii = []
+            labels = []
+            
+            # Adicionar o nó virtual de início
+            angles.append(0)  # Ângulo 0 para o início
+            radii.append(idx + 1)  # Raio baseado no índice da antena
+            labels.append(f"{antenna} Start")
+            
             while True:
-                # Find next node
+                # Encontrar próximo nó
                 next_node = None
                 for (u, v, a) in self.x:
                     if u == current_node and a == antenna and self.x[(u, v, a)].X > 0.5:
@@ -539,17 +546,27 @@ class OptimizationProblem:
                 if not next_node or next_node.startswith("ve_"):
                     break
 
-                # Process track node
+                # Processar nó de track
                 track_id = next_node
                 track_data = self.graph.instance.track_nodes[track_id]
-                duration = track_data['duration']
                 start = self.tau[(track_id, antenna)].X
-                end = start + duration
+                end = start + track_data['duration']
+                
+                # Converter tempo para ângulo (0-24 horas para 0-2π)
+                # Se seu tempo está em minutos desde o início da semana:
+                # angle = (start % (24*60)) / (24*60) * 2 * math.pi
+                angle = (start / (24*60)) * 2 * math.pi  # Se start é em minutos desde meia-noite
+                
+                angles.append(angle)
+                radii.append(idx + 1)  # Mesmo raio para esta antena
+                #labels.append(f"Track {track_id}\n{time_str(start)}-{time_str(end)}")
+                labels.append(f"{time_str(start)}-{time_str(end)}")
+                
+                # Informações para console
                 w_idx = next(i for i in range(len(track_data['resource_windows'][antenna])) 
                         if self.z[(track_id, antenna, i)].X > 0.5)
                 window = track_data['resource_windows'][antenna][w_idx]
-
-                # Check if sync track
+                
                 sync_note = ""
                 if track_data['sync_groups']:
                     sync_partners = [a for a in track_data['sync_groups'][0] if a != antenna]
@@ -558,45 +575,50 @@ class OptimizationProblem:
                 print(f"╠═ Track {track_id}{sync_note}")
                 print(f"║  ├─ Window: {time_str(window[0])}-{time_str(window[1])}")
                 print(f"║  ├─ TRX: {time_str(start)}-{time_str(end)}")
-                print(f"║  └─ Duration: {duration}min")
-
-                G.add_node(track_id, label=f"Track {track_id}")
-                G.add_edge(current_node, track_id, label=f"Antenna {antenna}")
-
-                # Calcular posição baeada no tempo
-                #diametro = 0 até tempo maximo * 2pi
-                var = -(start/(7*24*60))*(2*math.pi)
-                # diametro = 2*pi*r
-                # r = var/(2*math.pi)
-                raio = start/(7*24*60)
-                pos = (math.cos(var)*raio, math.sin(var)*raio)
-                pos_dict[track_id] = pos
-
+                print(f"║  └─ Duration: {track_data['duration']}min")
+                
                 current_node = track_id
 
             print(f"╚═ ve_{antenna} [End]")
-            plotar_grafos.append(G)
-            posicoes_por_antena.append(pos_dict)
             
-       # Plotar os grafos
-        n_antennas = len(plotar_grafos)
-        fig, axes = plt.subplots(1, n_antennas, figsize=(5*n_antennas, 5))
-        if n_antennas == 1:
-            axes = [axes]
+            # Plotar o caminho desta antena
+            ax.plot(angles, radii, 'o-', color=antenna_colors[antenna], label=antenna, linewidth=2)
+            
+            # Adicionar labels aos pontos
+            for i, (angle, radius, label) in enumerate(zip(angles, radii, labels)):
+                if i > 0:  # Não mostrar label para o ponto de início
+                    ax.annotate(label, 
+                            xy=(angle, radius), 
+                            xytext=(5, 5), 
+                            textcoords='offset points',
+                            fontsize=8,
+                            bbox=dict(boxstyle="round,pad=0.3", fc="white", alpha=0.7))
         
-        colors = ["#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd", 
-                "#8c564b", "#e377c2", "#7f7f7f", "#bcbd22", "#17becf"]
+        # Configurar o gráfico polar
+        ax.set_theta_offset(math.pi/2)  # 0° no topo
+        ax.set_theta_direction(-1)  # Sentido horário
+        ax.set_rlabel_position(0)  # Labels do raio no ângulo 0
         
-        for i, (G, pos_dict) in enumerate(zip(plotar_grafos, posicoes_por_antena)):
-            ax = axes[i] if n_antennas > 1 else axes
-            nx.draw_networkx_nodes(G, pos_dict, ax=ax, node_color=colors[i], node_size=100)
-            nx.draw_networkx_edges(G, pos_dict, ax=ax, edge_color=colors[i], arrows=True)
-            labels = nx.get_node_attributes(G, 'label')
-            nx.draw_networkx_labels(G, pos_dict, labels, ax=ax, font_size=8)
-            ax.set_title(f"Antenna {list(self.graph.resources)[i]}")
+        # Configurar os ticks do ângulo (horas)
+        ax.set_xticks(np.linspace(0, 2*math.pi, 24, endpoint=False))
+        ax.set_xticklabels([f'{h}:00' for h in range(24)])
         
-        plt.show() 
-    
+        # Configurar os ticks do raio (antenas)
+        ax.set_yticks(range(1, len(self.graph.resources) + 1))
+        ax.set_yticklabels([f'Antenna {a}' for a in self.graph.resources])
+        
+        # Adicionar grade
+        ax.grid(True)
+        
+        # Adicionar legenda
+        ax.legend(loc='upper right', bbox_to_anchor=(1.3, 1))
+        
+        # Título
+        plt.title('Cronograma Circular das Antenas', pad=20)
+        
+        # Ajustar layout
+        plt.tight_layout()
+        plt.show()
     
     def print_variables(self):
         """Print all decision variables with non-zero/selected values"""
